@@ -36,6 +36,27 @@ colleges/scripts/sinc_colleges.py
 
 # Node
 frontend/node_modules/
+
+# Next.js build output
 frontend/.next/
-frontend/.turbo/
 frontend/out/
+
+# Turbopack cache
+frontend/.turbo/
+
+# System files
+frontend/.DS_Store
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment variables
+frontend/.env
+frontend/.env.*  # for files like .env.local, .env.production, etc.
+
+# IDE/editor folders
+frontend/.vscode/
+frontend/.idea/
