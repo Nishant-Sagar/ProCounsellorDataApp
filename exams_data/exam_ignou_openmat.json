@@ -1,0 +1,52 @@
+{
+  "examId": "IGNOU_OPENMAT",
+  "examName": "IGNOU OPENMAT",
+  "fullForm": "Indira Gandhi National Open University Open Management Aptitude Test",
+  "examLevel": "National",
+  "examType": "Postgraduate Entrance Exam",
+  "mode": [
+    "Offline"
+  ],
+  "conductingBody": "Indira Gandhi National Open University (IGNOU)",
+  "officialWebsite": "https://www.ignou.ac.in",
+  "applicationFees": {
+    "general": "1000",
+    "obc": "1000",
+    "sc_st": "1000"
+  },
+  "eligibility": "Candidates must have a Bachelor’s degree of minimum 3 years duration with at least 50% marks (45% for reserved categories) as per the eligibility criteria for management programmes at IGNOU.[1][2]",
+  "subjectsTested": [
+    "Quantitative Aptitude",
+    "English Language",
+    "Reasoning",
+    "General Awareness"
+  ],
+  "maxMarks": "200",
+  "duration": "180 minutes",
+  "marksPerSubject": {
+    "Quantitative Aptitude": "50",
+    "English Language": "50",
+    "Reasoning": "70",
+    "General Awareness": "30"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Twice a year (Discontinued after 2021)[4]",
+  "coursesLinked": [
+    "MBA",
+    "PG Diploma in Management"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Is IGNOU OPENMAT still required for MBA admission at IGNOU?",
+    "answer": "No, IGNOU OPENMAT has been discontinued after 2021. Admission to IGNOU MBA and related management programs is now based on direct application through the IGNOU admission portal.[4]"
+  },
+  "created": "2025-07-13T07:52:08.436980+00:00",
+  "updated": "2025-07-13T07:52:08.437082+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "examId": "UGC_NET",
+  "examName": "UGC NET",
+  "fullForm": "University Grants Commission National Eligibility Test",
+  "examLevel": "National",
+  "examType": "Eligibility Test",
+  "mode": [
+    "Online (CBT)"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://ugcnet.nta.ac.in",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Must possess a post graduation degree or be appearing in the final year of post graduation.",
+  "subjectsTested": [
+    "Paper 1: General Paper on Teaching & Research Aptitude",
+    "Paper 2: Subject selected by candidate (from 83 subjects)"
+  ],
+  "maxMarks": "300",
+  "duration": "180 minutes",
+  "marksPerSubject": {
+    "Paper 1": "100",
+    "Paper 2": "200"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "Assistant Professor",
+    "Junior Research Fellowship (JRF)"
+  ],
+  "examSyllabusPdfUrl": "https://ugcnet.nta.ac.in/syllabus",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://ugcnet.nta.ac.in/webinfo2024/File/GetFile?FileId=1&LangId=P",
+  "faqs": {
+    "question": "What is the purpose of UGC NET?",
+    "answer": "UGC NET determines the eligibility of Indian nationals for the posts of Assistant Professor and/or Junior Research Fellowship (JRF) in Indian universities and colleges."
+  },
+  "created": "2025-07-13T07:50:07.336652+00:00",
+  "updated": "2025-07-13T07:50:07.336792+00:00"
+}

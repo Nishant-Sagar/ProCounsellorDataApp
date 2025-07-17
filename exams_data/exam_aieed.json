@@ -1,0 +1,48 @@
+{
+  "examId": "AIEED",
+  "examName": "AIEED",
+  "fullForm": "All India Entrance Examination for Design",
+  "examLevel": "University Level",
+  "examType": "Entrance Exam for Design Courses",
+  "mode": [
+    "Online",
+    "Offline"
+  ],
+  "conductingBody": "Arch College of Design & Business",
+  "officialWebsite": "https://www.aieed.com",
+  "applicationFees": {
+    "general": "3000",
+    "obc": "3000",
+    "sc_st": "3000"
+  },
+  "eligibility": "Candidates must have completed or be appearing for 10+2 (any stream) from a recognized board for undergraduate courses. For postgraduate courses, a graduate degree in any discipline is required.[4][5]",
+  "subjectsTested": [
+    "General Aptitude Test (GAT)",
+    "Creative Ability Test (CAT)",
+    "Personal Interaction and Portfolio Review"
+  ],
+  "maxMarks": "NA",
+  "duration": "2 Hours",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "BDes",
+    "MDes",
+    "Other Design Programs at ARCH College of Design & Business"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the purpose of the AIEED exam?",
+    "answer": "AIEED is a compulsory entrance exam for admission to design courses at Arch College of Design & Business, testing aptitude and attitude towards design through multiple stages including aptitude tests, creative ability tests, and personal interviews.[4][5]"
+  },
+  "created": "2025-07-13T07:47:20.097455+00:00",
+  "updated": "2025-07-13T07:47:20.097521+00:00"
+}

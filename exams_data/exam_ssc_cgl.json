@@ -1,0 +1,51 @@
+{
+  "examId": "SSC_CGL",
+  "examName": "SSC CGL",
+  "fullForm": "Staff Selection Commission Combined Graduate Level Examination",
+  "examLevel": "National",
+  "examType": "Government Recruitment",
+  "mode": [
+    "Online (Computer-Based Test)"
+  ],
+  "conductingBody": "Staff Selection Commission",
+  "officialWebsite": "https://ssc.gov.in",
+  "applicationFees": {
+    "general": "₹100",
+    "obc": "₹100",
+    "sc_st": "Nil"
+  },
+  "eligibility": "Bachelor’s degree in any discipline from a recognized university. Age limit varies by post (generally 18-32 years).",
+  "subjectsTested": [
+    "General Intelligence and Reasoning",
+    "General Awareness",
+    "Quantitative Aptitude",
+    "English Comprehension"
+  ],
+  "maxMarks": "400 (Tier 1: 200, Tier 2: 200)",
+  "duration": "Tier 1: 60 minutes; Tier 2: 2 hours (per paper)",
+  "marksPerSubject": {
+    "General Intelligence and Reasoning": "50",
+    "General Awareness": "50",
+    "Quantitative Aptitude": "50",
+    "English Comprehension": "50"
+  },
+  "negativeMarking": "0.50 marks for each wrong answer in Tier 1; 1 mark for each wrong answer in Tier 2 (Quantitative Abilities and English Language sections)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "Group B and Group C posts in Central Government Ministries/Departments/Organizations"
+  ],
+  "examSyllabusPdfUrl": "https://ssc.gov.in/exams/syllabus/Combined%20Graduate%20Level%20Examination",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://ssc.gov.in/SSCFileServer/PortalManagement/UploadedFiles/notice_CGLE_09062025.pdf",
+  "faqs": {
+    "question": "What is the minimum educational qualification required for SSC CGL?",
+    "answer": "A candidate must possess a Bachelor’s degree in any discipline from a recognized university to be eligible for SSC CGL."
+  },
+  "created": "2025-07-13T07:48:34.493620+00:00",
+  "updated": "2025-07-13T07:48:34.493791+00:00"
+}

@@ -1,0 +1,495 @@
+{
+  "courseId": "DESIGN",
+  "courseName": "Design",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to undergraduate design courses in India typically involves clearing national or institute-level entrance exams such as NID DAT, NIFT, UCEED, or CEED, followed by portfolio reviews and personal interviews at some institutes. Eligibility usually requires completion of 10+2 from a recognized board with a minimum percentage as specified by the institution.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the most popular entrance exams for design courses in India?",
+      "answer": "The most popular entrance exams for design courses in India are NID DAT, NIFT, UCEED, and CEED. Some institutes may also conduct their own entrance tests or consider scores from national-level exams."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "FASHION_DESIGN",
+      "branchName": "Fashion Design",
+      "description": "Fashion Design focuses on the creation of clothing, accessories, and footwear, blending creativity with practical skills. Graduates work in apparel, retail, and luxury industries, and can pursue entrepreneurship or roles in established fashion houses.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Fashion Illustration",
+        "Textile Science",
+        "Pattern Making and Garment Construction",
+        "Fashion Marketing and Merchandising",
+        "History of Costume",
+        "Computer-Aided Design (CAD)",
+        "Apparel Production Management"
+      ],
+      "careerOptions": [
+        "Fashion Designer",
+        "Fashion Merchandiser"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "National Institute of Fashion Technology (NIFT) Delhi",
+        "Amity School of Fashion Technology, Noida"
+      ],
+      "jobRoles": [
+        "Apparel Designer",
+        "Fashion Illustrator",
+        "Fashion Stylist"
+      ],
+      "examId": [
+        "NIFT",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Aditya Birla Fashion & Retail",
+          "Raymond",
+          "Pantaloons"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nift.ac.in/sites/default/files/inline-files/NIFT-Prospectus-2025.pdf"
+    },
+    {
+      "branchId": "GRAPHIC_DESIGN",
+      "branchName": "Graphic Design",
+      "description": "Graphic Design involves visual communication through typography, imagery, and layout for print and digital media. It is essential in advertising, branding, publishing, and digital content creation.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Typography",
+        "Visual Communication",
+        "Digital Illustration",
+        "Design Principles",
+        "Photography",
+        "Branding and Identity Design",
+        "User Interface Design"
+      ],
+      "careerOptions": [
+        "Graphic Designer",
+        "Art Director"
+      ],
+      "averageFeesRange": "₹1.5–4 LPA",
+      "popularColleges": [
+        "National Institute of Design (NID) Ahmedabad",
+        "MIT Institute of Design, Pune"
+      ],
+      "jobRoles": [
+        "Graphic Designer",
+        "Visualizer",
+        "UI Designer"
+      ],
+      "examId": [
+        "NID_DAT",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Wipro Digital",
+          "Tata Elxsi",
+          "DDB Mudra"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nid.edu/academics/undergraduate-programme"
+    },
+    {
+      "branchId": "INTERIOR_DESIGN",
+      "branchName": "Interior Design",
+      "description": "Interior Design covers the planning and design of interior spaces in residential, commercial, and public buildings, focusing on aesthetics, functionality, and safety.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Interior Materials and Finishes",
+        "Space Planning",
+        "Furniture Design",
+        "Lighting Design",
+        "Building Services",
+        "History of Interior Design",
+        "Computer-Aided Design (CAD)"
+      ],
+      "careerOptions": [
+        "Interior Designer",
+        "Space Planner"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "Pearl Academy, Delhi"
+      ],
+      "jobRoles": [
+        "Interior Designer",
+        "Exhibition Designer",
+        "Set Designer"
+      ],
+      "examId": [
+        "CEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹11 LPA",
+        "companies": [
+          "Livspace",
+          "Godrej Interio",
+          "Urban Ladder"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/undergraduate-programs/bachelor-of-interior-design"
+    },
+    {
+      "branchId": "PRODUCT_DESIGN",
+      "branchName": "Product Design",
+      "description": "Product Design focuses on developing innovative products for mass production, blending aesthetics, usability, and engineering. Graduates work in consumer goods, automotive, and technology sectors.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Design Thinking",
+        "Materials and Manufacturing Processes",
+        "Ergonomics",
+        "3D Modeling",
+        "Prototyping",
+        "User Experience Design",
+        "Sustainable Design"
+      ],
+      "careerOptions": [
+        "Product Designer",
+        "Industrial Designer"
+      ],
+      "averageFeesRange": "₹2.5–5 LPA",
+      "popularColleges": [
+        "IIT Bombay (IDC School of Design)",
+        "National Institute of Design (NID) Ahmedabad"
+      ],
+      "jobRoles": [
+        "Product Designer",
+        "Design Consultant",
+        "UX Designer"
+      ],
+      "examId": [
+        "UCEED",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Philips",
+          "Tata Motors",
+          "Godrej"
+        ]
+      },
+      "branchBrochureUrl": "https://www.idc.iitb.ac.in/academics/bdes"
+    },
+    {
+      "branchId": "TEXTILE_DESIGN",
+      "branchName": "Textile Design",
+      "description": "Textile Design deals with the creation and development of fabrics and textiles for fashion, interiors, and industrial use. It combines creativity with technical knowledge of fibers and production processes.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Textile Science",
+        "Weaving and Knitting",
+        "Textile Printing and Dyeing",
+        "Surface Ornamentation",
+        "Textile Chemistry",
+        "Fabric Structure and Analysis",
+        "Computer-Aided Textile Design"
+      ],
+      "careerOptions": [
+        "Textile Designer",
+        "Fabric Technologist"
+      ],
+      "averageFeesRange": "₹1.5–3.5 LPA",
+      "popularColleges": [
+        "NIFT Delhi",
+        "Pearl Academy, Mumbai"
+      ],
+      "jobRoles": [
+        "Textile Designer",
+        "Colorist",
+        "Textile Technologist"
+      ],
+      "examId": [
+        "NIFT",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.3 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Arvind Mills",
+          "Raymond",
+          "Welspun"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nift.ac.in/sites/default/files/inline-files/NIFT-Prospectus-2025.pdf"
+    },
+    {
+      "branchId": "UI_UX_DESIGN",
+      "branchName": "UI/UX Design",
+      "description": "UI/UX Design focuses on creating user-friendly digital interfaces and experiences for websites, apps, and software. The field blends visual design, psychology, and technology to improve usability and satisfaction. Graduates are in demand across IT, e-commerce, fintech, and product-based companies.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "User Interface Design",
+        "User Experience Design",
+        "Interaction Design",
+        "Information Architecture",
+        "Visual Communication",
+        "Design Thinking",
+        "Prototyping and Wireframing",
+        "Usability Testing"
+      ],
+      "careerOptions": [
+        "UI/UX Designer",
+        "Interaction Designer"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "NID Ahmedabad",
+        "IIT Bombay"
+      ],
+      "jobRoles": [
+        "UI Designer",
+        "UX Researcher",
+        "Product Designer"
+      ],
+      "examId": [
+        "UCEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Accenture",
+          "TCS",
+          "Flipkart"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nid.edu/academics/discipline-information/discipline/ui-ux-design"
+    },
+    {
+      "branchId": "ANIMATION_AND_VFX",
+      "branchName": "Animation and VFX",
+      "description": "Animation and VFX covers the creation of animated content and visual effects for films, TV, games, and advertising. It combines artistic skills with digital tools to produce engaging visuals and storytelling. The sector is rapidly growing with opportunities in entertainment, advertising, and gaming.",
+      "duration": "3–4 years",
+      "coreSubjects": [
+        "2D Animation",
+        "3D Animation",
+        "Visual Effects (VFX)",
+        "Storyboarding",
+        "Digital Modeling",
+        "Compositing",
+        "Motion Graphics",
+        "Character Design"
+      ],
+      "careerOptions": [
+        "Animator",
+        "VFX Artist"
+      ],
+      "averageFeesRange": "₹1.5–4 LPA",
+      "popularColleges": [
+        "MIT Institute of Design Pune",
+        "Whistling Woods International Mumbai"
+      ],
+      "jobRoles": [
+        "3D Animator",
+        "VFX Compositor",
+        "Motion Graphics Designer"
+      ],
+      "examId": [
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Prime Focus",
+          "Red Chillies VFX",
+          "Technicolor"
+        ]
+      },
+      "branchBrochureUrl": "https://www.mitid.edu.in/animation-design.html"
+    },
+    {
+      "branchId": "INDUSTRIAL_DESIGN",
+      "branchName": "Industrial Design",
+      "description": "Industrial Design involves designing products, systems, and services for mass production, focusing on aesthetics, usability, and functionality. It blends creativity with engineering and business, preparing graduates for roles in manufacturing, automotive, consumer goods, and product innovation.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Product Design",
+        "Ergonomics",
+        "Materials and Manufacturing Processes",
+        "Design Research",
+        "CAD Modeling",
+        "Design for Sustainability",
+        "Prototyping",
+        "Design Management"
+      ],
+      "careerOptions": [
+        "Industrial Designer",
+        "Product Designer"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "NID Ahmedabad"
+      ],
+      "jobRoles": [
+        "Industrial Designer",
+        "Design Engineer",
+        "Product Manager"
+      ],
+      "examId": [
+        "UCEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Tata Motors",
+          "Godrej",
+          "Philips"
+        ]
+      },
+      "branchBrochureUrl": "https://www.iitb.ac.in/academics/industrial-design-centre"
+    },
+    {
+      "branchId": "GAME_DESIGN",
+      "branchName": "Game Design",
+      "description": "Game Design focuses on the conceptualization, development, and production of video games and interactive media. The curriculum covers game mechanics, storytelling, programming, and art, preparing students for careers in the gaming and entertainment industries.",
+      "duration": "3–4 years",
+      "coreSubjects": [
+        "Game Development",
+        "Game Art and Animation",
+        "Game Programming",
+        "Level Design",
+        "Game Theory",
+        "Interactive Storytelling",
+        "Sound Design",
+        "User Experience in Games"
+      ],
+      "careerOptions": [
+        "Game Designer",
+        "Game Developer"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "MIT Institute of Design Pune",
+        "ICAT Design and Media College Chennai"
+      ],
+      "jobRoles": [
+        "Game Designer",
+        "Game Developer",
+        "Level Designer"
+      ],
+      "examId": [
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Ubisoft",
+          "Nazara Technologies",
+          "99Games"
+        ]
+      },
+      "branchBrochureUrl": "https://www.mitid.edu.in/game-design.html"
+    },
+    {
+      "branchId": "JEWELLERY_DESIGN",
+      "branchName": "Jewellery Design",
+      "description": "Jewellery Design deals with the creative and technical aspects of designing jewellery and accessories. The program covers traditional and modern techniques, materials, and market trends, leading to careers in the luxury, fashion, and retail sectors.",
+      "duration": "3–4 years",
+      "coreSubjects": [
+        "Jewellery Illustration",
+        "Gemology",
+        "Metallurgy",
+        "CAD for Jewellery",
+        "Manufacturing Techniques",
+        "Jewellery History",
+        "Market Trends",
+        "Design Process"
+      ],
+      "careerOptions": [
+        "Jewellery Designer",
+        "CAD Designer"
+      ],
+      "averageFeesRange": "₹1.5–3.5 LPA",
+      "popularColleges": [
+        "NIFT Delhi",
+        "Indian Institute of Gems & Jewellery Mumbai"
+      ],
+      "jobRoles": [
+        "Jewellery Designer",
+        "CAD Jewellery Designer",
+        "Merchandiser"
+      ],
+      "examId": [
+        "NIFT_ENTRANCE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Tanishq",
+          "PC Jeweller",
+          "Malabar Gold & Diamonds"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nift.ac.in/jewellery-design"
+    },
+    {
+      "branchId": "VISUAL_COMMUNICATION",
+      "branchName": "Visual Communication",
+      "description": "Visual Communication focuses on conveying ideas and information through visual elements such as graphics, images, animation, and multimedia. This branch combines creativity with technical skills to prepare students for careers in media, advertising, digital content, and design industries. Graduates are equipped to work in print, digital, and broadcast media, as well as emerging fields like UI/UX and motion graphics.",
+      "duration": "3–4 years",
+      "coreSubjects": [
+        "Graphic Design",
+        "Typography",
+        "Photography",
+        "Advertising Design",
+        "Visual Media Production",
+        "Animation",
+        "Digital Illustration",
+        "Film Studies"
+      ],
+      "careerOptions": [
+        "Graphic Designer",
+        "Visual Communication Specialist"
+      ],
+      "averageFeesRange": "₹1.5–4 LPA",
+      "popularColleges": [
+        "National Institute of Design, Ahmedabad",
+        "Srishti Manipal Institute of Art, Design and Technology, Bengaluru"
+      ],
+      "jobRoles": [
+        "Graphic Designer",
+        "Visual Content Creator",
+        "UI/UX Designer"
+      ],
+      "examId": [
+        "NID_DAT",
+        "CEED",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Accenture",
+          "Wipro",
+          "Tata Elxsi"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

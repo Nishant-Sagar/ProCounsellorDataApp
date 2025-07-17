@@ -1,0 +1,53 @@
+{
+  "examId": "CSIR_NET",
+  "examName": "CSIR NET",
+  "fullForm": "Council of Scientific and Industrial Research National Eligibility Test",
+  "examLevel": "National",
+  "examType": "Eligibility Test for Junior Research Fellowship (JRF) and Lectureship/Assistant Professor",
+  "mode": [
+    "Online",
+    "Computer-Based Test"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://csirnet.nta.ac.in",
+  "applicationFees": {
+    "general": "₹1150",
+    "obc": "₹600",
+    "sc_st": "₹325"
+  },
+  "eligibility": "MSc or equivalent degree/Integrated BS-MS/BS-4 years/BE/BTech/BPharma/MBBS with at least 55% marks for General/OBC and 50% for SC/ST/Third gender/PwD candidates. Candidates enrolled for MSc or having completed 10+2+3 years are also eligible under the Result Awaited (RA) category, subject to completing the qualifying degree with required percentage within two years.",
+  "subjectsTested": [
+    "Chemical Sciences",
+    "Earth, Atmospheric, Ocean and Planetary Sciences",
+    "Life Sciences",
+    "Mathematical Sciences",
+    "Physical Sciences"
+  ],
+  "maxMarks": "200",
+  "duration": "180 minutes",
+  "marksPerSubject": {
+    "Part A": "30",
+    "Part B": "70",
+    "Part C": "100"
+  },
+  "negativeMarking": "Yes",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "Junior Research Fellowship (JRF)",
+    "Lectureship/Assistant Professor"
+  ],
+  "examSyllabusPdfUrl": "https://csirhrdg.res.in/Home/Index/1/Default/2666/78",
+  "previousYearCutoffs": {
+    "general": "98.50 percentile (JRF, Life Sciences, June 2024)",
+    "obc": "96.00 percentile (JRF, Life Sciences, June 2024)",
+    "sc": "87.00 percentile (JRF, Life Sciences, June 2024)",
+    "st": "83.00 percentile (JRF, Life Sciences, June 2024)"
+  },
+  "examBrochureUrl": "https://csirnet.nta.ac.in/images/infomration-bulletin-of-csir-june-2025.pdf",
+  "faqs": {
+    "question": "What is the purpose of the CSIR NET exam?",
+    "answer": "The CSIR NET exam determines eligibility for Junior Research Fellowship (JRF) and for Lectureship/Assistant Professor positions in Indian universities and colleges."
+  },
+  "created": "2025-07-13T07:53:11.654075+00:00",
+  "updated": "2025-07-13T07:53:11.654167+00:00"
+}

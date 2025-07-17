@@ -1,0 +1,50 @@
+{
+  "examId": "NID_DAT",
+  "examName": "NID DAT",
+  "fullForm": "National Institute of Design Design Aptitude Test",
+  "examLevel": "National",
+  "examType": "Undergraduate and Postgraduate Entrance Exam",
+  "mode": [
+    "Offline (Pen & Paper) for Prelims",
+    "Studio Test and Interview for Mains"
+  ],
+  "conductingBody": "National Institute of Design",
+  "officialWebsite": "https://admissions.nid.edu",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "For B.Des: Candidates must have completed 10+2. For M.Des: Candidates must have a bachelor's degree.[3]",
+  "subjectsTested": [
+    "Design Aptitude",
+    "Creativity",
+    "Problem Solving",
+    "Visual Perception",
+    "Logical Reasoning",
+    "General Awareness"
+  ],
+  "maxMarks": "NA",
+  "duration": "Prelims: 3 hours (180 minutes) for B.Des; 2.5 hours (150 minutes) for M.Des[1][4]",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Once a year[1]",
+  "coursesLinked": [
+    "B.Des",
+    "M.Des"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the structure of the NID DAT exam?",
+    "answer": "NID DAT is conducted in two stages: Prelims (a written exam with objective and subjective questions) and Mains (Studio Test and Personal Interview) for shortlisted candidates.[3][4]"
+  },
+  "created": "2025-07-13T07:46:48.804177+00:00",
+  "updated": "2025-07-13T07:46:48.804212+00:00"
+}

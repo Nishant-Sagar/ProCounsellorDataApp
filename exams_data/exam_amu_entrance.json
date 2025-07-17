@@ -1,0 +1,52 @@
+{
+  "examId": "AMU_ENTRANCE",
+  "examName": "AMU Entrance Exam",
+  "fullForm": "Aligarh Muslim University Entrance Exam",
+  "examLevel": "University-level",
+  "examType": "Undergraduate and Postgraduate Entrance",
+  "mode": [
+    "Offline",
+    "Online"
+  ],
+  "conductingBody": "Aligarh Muslim University",
+  "officialWebsite": "https://www.amu.ac.in",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Varies by course. For most UG courses: Class 12 or equivalent with minimum 50% aggregate in relevant subjects from a recognized board. For PG courses: Bachelor's degree in relevant discipline with minimum 50% aggregate.",
+  "subjectsTested": [
+    "NA"
+  ],
+  "maxMarks": "NA",
+  "duration": "NA",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Annually",
+  "coursesLinked": [
+    "Engineering",
+    "Medical",
+    "Management",
+    "Law",
+    "Design",
+    "Science",
+    "Arts",
+    "Commerce",
+    "Vocational"
+  ],
+  "examSyllabusPdfUrl": "https://www.amucontrollerexams.com/syllabus-of-admission-tests",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Is Aligarh Muslim University admission based on CUET?",
+    "answer": "Yes, from the academic session 2022, AMU admissions to most undergraduate courses are based on CUET scores. However, some courses like MBA and BTech/BArch still require AMU's own entrance exams."
+  },
+  "created": "2025-07-13T07:50:46.650944+00:00",
+  "updated": "2025-07-13T07:50:46.651061+00:00"
+}

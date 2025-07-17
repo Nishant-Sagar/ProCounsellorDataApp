@@ -1,0 +1,45 @@
+{
+  "examId": "CUET_UG",
+  "examName": "CUET UG",
+  "fullForm": "Common University Entrance Test - Undergraduate",
+  "examLevel": "Undergraduate",
+  "examType": "National-level entrance exam",
+  "mode": [
+    "Computer-Based Test (CBT)"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://cuet.nta.nic.in",
+  "applicationFees": {
+    "general": "Varies as per number of subjects; refer to official notification",
+    "obc": "Varies as per number of subjects; refer to official notification",
+    "sc_st": "Varies as per number of subjects; refer to official notification"
+  },
+  "eligibility": "Passed Class 12 or equivalent examination from a recognized board. Specific eligibility may vary by university and course.",
+  "subjectsTested": [
+    "Language Test",
+    "Domain-Specific Subjects",
+    "General Test"
+  ],
+  "maxMarks": "NA",
+  "duration": "Uniform for all subjects; refer to official notification for exact duration",
+  "marksPerSubject": {},
+  "negativeMarking": "+5 for each correct response, -1 for each incorrect response",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "Undergraduate courses in Central, State, Deemed, and Private Universities"
+  ],
+  "examSyllabusPdfUrl": "https://cuet.nta.nic.in/images/CUETUGSyllabus.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://cuet.nta.nic.in/images/CUETUGInformationBulletin.pdf",
+  "faqs": {
+    "question": "What is CUET UG and who conducts it?",
+    "answer": "CUET UG (Common University Entrance Test - Undergraduate) is a national-level entrance exam conducted by the National Testing Agency (NTA) for admission to undergraduate courses in participating universities across India."
+  },
+  "created": "2025-07-13T07:50:14.582531+00:00",
+  "updated": "2025-07-13T07:50:14.582601+00:00"
+}

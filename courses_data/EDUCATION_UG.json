@@ -1,0 +1,63 @@
+{
+  "courseId": "EDUCATION_UG",
+  "courseName": "Education Ug",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to B.Ed programs in India is typically based on entrance exams conducted at the national, state, or university level (such as CUET UG, DU B.Ed Entrance, or state-specific B.Ed JEE). Candidates must have completed a bachelor's degree in any discipline with a minimum aggregate percentage as specified by the institution. Selection is usually based on entrance exam scores, followed by counseling or interviews at some universities.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "Is B.Ed mandatory for teaching jobs in Indian schools?",
+      "answer": "Yes, a B.Ed degree is generally required to become a teacher in government and most private schools in India, especially for teaching at the primary, secondary, and higher secondary levels."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "B_ED_BACHELOR_OF_EDUCATION",
+      "branchName": "B.Ed (Bachelor of Education)",
+      "description": "B.Ed is a professional undergraduate degree that prepares students for a career in teaching at the primary, secondary, and higher secondary levels. The course focuses on pedagogical theory, teaching methodologies, educational psychology, and practical training, equipping graduates to become effective educators in schools across India.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Philosophical and Sociological Foundations of Education",
+        "Educational Psychology",
+        "Teaching-Learning Process and Pedagogy",
+        "Curriculum and Instruction",
+        "Assessment and Evaluation",
+        "Educational Technology",
+        "Inclusive Education",
+        "Guidance and Counselling"
+      ],
+      "careerOptions": [
+        "School Teacher",
+        "Educational Administrator"
+      ],
+      "averageFeesRange": "₹0.5–2.5 Lakh (total)",
+      "popularColleges": [
+        "Lady Shri Ram College for Women, Delhi University",
+        "Banaras Hindu University (BHU)"
+      ],
+      "jobRoles": [
+        "Primary/Secondary School Teacher",
+        "Education Coordinator",
+        "Curriculum Developer"
+      ],
+      "examId": [
+        "CUET_UG",
+        "DU_B_ED_ENTRANCE",
+        "UP_B_ED_JEE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.5 LPA",
+        "highestSalary2025": "₹7 LPA",
+        "companies": [
+          "Kendriya Vidyalaya Sangathan",
+          "Delhi Public School",
+          "Educomp Solutions"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

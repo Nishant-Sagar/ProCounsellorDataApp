@@ -22,3 +22,12 @@ venv/
 # IDEs
 .vscode/
 .idea/
+
+college_data/
+course_data/
+exam_data/
+colleges/scripts/imp.py
+colleges/scripts/college_list.py
+colleges/scripts/exam_list.py
+colleges/scripts/branch_list.py
+colleges/scripts/sinc_colleges.py

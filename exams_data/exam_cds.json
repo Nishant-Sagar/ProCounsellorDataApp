@@ -1,0 +1,52 @@
+{
+  "examId": "CDS",
+  "examName": "CDS",
+  "fullForm": "Combined Defence Services Examination",
+  "examLevel": "National",
+  "examType": "Undergraduate Entrance",
+  "mode": [
+    "Offline"
+  ],
+  "conductingBody": "Union Public Service Commission (UPSC)",
+  "officialWebsite": "https://upsc.gov.in",
+  "applicationFees": {
+    "general": "200",
+    "obc": "200",
+    "sc_st": "0"
+  },
+  "eligibility": "Candidates must be Indian citizens, unmarried, aged between 19 and 25 years, and hold a relevant bachelor’s degree. Specific academies may have additional requirements (e.g., Physics and Mathematics at 10+2 for Air Force Academy).",
+  "subjectsTested": [
+    "English",
+    "General Knowledge",
+    "Elementary Mathematics"
+  ],
+  "maxMarks": "300 (IMA, INA, AFA); 200 (OTA)",
+  "duration": "2 hours per paper",
+  "marksPerSubject": {
+    "English": "100",
+    "General Knowledge": "100",
+    "Elementary Mathematics": "100"
+  },
+  "negativeMarking": "Yes",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "Indian Military Academy (IMA)",
+    "Indian Naval Academy (INA)",
+    "Air Force Academy (AFA)",
+    "Officers Training Academy (OTA)"
+  ],
+  "examSyllabusPdfUrl": "https://upsc.gov.in/sites/default/files/Notifi-CDSE-I-2025-Engl-11122024F.pdf",
+  "previousYearCutoffs": {
+    "general": "IMA: 121, INA: 109, AFA: 138, OTA (Men): 98, OTA (Women): 98 (CDS 1 2024)",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://upsc.gov.in/sites/default/files/Notifi-CDSE-I-2025-Engl-11122024F.pdf",
+  "faqs": {
+    "question": "What is the selection process for CDS?",
+    "answer": "The selection process consists of a written exam followed by an SSB Interview for intelligence and personality assessment. Shortlisted candidates are then allotted to academies based on merit and preference."
+  },
+  "created": "2025-07-13T07:49:32.831852+00:00",
+  "updated": "2025-07-13T07:49:32.831940+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "examId": "UPSEE_UPCET",
+  "examName": "UPCET",
+  "fullForm": "Uttar Pradesh Combined Entrance Test",
+  "examLevel": "State",
+  "examType": "Entrance Exam",
+  "mode": [
+    "Online",
+    "Offline"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://upcet.nta.nic.in/",
+  "applicationFees": {
+    "general": "₹1300",
+    "obc": "₹1300",
+    "sc_st": "₹650"
+  },
+  "eligibility": "Eligibility varies by course. For B.Tech, candidates must have passed 10+2 with Physics, Mathematics, and Chemistry/Biology/Biotechnology/Technical Vocational subject. For other UG/PG courses, eligibility is as per course requirements. Admissions to B.Tech are now through JEE Main, and B.Arch through NATA; other courses use CUET UG/PG scores.[1][3][4]",
+  "subjectsTested": [
+    "NA"
+  ],
+  "maxMarks": "NA",
+  "duration": "NA",
+  "marksPerSubject": {},
+  "negativeMarking": "No negative marking[4]",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "Engineering",
+    "Management",
+    "Pharmacy",
+    "Architecture",
+    "Hotel Management",
+    "Other UG & PG courses"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Is UPSEE/UPCET still conducted for B.Tech admissions?",
+    "answer": "No, UPSEE/UPCET has been scrapped for B.Tech admissions. Admissions are now through JEE Main for B.Tech and NATA for B.Arch. Other courses use CUET UG/PG scores.[1][3][4]"
+  },
+  "created": "2025-07-13T07:44:16.516552+00:00",
+  "updated": "2025-07-13T07:44:16.516685+00:00"
+}

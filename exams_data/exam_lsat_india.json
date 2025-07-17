@@ -1,0 +1,54 @@
+{
+  "examId": "LSAT_INDIA",
+  "examName": "LSAT—India",
+  "fullForm": "Law School Admission Test—India",
+  "examLevel": "National",
+  "examType": "Entrance Exam for Law",
+  "mode": [
+    "Online",
+    "Remote Proctored"
+  ],
+  "conductingBody": "Law School Admission Council (LSAC) Global",
+  "officialWebsite": "https://www.discoverlaw.in",
+  "applicationFees": {
+    "general": "3999",
+    "obc": "3999",
+    "sc_st": "3999"
+  },
+  "eligibility": "For 5-year integrated LLB: Passed class 12 or equivalent. For 3-year LLB: Bachelor’s degree in any stream from a recognized university. For LLM: LLB degree from a recognized university. No maximum age limit. Candidates should check specific eligibility with their target law schools.",
+  "subjectsTested": [
+    "Analytical Reasoning",
+    "Logical Reasoning 1",
+    "Logical Reasoning 2",
+    "Reading Comprehension"
+  ],
+  "maxMarks": "Score band and percentile range from 420 to 480",
+  "duration": "2 hours 20 minutes",
+  "marksPerSubject": {
+    "Analytical Reasoning": "NA",
+    "Logical Reasoning 1": "NA",
+    "Logical Reasoning 2": "NA",
+    "Reading Comprehension": "NA"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Twice a year (January and May)",
+  "coursesLinked": [
+    "5-year Integrated LLB",
+    "3-year LLB",
+    "LLM"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Who sets the question paper of the LSAT India exam?",
+    "answer": "The Law School Admission Council (LSAC) sets the question paper for the LSAT India exam. The questions are developed by experts in law, logic, and reasoning, and reviewed for fairness and accuracy. Security measures are in place to protect the integrity of the exam."
+  },
+  "created": "2025-07-13T07:46:27.280268+00:00",
+  "updated": "2025-07-13T07:46:27.280373+00:00"
+}

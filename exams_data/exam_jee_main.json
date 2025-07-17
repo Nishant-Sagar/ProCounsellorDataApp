@@ -1,0 +1,52 @@
+{
+  "examId": "JEE_MAIN",
+  "examName": "JEE Main",
+  "fullForm": "Joint Entrance Examination Main",
+  "examLevel": "National",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Computer Based Test (CBT)"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://jeemain.nta.ac.in/",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Candidates must have passed Class 12 (10+2) or equivalent examination with Physics and Mathematics as compulsory subjects along with one of Chemistry/Biotechnology/Biology/Technical Vocational subjects. Detailed eligibility criteria are specified in the official information bulletin.",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Mathematics"
+  ],
+  "maxMarks": "300",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Physics": "100",
+    "Chemistry": "100",
+    "Mathematics": "100"
+  },
+  "negativeMarking": "Yes (1 mark deducted for each incorrect answer in MCQs)",
+  "examFrequency": "Twice a year (January and April sessions)",
+  "coursesLinked": [
+    "B.E.",
+    "B.Tech.",
+    "B.Arch.",
+    "B.Planning"
+  ],
+  "examSyllabusPdfUrl": "https://jeemain.nta.ac.in/images/syllabus-for-jee-main-2025.pdf",
+  "previousYearCutoffs": {
+    "general": "93.2362181",
+    "obc": "79.6757881",
+    "sc": "60.0923182",
+    "st": "46.6975840"
+  },
+  "examBrochureUrl": "https://jeemain.nta.ac.in/images/information-bulletin-jee-main-2025.pdf",
+  "faqs": {
+    "question": "What is the mode of JEE Main exam?",
+    "answer": "JEE Main is conducted as a Computer Based Test (CBT) for all papers except the Drawing Test of B.Arch., which is conducted in Pen and Paper mode."
+  },
+  "created": "2025-07-13T07:42:28.351975+00:00",
+  "updated": "2025-07-13T07:42:28.351987+00:00"
+}

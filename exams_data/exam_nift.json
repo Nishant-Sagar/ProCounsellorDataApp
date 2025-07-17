@@ -1,0 +1,55 @@
+{
+  "examId": "NIFT",
+  "examName": "NIFT Entrance Exam",
+  "fullForm": "National Institute of Fashion Technology Entrance Exam",
+  "examLevel": "National",
+  "examType": "Undergraduate and Postgraduate Entrance Exam",
+  "mode": [
+    "Computer-based (GAT)",
+    "Offline (CAT)",
+    "Offline (Situation Test/Studio Test/Interview)"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://www.nift.ac.in",
+  "applicationFees": {
+    "general": "3000",
+    "obc": "3000",
+    "sc_st": "1500"
+  },
+  "eligibility": "Candidates must have passed 10+2 for undergraduate courses (B.Des, B.FTech) and a recognized undergraduate degree for postgraduate courses (M.Des, M.FTech, MFM). Detailed eligibility varies by course and is specified in the official prospectus.",
+  "subjectsTested": [
+    "General Ability Test (GAT)",
+    "Creative Ability Test (CAT)",
+    "Situation Test/Studio Test",
+    "Personal Interview"
+  ],
+  "maxMarks": "NA",
+  "duration": "CAT: 3 hours; GAT: 2 or 3 hours depending on course",
+  "marksPerSubject": {
+    "GAT": "NA",
+    "CAT": "NA"
+  },
+  "negativeMarking": "NA",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Des",
+    "B.FTech",
+    "M.Des",
+    "M.FTech",
+    "MFM"
+  ],
+  "examSyllabusPdfUrl": "https://www.nift.ac.in/sites/default/files/inline-files/NIFT%20Prospectus%202025.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.nift.ac.in/sites/default/files/inline-files/NIFT%20Prospectus%202025.pdf",
+  "faqs": {
+    "question": "What is the structure of the NIFT Entrance Exam?",
+    "answer": "The NIFT Entrance Exam consists of a General Ability Test (GAT), a Creative Ability Test (CAT), followed by a Situation Test/Studio Test and Personal Interview for shortlisted candidates. The GAT is computer-based, while the CAT and other stages are conducted offline. The exam is held once a year for admission to various undergraduate and postgraduate design, technology, and management programs."
+  },
+  "created": "2025-07-13T07:47:07.029868+00:00",
+  "updated": "2025-07-13T07:47:07.030016+00:00"
+}

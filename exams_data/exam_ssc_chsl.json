@@ -1,0 +1,53 @@
+{
+  "examId": "SSC_CHSL",
+  "examName": "SSC CHSL",
+  "fullForm": "Staff Selection Commission Combined Higher Secondary Level",
+  "examLevel": "National",
+  "examType": "Recruitment",
+  "mode": [
+    "Computer-Based Test (CBT)",
+    "Skill Test",
+    "Typing Test"
+  ],
+  "conductingBody": "Staff Selection Commission (SSC)",
+  "officialWebsite": "https://ssc.gov.in",
+  "applicationFees": {
+    "general": "100",
+    "obc": "100",
+    "sc_st": "NA"
+  },
+  "eligibility": "Candidates must have passed 10+2 (Higher Secondary) or equivalent examination from a recognized board or university.",
+  "subjectsTested": [
+    "General Intelligence",
+    "General Awareness",
+    "Quantitative Aptitude",
+    "English Language"
+  ],
+  "maxMarks": "200",
+  "duration": "60 minutes",
+  "marksPerSubject": {
+    "General Intelligence": "50",
+    "General Awareness": "50",
+    "Quantitative Aptitude": "50",
+    "English Language": "50"
+  },
+  "negativeMarking": "0.50 marks for each wrong answer in Tier-I",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "Clerical and Data Entry posts in various Central Government Ministries, Departments, and Offices"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the minimum educational qualification required for SSC CHSL?",
+    "answer": "Candidates must have passed 10+2 (Higher Secondary) or equivalent examination from a recognized board or university."
+  },
+  "created": "2025-07-13T07:48:40.461732+00:00",
+  "updated": "2025-07-13T07:48:40.461869+00:00"
+}

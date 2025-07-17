@@ -1,0 +1,56 @@
+{
+  "examId": "XAT",
+  "examName": "XAT",
+  "fullForm": "Xavier Aptitude Test",
+  "examLevel": "National",
+  "examType": "Postgraduate Entrance Exam",
+  "mode": [
+    "Online",
+    "Computer Based Test"
+  ],
+  "conductingBody": "XLRI Jamshedpur",
+  "officialWebsite": "https://www.xatonline.in/",
+  "applicationFees": {
+    "general": "2200",
+    "obc": "2200",
+    "sc_st": "2200"
+  },
+  "eligibility": "Candidates must hold a bachelor's degree of minimum three years duration or equivalent in any discipline from a recognized university. Final year students are also eligible to apply.",
+  "subjectsTested": [
+    "Verbal Ability and Logical Reasoning",
+    "Decision Making",
+    "Quantitative Aptitude and Data Interpretation",
+    "General Awareness",
+    "Essay Writing"
+  ],
+  "maxMarks": "NA",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Verbal Ability and Logical Reasoning": "NA",
+    "Decision Making": "NA",
+    "Quantitative Aptitude and Data Interpretation": "NA",
+    "General Awareness": "NA",
+    "Essay Writing": "NA"
+  },
+  "negativeMarking": "0.25 marks for each incorrect answer (except General Awareness section, which has no negative marking)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "MBA",
+    "PGDM",
+    "Other Postgraduate Management Programs"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Who is eligible to apply for XAT?",
+    "answer": "Any candidate with a bachelor's degree of minimum three years duration in any discipline from a recognized university is eligible. Final year students can also apply."
+  },
+  "created": "2025-07-13T07:45:14.251756+00:00",
+  "updated": "2025-07-13T07:45:14.251846+00:00"
+}

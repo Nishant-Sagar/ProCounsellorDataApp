@@ -1,0 +1,55 @@
+{
+  "examId": "NEET",
+  "examName": "NEET UG",
+  "fullForm": "National Eligibility cum Entrance Test (Undergraduate)",
+  "examLevel": "National",
+  "examType": "Entrance Exam",
+  "mode": [
+    "Offline (Pen and Paper)"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://neet.nta.nic.in",
+  "applicationFees": {
+    "general": "₹1700",
+    "obc": "₹1600",
+    "sc_st": "₹1000"
+  },
+  "eligibility": "Candidates must have completed 17 years of age at the time of admission or will complete that age on or before 31 December of the year of admission. They must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English as core subjects from a recognized board. General category candidates must have secured a minimum of 50% marks in PCB, while SC/ST/OBC candidates must have secured 40%.",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Biology (Botany & Zoology)"
+  ],
+  "maxMarks": "720",
+  "duration": "3 hours 20 minutes",
+  "marksPerSubject": {
+    "Physics": "180",
+    "Chemistry": "180",
+    "Biology (Botany & Zoology)": "360"
+  },
+  "negativeMarking": "Yes, 1 mark deducted for each incorrect answer",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "MBBS",
+    "BDS",
+    "BAMS",
+    "BSMS",
+    "BUMS",
+    "BHMS",
+    "BSc Nursing (selected institutions)"
+  ],
+  "examSyllabusPdfUrl": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2025/02/2025020754.pdf",
+  "previousYearCutoffs": {
+    "general": "720-137",
+    "obc": "136-107",
+    "sc": "136-107",
+    "st": "136-107"
+  },
+  "examBrochureUrl": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2025/02/2025020754.pdf",
+  "faqs": {
+    "question": "What is the mode of NEET UG examination?",
+    "answer": "NEET UG is conducted in offline mode as a pen and paper-based test."
+  },
+  "created": "2025-07-13T07:44:24.188143+00:00",
+  "updated": "2025-07-13T07:44:24.188213+00:00"
+}

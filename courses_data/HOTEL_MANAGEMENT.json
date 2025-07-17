@@ -1,0 +1,274 @@
+{
+  "courseId": "HOTEL_MANAGEMENT",
+  "courseName": "Hotel Management",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to Hotel Management and related branches is typically through national or state-level entrance exams such as NCHM JEE or MAH HM CET. Some institutes may also conduct their own entrance tests or offer merit-based admissions based on Class 12th marks. For Event Management and certain private colleges, direct admission based on academic performance and interviews is common.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the eligibility criteria for Hotel Management courses in India?",
+      "answer": "Candidates must have completed 10+2 (any stream) from a recognized board. Some institutes require a minimum percentage and may conduct entrance exams like NCHM JEE or state-level tests."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "HOTEL_MANAGEMENT",
+      "branchName": "Hotel Management",
+      "description": "Hotel Management focuses on the administration and operations of hotels, resorts, and related hospitality establishments. The branch covers areas such as front office, housekeeping, food and beverage services, and hotel administration, preparing graduates for managerial and operational roles in the hospitality sector.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Food and Beverage Service",
+        "Front Office Operations",
+        "Housekeeping Management",
+        "Hotel Accounting",
+        "Food Production",
+        "Hospitality Marketing",
+        "Human Resource Management"
+      ],
+      "careerOptions": [
+        "Hotel Manager",
+        "Front Office Executive"
+      ],
+      "averageFeesRange": "₹2–6 Lakh",
+      "popularColleges": [
+        "Institute of Hotel Management, Pusa",
+        "Welcomgroup Graduate School of Hotel Administration, Manipal"
+      ],
+      "jobRoles": [
+        "Hotel Manager",
+        "Front Office Executive",
+        "Housekeeping Supervisor"
+      ],
+      "examId": [
+        "NCHM_JEE",
+        "MAH_HM_CET"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Taj Group of Hotels",
+          "Oberoi Hotels & Resorts",
+          "ITC Hotels"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "HOSPITALITY_MANAGEMENT",
+      "branchName": "Hospitality Management",
+      "description": "Hospitality Management covers the broader service industry, including hotels, restaurants, event venues, travel, and tourism. The branch emphasizes customer service, operations, and business management, equipping students for diverse roles across hospitality sectors.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Hospitality Operations",
+        "Service Marketing",
+        "Food and Beverage Management",
+        "Accommodation Operations",
+        "Business Communication",
+        "Event Management",
+        "Financial Management"
+      ],
+      "careerOptions": [
+        "Hospitality Manager",
+        "Operations Manager"
+      ],
+      "averageFeesRange": "₹2–5 Lakh",
+      "popularColleges": [
+        "Oberoi Centre of Learning and Development, Delhi",
+        "Christ University, Bangalore"
+      ],
+      "jobRoles": [
+        "Hospitality Manager",
+        "Guest Relations Executive",
+        "Operations Supervisor"
+      ],
+      "examId": [
+        "NCHM_JEE",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Marriott International",
+          "Hyatt Hotels",
+          "Accor Hotels"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CULINARY_ARTS",
+      "branchName": "Culinary Arts",
+      "description": "Culinary Arts focuses on the art and science of food preparation, cooking techniques, kitchen management, and gastronomy. Students learn about world cuisines, food safety, nutrition, and presentation, preparing for careers as chefs and culinary professionals.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Food Production",
+        "Bakery and Confectionery",
+        "Nutrition and Food Science",
+        "Kitchen Operations Management",
+        "International Cuisine",
+        "Food Safety and Hygiene"
+      ],
+      "careerOptions": [
+        "Chef",
+        "Food Entrepreneur"
+      ],
+      "averageFeesRange": "₹2–5 Lakh",
+      "popularColleges": [
+        "Culinary Academy of India, Hyderabad",
+        "Institute of Hotel Management, Mumbai"
+      ],
+      "jobRoles": [
+        "Chef",
+        "Sous Chef",
+        "Food Production Manager"
+      ],
+      "examId": [
+        "NCHM_JEE",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.8 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "ITC Hotels",
+          "The Leela Palaces Hotels & Resorts",
+          "TajSATS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "TRAVEL_AND_TOURISM_MANAGEMENT",
+      "branchName": "Travel and Tourism Management",
+      "description": "Travel and Tourism Management deals with the planning, management, and operations of travel agencies, tour operations, and tourism boards. The branch prepares students for roles in travel planning, tourism marketing, and destination management.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Tourism Management",
+        "Travel Agency Operations",
+        "Tour Operations",
+        "Tourism Marketing",
+        "Destination Planning",
+        "Cultural Tourism"
+      ],
+      "careerOptions": [
+        "Travel Consultant",
+        "Tour Manager"
+      ],
+      "averageFeesRange": "₹1.5–4 Lakh",
+      "popularColleges": [
+        "Indian Institute of Tourism and Travel Management, Gwalior",
+        "Jamia Millia Islamia, New Delhi"
+      ],
+      "jobRoles": [
+        "Travel Consultant",
+        "Tour Operator",
+        "Destination Manager"
+      ],
+      "examId": [
+        "CUET_UG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.5 LPA",
+        "highestSalary2025": "₹7 LPA",
+        "companies": [
+          "Thomas Cook",
+          "MakeMyTrip",
+          "Cox & Kings"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "EVENT_MANAGEMENT",
+      "branchName": "Event Management",
+      "description": "Event Management involves planning, organizing, and executing events such as conferences, weddings, concerts, and corporate meetings. The branch covers event planning, budgeting, marketing, logistics, and client management.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Event Planning and Coordination",
+        "Event Marketing",
+        "Budgeting and Finance",
+        "Public Relations",
+        "Logistics Management",
+        "Risk Management"
+      ],
+      "careerOptions": [
+        "Event Manager",
+        "Wedding Planner"
+      ],
+      "averageFeesRange": "₹2–4 Lakh",
+      "popularColleges": [
+        "National Academy of Event Management and Development, Mumbai",
+        "Amity University, Noida"
+      ],
+      "jobRoles": [
+        "Event Manager",
+        "Event Coordinator",
+        "Client Servicing Executive"
+      ],
+      "examId": [
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.8 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Wizcraft International",
+          "Percept Limited",
+          "DNA Entertainment Networks"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "FOOD_AND_BEVERAGE_SERVICE",
+      "branchName": "Food and Beverage Service",
+      "description": "Food and Beverage Service is a specialized branch of hotel management focused on the operational and managerial aspects of serving food and drinks in hotels, restaurants, cafes, and catering businesses. It covers service techniques, menu planning, beverage management, and guest relations, preparing students for supervisory and managerial roles in the hospitality sector.",
+      "duration": "3 years",
+      "coreSubjects": [
+        "Food and Beverage Service Operations",
+        "Beverage Studies",
+        "Food Safety and Hygiene",
+        "Hospitality Marketing",
+        "Menu Planning and Design",
+        "Customer Relationship Management",
+        "Event Management",
+        "Culinary Arts Basics"
+      ],
+      "careerOptions": [
+        "Restaurant Manager",
+        "Banquet Supervisor"
+      ],
+      "averageFeesRange": "₹1.5–4 L",
+      "popularColleges": [
+        "Institute of Hotel Management, Bangalore",
+        "Institute of Hotel Management, Catering Technology & Applied Nutrition, Bhopal"
+      ],
+      "jobRoles": [
+        "Food and Beverage Manager",
+        "Steward Supervisor",
+        "Catering Manager"
+      ],
+      "examId": [
+        "NCHMCT_JEE",
+        "CUET",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3.5 LPA",
+        "highestSalary2025": "₹7 LPA",
+        "companies": [
+          "Taj Hotels",
+          "Oberoi Group",
+          "ITC Hotels"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

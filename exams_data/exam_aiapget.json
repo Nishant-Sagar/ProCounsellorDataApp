@@ -1,0 +1,58 @@
+{
+  "examId": "AIAPGET",
+  "examName": "AIAPGET",
+  "fullForm": "All India Ayush Post-Graduate Entrance Test",
+  "examLevel": "National",
+  "examType": "Postgraduate Entrance Exam",
+  "mode": [
+    "Online",
+    "Computer-Based Test"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://exams.nta.ac.in/AIAPGET",
+  "applicationFees": {
+    "general": "2700",
+    "obc": "2450",
+    "sc_st": "1800"
+  },
+  "eligibility": "Candidates must possess a BAMS/BUMS/BSMS/BHMS degree or provisional pass certificate recognized as per the provisions of the IMCC 1970/HCC 1973 Act and have completed one year of internship or are likely to complete the internship before the specified date.",
+  "subjectsTested": [
+    "Ayurveda",
+    "Unani",
+    "Siddha",
+    "Homeopathy"
+  ],
+  "maxMarks": "480",
+  "duration": "120 minutes",
+  "marksPerSubject": {
+    "Ayurveda": "120",
+    "Unani": "120",
+    "Siddha": "120",
+    "Homeopathy": "120"
+  },
+  "negativeMarking": "Yes (-1 for each incorrect answer)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "MD (Ayurveda)",
+    "MS (Ayurveda)",
+    "MD (Unani)",
+    "MS (Unani)",
+    "MD (Siddha)",
+    "MS (Siddha)",
+    "MD (Homeopathy)"
+  ],
+  "examSyllabusPdfUrl": "https://exams.nta.ac.in/AIAPGET/images/AIAPGET_2025_Information_Bulletin.pdf",
+  "previousYearCutoffs": {
+    "general": "50th percentile",
+    "obc": "40th percentile",
+    "sc": "40th percentile",
+    "st": "40th percentile"
+  },
+  "examBrochureUrl": "https://exams.nta.ac.in/AIAPGET/images/AIAPGET_2025_Information_Bulletin.pdf",
+  "faqs": {
+    "question": "What is the eligibility criteria for AIAPGET?",
+    "answer": "Candidates must have a recognized BAMS/BUMS/BSMS/BHMS degree and have completed or are likely to complete their internship before the specified date."
+  },
+  "created": "2025-07-13T07:51:43.764041+00:00",
+  "updated": "2025-07-13T07:51:43.764420+00:00"
+}

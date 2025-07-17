@@ -1,0 +1,1315 @@
+{
+  "courseId": "ENGINEERING",
+  "courseName": "Engineering",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to engineering courses in India is primarily based on national or state-level entrance exams such as JEE Main, JEE Advanced, state CETs, or university-specific exams. Candidates must qualify for these exams and participate in centralized counseling processes for seat allotment in top engineering colleges[1][2][4].",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the top entrance exams for engineering in India?",
+      "answer": "The top entrance exams for engineering in India are JEE Main, JEE Advanced, state-level CETs (like MHT-CET, KCET), and university-specific exams (like VITEEE, BITSAT)."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "BIOINFORMATICS",
+      "branchName": "Bioinformatics",
+      "description": "Bioinformatics combines biology, computer science, and information technology to analyze and interpret biological data. It is widely used in genomics, drug discovery, and personalized medicine.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Molecular Biology",
+        "Algorithms in Bioinformatics",
+        "Genomics and Proteomics",
+        "Data Structures and Programming",
+        "Biostatistics",
+        "Computational Biology"
+      ],
+      "careerOptions": [
+        "Bioinformatics Analyst",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Madras",
+        "University of Delhi"
+      ],
+      "jobRoles": [
+        "Bioinformatics Analyst",
+        "Research Scientist",
+        "Data Scientist"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED",
+        "CUET_UG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5–7 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "TCS",
+          "Biocon",
+          "Syngene"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BIOMEDICAL_ENGINEERING",
+      "branchName": "Biomedical Engineering",
+      "description": "Biomedical Engineering integrates engineering principles with medical sciences to design and create equipment, devices, and software for healthcare.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Medical Instrumentation",
+        "Biomechanics",
+        "Biomaterials",
+        "Medical Imaging",
+        "Signals and Systems",
+        "Human Anatomy and Physiology"
+      ],
+      "careerOptions": [
+        "Biomedical Engineer",
+        "Clinical Engineer"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Bombay",
+        "Vellore Institute of Technology"
+      ],
+      "jobRoles": [
+        "Biomedical Engineer",
+        "Clinical Engineer",
+        "Medical Device Designer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED",
+        "VITEEE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4–6 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Siemens Healthineers",
+          "GE Healthcare",
+          "Philips"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BIOTECHNOLOGY_ENGINEERING",
+      "branchName": "Biotechnology Engineering",
+      "description": "Biotechnology Engineering applies biological processes for industrial and other purposes, including medicine, agriculture, and environmental management.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Molecular Biology",
+        "Genetic Engineering",
+        "Biochemical Engineering",
+        "Immunology",
+        "Bioprocess Technology",
+        "Bioinformatics"
+      ],
+      "careerOptions": [
+        "Biotechnologist",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Delhi",
+        "Anna University"
+      ],
+      "jobRoles": [
+        "Biotechnologist",
+        "Research Scientist",
+        "Quality Control Analyst"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED",
+        "TNEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4–6 LPA",
+        "highestSalary2025": "₹14 LPA",
+        "companies": [
+          "Biocon",
+          "Dr. Reddy's Laboratories",
+          "Serum Institute"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CERAMIC_ENGINEERING",
+      "branchName": "Ceramic Engineering",
+      "description": "Ceramic Engineering focuses on the design, development, and manufacture of ceramic materials and products for industries like electronics, aerospace, and construction.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Ceramic Processing",
+        "Material Science",
+        "Thermodynamics",
+        "Refractory Technology",
+        "Glass Technology",
+        "Powder Metallurgy"
+      ],
+      "careerOptions": [
+        "Ceramic Engineer",
+        "Materials Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (BHU) Varanasi",
+        "National Institute of Technology Rourkela"
+      ],
+      "jobRoles": [
+        "Ceramic Engineer",
+        "Materials Engineer",
+        "Quality Control Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹3–5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Saint-Gobain",
+          "Murugappa Group",
+          "Hindalco"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CHEMICAL_ENGINEERING",
+      "branchName": "Chemical Engineering",
+      "description": "Chemical Engineering applies chemistry, physics, and mathematics to convert raw materials into useful products, playing a key role in industries like pharmaceuticals, energy, and food processing.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Chemical Reaction Engineering",
+        "Process Control",
+        "Thermodynamics",
+        "Mass Transfer",
+        "Heat Transfer",
+        "Process Equipment Design"
+      ],
+      "careerOptions": [
+        "Chemical Engineer",
+        "Process Engineer"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Kanpur",
+        "National Institute of Technology Tiruchirappalli"
+      ],
+      "jobRoles": [
+        "Chemical Engineer",
+        "Process Engineer",
+        "Plant Manager"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5–8 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Reliance Industries",
+          "Indian Oil Corporation",
+          "Tata Chemicals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CIVIL_ENGINEERING",
+      "branchName": "Civil Engineering",
+      "description": "Civil Engineering focuses on the design, construction, and maintenance of infrastructure such as roads, bridges, dams, and buildings. It is one of the oldest engineering disciplines and plays a crucial role in nation-building and urban development.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Structural Engineering",
+        "Geotechnical Engineering",
+        "Transportation Engineering",
+        "Environmental Engineering",
+        "Surveying",
+        "Construction Materials",
+        "Fluid Mechanics",
+        "Hydrology"
+      ],
+      "careerOptions": [
+        "Structural Engineer",
+        "Site Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Bombay"
+      ],
+      "jobRoles": [
+        "Civil Engineer",
+        "Project Manager",
+        "Site Supervisor"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹25 LPA",
+        "companies": [
+          "Larsen & Toubro",
+          "Tata Projects",
+          "Shapoorji Pallonji"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "COMPUTER_SCIENCE_AND_ENGINEERING",
+      "branchName": "Computer Science and Engineering",
+      "description": "Computer Science and Engineering deals with the theory, design, development, and application of software and hardware systems. It covers programming, algorithms, data structures, artificial intelligence, and computer networks, preparing students for the rapidly evolving tech industry.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Database Management Systems",
+        "Computer Networks",
+        "Artificial Intelligence",
+        "Software Engineering",
+        "Theory of Computation",
+        "Machine Learning"
+      ],
+      "careerOptions": [
+        "Software Developer",
+        "Systems Engineer"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "IIT Kanpur"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "Data Scientist",
+        "Systems Analyst"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹18 LPA",
+        "highestSalary2025": "₹80 LPA",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "Infosys"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "DATA_SCIENCE_AND_ENGINEERING",
+      "branchName": "Data Science and Engineering",
+      "description": "Data Science and Engineering combines computer science, statistics, and domain expertise to extract insights from structured and unstructured data. The branch trains students in big data analytics, machine learning, and data-driven decision-making for various industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Probability and Statistics",
+        "Machine Learning",
+        "Big Data Analytics",
+        "Data Mining",
+        "Database Systems",
+        "Programming in Python/R",
+        "Data Visualization",
+        "Artificial Intelligence"
+      ],
+      "careerOptions": [
+        "Data Scientist",
+        "Business Analyst"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Hyderabad",
+        "IIIT Bangalore"
+      ],
+      "jobRoles": [
+        "Data Analyst",
+        "Machine Learning Engineer",
+        "Data Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹16 LPA",
+        "highestSalary2025": "₹60 LPA",
+        "companies": [
+          "Amazon",
+          "Flipkart",
+          "TCS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ELECTRICAL_AND_ELECTRONICS_ENGINEERING",
+      "branchName": "Electrical and Electronics Engineering",
+      "description": "Electrical and Electronics Engineering covers the study and application of electricity, electronics, and electromagnetism. It includes topics like circuit theory, control systems, microprocessors, and power systems, preparing students for roles in diverse industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Circuit Theory",
+        "Analog and Digital Electronics",
+        "Microprocessors and Microcontrollers",
+        "Control Systems",
+        "Power Electronics",
+        "Signals and Systems",
+        "Electrical Machines",
+        "Communication Systems"
+      ],
+      "careerOptions": [
+        "Electronics Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3.5 LPA",
+      "popularColleges": [
+        "IIT Kharagpur",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Electronics Engineer",
+        "Design Engineer",
+        "Control Systems Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹35 LPA",
+        "companies": [
+          "Texas Instruments",
+          "Qualcomm",
+          "Siemens"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ELECTRICAL_ENGINEERING",
+      "branchName": "Electrical Engineering",
+      "description": "Electrical Engineering focuses on the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism. It is fundamental to power generation, transmission, and distribution industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Electrical Machines",
+        "Power Systems",
+        "Control Systems",
+        "Electromagnetic Fields",
+        "Power Electronics",
+        "Signals and Systems",
+        "Measurement and Instrumentation",
+        "Switchgear and Protection"
+      ],
+      "careerOptions": [
+        "Power Systems Engineer",
+        "Electrical Design Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Roorkee",
+        "IIT Madras"
+      ],
+      "jobRoles": [
+        "Electrical Engineer",
+        "Power Systems Engineer",
+        "Maintenance Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹30 LPA",
+        "companies": [
+          "Siemens",
+          "ABB",
+          "NTPC"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ELECTRONICS_AND_COMMUNICATION_ENGINEERING",
+      "branchName": "Electronics and Communication Engineering",
+      "description": "Focuses on designing, developing, and testing electronic equipment and communication systems. Scope includes telecommunications, embedded systems, and signal processing.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Analog and Digital Electronics",
+        "Communication Systems",
+        "Microprocessors and Microcontrollers",
+        "Signal Processing",
+        "VLSI Design",
+        "Wireless Communication"
+      ],
+      "careerOptions": [
+        "Telecommunication Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Madras",
+        "Indian Institute of Technology Delhi"
+      ],
+      "jobRoles": [
+        "Electronics Engineer",
+        "Communication Engineer",
+        "VLSI Design Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6–8 LPA",
+        "highestSalary2025": "₹20–30 LPA",
+        "companies": [
+          "Qualcomm",
+          "Texas Instruments",
+          "Samsung"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ELECTRONICS_AND_INSTRUMENTATION_ENGINEERING",
+      "branchName": "Electronics and Instrumentation Engineering",
+      "description": "Deals with measurement, automation, and control of industrial processes using electronic instruments. Scope includes process industries, automation, and control systems.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Industrial Instrumentation",
+        "Process Control",
+        "Sensors and Transducers",
+        "Control Systems",
+        "Digital Signal Processing",
+        "Microcontroller Applications"
+      ],
+      "careerOptions": [
+        "Instrumentation Engineer",
+        "Automation Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "National Institute of Technology Tiruchirapalli",
+        "Birla Institute of Technology and Science, Pilani"
+      ],
+      "jobRoles": [
+        "Instrumentation Engineer",
+        "Control Systems Engineer",
+        "Automation Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "BITSAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5–7 LPA",
+        "highestSalary2025": "₹15–20 LPA",
+        "companies": [
+          "Honeywell",
+          "Siemens",
+          "ABB"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ENERGY_ENGINEERING",
+      "branchName": "Energy Engineering",
+      "description": "Focuses on energy efficiency, renewable energy, and sustainable energy solutions. Scope includes power generation, energy management, and environmental impact.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Renewable Energy Systems",
+        "Energy Management",
+        "Thermodynamics",
+        "Power Plant Engineering",
+        "Energy Storage",
+        "Environmental Impact Assessment"
+      ],
+      "careerOptions": [
+        "Energy Engineer",
+        "Renewable Energy Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Bombay",
+        "Indian Institute of Technology Kharagpur"
+      ],
+      "jobRoles": [
+        "Energy Engineer",
+        "Sustainability Consultant",
+        "Power Plant Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5–7 LPA",
+        "highestSalary2025": "₹15–20 LPA",
+        "companies": [
+          "NTPC",
+          "Suzlon",
+          "Adani Green Energy"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ENVIRONMENTAL_ENGINEERING",
+      "branchName": "Environmental Engineering",
+      "description": "Focuses on solutions for environmental protection, pollution control, and sustainable development. Scope includes water treatment, waste management, and environmental impact assessment.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Water and Wastewater Engineering",
+        "Air Pollution Control",
+        "Solid Waste Management",
+        "Environmental Impact Assessment",
+        "Environmental Chemistry",
+        "Sustainable Development"
+      ],
+      "careerOptions": [
+        "Environmental Engineer",
+        "Sustainability Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology Roorkee",
+        "Indian Institute of Technology Guwahati"
+      ],
+      "jobRoles": [
+        "Environmental Engineer",
+        "Waste Management Engineer",
+        "Sustainability Consultant"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4–6 LPA",
+        "highestSalary2025": "₹12–15 LPA",
+        "companies": [
+          "Tata Consultancy Services",
+          "Larsen & Toubro",
+          "Veolia"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "FOOD_TECHNOLOGY",
+      "branchName": "Food Technology",
+      "description": "Involves the study of food processing, preservation, and safety. Scope includes food manufacturing, quality control, and research.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Food Chemistry",
+        "Food Microbiology",
+        "Food Processing Technology",
+        "Food Quality Assurance",
+        "Food Packaging",
+        "Food Safety and Standards"
+      ],
+      "careerOptions": [
+        "Food Technologist",
+        "Quality Assurance Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "National Institute of Food Technology Entrepreneurship and Management",
+        "Central Food Technological Research Institute"
+      ],
+      "jobRoles": [
+        "Food Technologist",
+        "Quality Assurance Manager",
+        "Food Safety Officer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4–6 LPA",
+        "highestSalary2025": "₹10–12 LPA",
+        "companies": [
+          "Nestlé",
+          "ITC",
+          "Britannia"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INDUSTRIAL_ENGINEERING",
+      "branchName": "Industrial Engineering",
+      "description": "Industrial Engineering focuses on optimizing complex processes, systems, or organizations by eliminating waste of time, money, materials, and other resources. It combines engineering principles with business practices to improve efficiency and productivity across manufacturing and service industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Operations Research",
+        "Production Planning and Control",
+        "Industrial Management",
+        "Supply Chain Management",
+        "Quality Control and Assurance",
+        "Ergonomics",
+        "Manufacturing Systems",
+        "Statistics for Engineers"
+      ],
+      "careerOptions": [
+        "Process Engineer",
+        "Operations Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Industrial Engineer",
+        "Quality Analyst",
+        "Production Manager"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Tata Consultancy Services",
+          "Larsen & Toubro",
+          "Maruti Suzuki"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INFORMATION_TECHNOLOGY",
+      "branchName": "Information Technology",
+      "description": "Information Technology (IT) deals with the study and application of computers, networking, software, and data management. IT engineers design, develop, and maintain systems for processing and distributing information, playing a crucial role in the digital transformation of businesses and society.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Web Technologies",
+        "Software Engineering",
+        "Object Oriented Programming",
+        "Cyber Security"
+      ],
+      "careerOptions": [
+        "Software Developer",
+        "IT Consultant"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "VIT Vellore"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "System Analyst",
+        "Network Administrator"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹10 LPA",
+        "highestSalary2025": "₹45 LPA",
+        "companies": [
+          "Infosys",
+          "Google",
+          "TCS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INSTRUMENTATION_ENGINEERING",
+      "branchName": "Instrumentation Engineering",
+      "description": "Instrumentation Engineering focuses on the design, configuration, and automation of systems that measure and control physical quantities such as pressure, flow, and temperature. It is vital in industries like manufacturing, oil and gas, and power plants for process control and automation.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Transducers and Sensors",
+        "Process Control",
+        "Analog and Digital Electronics",
+        "Measurement Techniques",
+        "Control Systems",
+        "Microprocessors and Microcontrollers",
+        "Industrial Instrumentation",
+        "Signal Processing"
+      ],
+      "careerOptions": [
+        "Instrumentation Engineer",
+        "Automation Specialist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kharagpur",
+        "BITS Pilani"
+      ],
+      "jobRoles": [
+        "Instrumentation Engineer",
+        "Control Systems Engineer",
+        "Automation Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Siemens",
+          "ABB",
+          "Honeywell"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MARINE_ENGINEERING",
+      "branchName": "Marine Engineering",
+      "description": "Marine Engineering involves the design, construction, operation, and maintenance of ships, boats, and marine vessels. It covers propulsion systems, onboard systems, and safety protocols, preparing graduates for careers in shipping, shipyards, and offshore industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Marine Propulsion",
+        "Naval Architecture",
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Ship Structure and Construction",
+        "Marine Electrical Technology",
+        "Marine Auxiliary Machines",
+        "Marine Engineering Drawing"
+      ],
+      "careerOptions": [
+        "Marine Engineer",
+        "Shipyard Manager"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Maritime University",
+        "Tolani Maritime Institute"
+      ],
+      "jobRoles": [
+        "Marine Engineer",
+        "Naval Architect",
+        "Port Engineer"
+      ],
+      "examId": [
+        "IMU_CET"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Shipping Corporation of India",
+          "Great Eastern Shipping",
+          "Anglo-Eastern"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MECHANICAL_ENGINEERING",
+      "branchName": "Mechanical Engineering",
+      "description": "Mechanical Engineering is one of the oldest and broadest branches, dealing with the design, analysis, manufacturing, and maintenance of mechanical systems. It covers areas such as thermodynamics, mechanics, robotics, and materials science, with applications in automotive, aerospace, energy, and manufacturing sectors.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Engineering Mechanics",
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Machine Design",
+        "Heat and Mass Transfer",
+        "Manufacturing Technology",
+        "Strength of Materials",
+        "Automobile Engineering"
+      ],
+      "careerOptions": [
+        "Design Engineer",
+        "Production Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Kanpur"
+      ],
+      "jobRoles": [
+        "Mechanical Engineer",
+        "Maintenance Engineer",
+        "Project Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Tata Motors",
+          "Larsen & Toubro",
+          "Mahindra & Mahindra"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MECHATRONICS_ENGINEERING",
+      "branchName": "Mechatronics Engineering",
+      "description": "Mechatronics Engineering integrates mechanical, electrical, electronics, and computer engineering to design and create intelligent systems and smart machines. It is widely applied in robotics, automation, and advanced manufacturing, offering broad career opportunities in industries focused on innovation and automation.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Mechanics",
+        "Electronics",
+        "Control Systems",
+        "Microprocessors and Microcontrollers",
+        "Robotics",
+        "Sensors and Actuators",
+        "Computer-Aided Design (CAD)",
+        "Embedded Systems"
+      ],
+      "careerOptions": [
+        "Automation Engineer",
+        "Robotics Engineer"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "SRM Institute of Science and Technology"
+      ],
+      "jobRoles": [
+        "Mechatronics Engineer",
+        "Automation Engineer",
+        "Robotics Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Siemens",
+          "ABB",
+          "Tata Consultancy Services"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "METALLURGICAL_ENGINEERING",
+      "branchName": "Metallurgical Engineering",
+      "description": "Metallurgical Engineering focuses on the study of metals, their extraction, processing, and development of new materials. Graduates work in industries such as steel, automotive, aerospace, and research organizations, contributing to advancements in material science and engineering.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Physical Metallurgy",
+        "Extractive Metallurgy",
+        "Thermodynamics of Materials",
+        "Material Science",
+        "Mechanical Metallurgy",
+        "Corrosion Engineering",
+        "Iron and Steel Making",
+        "Non-Ferrous Metallurgy"
+      ],
+      "careerOptions": [
+        "Metallurgist",
+        "Materials Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "National Institute of Technology Rourkela"
+      ],
+      "jobRoles": [
+        "Metallurgical Engineer",
+        "Quality Control Engineer",
+        "Research Scientist"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Tata Steel",
+          "JSW Steel",
+          "Hindalco"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MINING_ENGINEERING",
+      "branchName": "Mining Engineering",
+      "description": "Mining Engineering deals with the extraction of minerals from the earth, mine design, safety, and environmental management. Graduates are employed in mining companies, government agencies, and consulting firms, playing key roles in resource management and sustainable mining practices.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Mine Surveying",
+        "Rock Mechanics",
+        "Mining Methods",
+        "Mine Ventilation",
+        "Drilling and Blasting",
+        "Mineral Processing",
+        "Mine Safety Engineering",
+        "Surface and Underground Mining"
+      ],
+      "careerOptions": [
+        "Mining Engineer",
+        "Mine Safety Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kharagpur",
+        "Indian Institute of Technology (ISM) Dhanbad"
+      ],
+      "jobRoles": [
+        "Mining Engineer",
+        "Mine Planner",
+        "Safety Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹14 LPA",
+        "companies": [
+          "Coal India Limited",
+          "Vedanta Resources",
+          "Hindustan Zinc"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "NANOTECHNOLOGY",
+      "branchName": "Nanotechnology",
+      "description": "Nanotechnology is the science and engineering of materials at the nanoscale, enabling innovations in electronics, medicine, energy, and materials science. Graduates work in research, development, and manufacturing roles in high-tech industries and research institutions.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Nanomaterials",
+        "Nanoelectronics",
+        "Quantum Mechanics",
+        "Surface Science",
+        "Nanofabrication",
+        "Characterization Techniques",
+        "Nanobiotechnology",
+        "Solid State Physics"
+      ],
+      "careerOptions": [
+        "Nanotechnologist",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "Amity University Noida"
+      ],
+      "jobRoles": [
+        "Nanotechnology Engineer",
+        "Research Associate",
+        "Product Development Scientist"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹16 LPA",
+        "companies": [
+          "Reliance Industries",
+          "DRDO",
+          "Tata Chemicals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PETROLEUM_ENGINEERING",
+      "branchName": "Petroleum Engineering",
+      "description": "Petroleum Engineering involves exploration, extraction, and production of oil and gas. It covers reservoir engineering, drilling, and production technology. Graduates are employed in oil companies, energy sector, and consulting firms, contributing to India's energy security.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Petroleum Geology",
+        "Reservoir Engineering",
+        "Drilling Engineering",
+        "Production Engineering",
+        "Petroleum Exploration",
+        "Well Logging and Testing",
+        "Enhanced Oil Recovery",
+        "Offshore Engineering"
+      ],
+      "careerOptions": [
+        "Petroleum Engineer",
+        "Reservoir Engineer"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (ISM) Dhanbad",
+        "Pandit Deendayal Energy University"
+      ],
+      "jobRoles": [
+        "Petroleum Engineer",
+        "Drilling Engineer",
+        "Production Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹22 LPA",
+        "companies": [
+          "ONGC",
+          "Reliance Industries",
+          "Cairn Oil & Gas"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PLASTIC_AND_POLYMER_ENGINEERING",
+      "branchName": "Plastic and Polymer Engineering",
+      "description": "Plastic and Polymer Engineering focuses on the design, development, processing, and testing of polymers and plastics. Graduates work in industries producing plastics, rubbers, and composites, contributing to sectors like automotive, packaging, healthcare, and consumer goods.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Polymer Chemistry",
+        "Polymer Processing",
+        "Polymer Rheology",
+        "Plastics Materials",
+        "Polymer Characterization",
+        "Polymer Reaction Engineering",
+        "Polymer Testing and Quality Control"
+      ],
+      "careerOptions": [
+        "Polymer Engineer",
+        "Production Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Institute of Chemical Technology, Mumbai",
+        "Central Institute of Plastics Engineering & Technology (CIPET), Chennai"
+      ],
+      "jobRoles": [
+        "Polymer Engineer",
+        "Quality Control Engineer",
+        "Process Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Reliance Industries",
+          "ONGC",
+          "SRF Limited"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PRODUCTION_ENGINEERING",
+      "branchName": "Production Engineering",
+      "description": "Production Engineering deals with the design, operation, control, and optimization of manufacturing processes. It combines mechanical engineering with management science to improve productivity and quality in manufacturing industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Manufacturing Processes",
+        "Industrial Engineering",
+        "Operations Research",
+        "Machine Design",
+        "Quality Control",
+        "Automation in Manufacturing",
+        "Production Planning and Control"
+      ],
+      "careerOptions": [
+        "Production Engineer",
+        "Manufacturing Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "College of Engineering, Pune"
+      ],
+      "jobRoles": [
+        "Production Engineer",
+        "Process Engineer",
+        "Quality Assurance Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Tata Motors",
+          "Larsen & Toubro",
+          "Mahindra & Mahindra"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ROBOTICS_AND_AUTOMATION",
+      "branchName": "Robotics and Automation",
+      "description": "Robotics and Automation Engineering covers the design, construction, operation, and use of robots and automated systems. It integrates mechanical, electrical, electronics, and computer engineering to develop intelligent systems for manufacturing, healthcare, and service industries.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Robotics Engineering",
+        "Automation Systems",
+        "Control Systems",
+        "Sensors and Actuators",
+        "Artificial Intelligence",
+        "Embedded Systems",
+        "Mechatronics"
+      ],
+      "careerOptions": [
+        "Robotics Engineer",
+        "Automation Specialist"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "SRM Institute of Science and Technology, Chennai"
+      ],
+      "jobRoles": [
+        "Robotics Engineer",
+        "Automation Engineer",
+        "Control Systems Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "ABB India",
+          "TATA Consultancy Services",
+          "Siemens"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "SOFTWARE_ENGINEERING",
+      "branchName": "Software Engineering",
+      "description": "Software Engineering focuses on the systematic design, development, testing, and maintenance of software systems. It prepares students for roles in IT, software development, and related industries, emphasizing programming, algorithms, and project management.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Data Structures and Algorithms",
+        "Software Design and Architecture",
+        "Database Management Systems",
+        "Operating Systems",
+        "Object-Oriented Programming",
+        "Software Testing",
+        "Web Technologies"
+      ],
+      "careerOptions": [
+        "Software Developer",
+        "System Analyst"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "Birla Institute of Technology and Science (BITS) Pilani"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "Full Stack Developer",
+        "Quality Assurance Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹12 LPA",
+        "highestSalary2025": "₹50 LPA",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "Infosys"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "STRUCTURAL_ENGINEERING",
+      "branchName": "Structural Engineering",
+      "description": "Structural Engineering is a specialized branch of Civil Engineering that deals with the analysis, design, and construction of structures such as buildings, bridges, and dams. It ensures structures are safe, stable, and durable.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Structural Analysis",
+        "Concrete Technology",
+        "Steel Structures",
+        "Foundation Engineering",
+        "Construction Materials",
+        "Earthquake Engineering",
+        "Finite Element Methods"
+      ],
+      "careerOptions": [
+        "Structural Engineer",
+        "Construction Project Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Structural Engineer",
+        "Design Engineer",
+        "Site Engineer"
+      ],
+      "examId": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Larsen & Toubro",
+          "Tata Projects",
+          "AECOM"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

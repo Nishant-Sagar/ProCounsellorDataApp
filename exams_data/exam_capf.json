@@ -1,0 +1,50 @@
+{
+  "examId": "CAPF",
+  "examName": "UPSC CAPF Assistant Commandant Exam",
+  "fullForm": "Central Armed Police Forces",
+  "examLevel": "National",
+  "examType": "Recruitment",
+  "mode": [
+    "Offline (OMR-based for Paper 1)",
+    "Offline (Descriptive for Paper 2)"
+  ],
+  "conductingBody": "Union Public Service Commission (UPSC)",
+  "officialWebsite": "https://upsc.gov.in",
+  "applicationFees": {
+    "general": "200",
+    "obc": "200",
+    "sc_st": "0"
+  },
+  "eligibility": "Indian citizen, age 20-25 years (relaxation for reserved categories), Bachelor’s degree from a recognized university, must meet prescribed physical and medical standards[1][3][4].",
+  "subjectsTested": [
+    "General Ability and Intelligence",
+    "General Studies",
+    "Essay",
+    "Comprehension"
+  ],
+  "maxMarks": "450",
+  "duration": "5 hours (2 hours for Paper 1, 3 hours for Paper 2)",
+  "marksPerSubject": {
+    "General Ability and Intelligence": "250",
+    "General Studies, Essay, and Comprehension": "200"
+  },
+  "negativeMarking": "One-third marks deducted for each incorrect answer in Paper 1[3].",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "Recruitment as Assistant Commandant in BSF, CRPF, CISF, ITBP, SSB"
+  ],
+  "examSyllabusPdfUrl": "https://upsc.gov.in/sites/default/files/Notif-CAPF-ACs-Exam-2025-Engl-260424.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://upsc.gov.in/sites/default/files/Notif-CAPF-ACs-Exam-2025-Engl-260424.pdf",
+  "faqs": {
+    "question": "What is the eligibility criteria for the UPSC CAPF exam?",
+    "answer": "Candidates must be Indian citizens aged 20-25 years (relaxation for reserved categories), possess a Bachelor’s degree from a recognized university, and meet the prescribed physical and medical standards[1][3][4]."
+  },
+  "created": "2025-07-13T07:49:45.199531+00:00",
+  "updated": "2025-07-13T07:49:45.199830+00:00"
+}

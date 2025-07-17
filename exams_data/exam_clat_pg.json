@@ -1,0 +1,47 @@
+{
+  "examId": "CLAT_PG",
+  "examName": "CLAT PG",
+  "fullForm": "Common Law Admission Test Post Graduate",
+  "examLevel": "Postgraduate",
+  "examType": "Entrance Exam",
+  "mode": [
+    "Offline"
+  ],
+  "conductingBody": "Consortium of National Law Universities (NLUs)",
+  "officialWebsite": "https://consortiumofnlus.ac.in",
+  "applicationFees": {
+    "general": "4000",
+    "obc": "4000",
+    "sc_st": "3500"
+  },
+  "eligibility": "Candidates must have completed a 3-year LLB or 5-year integrated LLB degree or equivalent from a recognized university. Minimum marks required: 50% for General/OBC/PWD/NRI/PIO/OCI categories and 45% for SC/ST categories.",
+  "subjectsTested": [
+    "Constitutional Law",
+    "Other areas of law such as Jurisprudence, Administrative Law, Law of Contract, Torts, Family Law, Criminal Law, Property Law, Company Law, Public International Law, Tax Law, Environmental Law, and Labour & Industrial Law"
+  ],
+  "maxMarks": "120",
+  "duration": "2 hours",
+  "marksPerSubject": {
+    "Constitutional Law": "NA",
+    "Other Law Subjects": "NA"
+  },
+  "negativeMarking": "0.25 marks deducted for each incorrect answer",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "LLM (Master of Laws)"
+  ],
+  "examSyllabusPdfUrl": "https://consortiumofnlus.ac.in/clat-2025/pg-syllabus.html",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://consortiumofnlus.ac.in/clat-2025/notification.html",
+  "faqs": {
+    "question": "What is the mode of the CLAT PG exam?",
+    "answer": "The CLAT PG exam is conducted in offline mode as a pen-and-paper based test."
+  },
+  "created": "2025-07-13T07:52:20.449475+00:00",
+  "updated": "2025-07-13T07:52:20.449528+00:00"
+}

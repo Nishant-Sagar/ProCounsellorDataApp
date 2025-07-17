@@ -1,0 +1,75 @@
+{
+  "examId": "GATE",
+  "examName": "GATE",
+  "fullForm": "Graduate Aptitude Test in Engineering",
+  "examLevel": "National",
+  "examType": "Postgraduate Entrance",
+  "mode": [
+    "Computer Based Test (CBT)"
+  ],
+  "conductingBody": "Indian Institutes of Technology (IITs) and Indian Institute of Science (IISc), jointly on behalf of National Coordination Board – GATE, Department of Higher Education, Ministry of Education, Government of India",
+  "officialWebsite": "https://gate2025.iitr.ac.in",
+  "applicationFees": {
+    "general": "₹1800",
+    "obc": "₹1800",
+    "sc_st": "₹900"
+  },
+  "eligibility": "Bachelor’s degree in Engineering/Technology/Architecture/Science/Commerce/Arts or equivalent. Final year students are also eligible.",
+  "subjectsTested": [
+    "Aerospace Engineering",
+    "Agricultural Engineering",
+    "Architecture and Planning",
+    "Biotechnology",
+    "Civil Engineering",
+    "Chemical Engineering",
+    "Computer Science and Information Technology",
+    "Chemistry",
+    "Electronics and Communication Engineering",
+    "Electrical Engineering",
+    "Environmental Science and Engineering",
+    "Ecology and Evolution",
+    "Geology",
+    "Geophysics",
+    "Instrumentation Engineering",
+    "Mathematics",
+    "Mechanical Engineering",
+    "Mining Engineering",
+    "Metallurgical Engineering",
+    "Petroleum Engineering",
+    "Physics",
+    "Production and Industrial Engineering",
+    "Statistics",
+    "Textile Engineering and Fibre Science",
+    "Engineering Sciences",
+    "Humanities and Social Sciences",
+    "Life Sciences"
+  ],
+  "maxMarks": "100",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "General Aptitude": "15",
+    "Subject Paper": "85"
+  },
+  "negativeMarking": "1/3 mark for 1-mark MCQ; 2/3 mark for 2-mark MCQ. No negative marking for NAT and MSQ.",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "M.E.",
+    "M.Tech.",
+    "Ph.D.",
+    "PSU Recruitment"
+  ],
+  "examSyllabusPdfUrl": "https://gate2025.iitr.ac.in/assets/docs/GATE2025_Syllabi.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://gate2025.iitr.ac.in/assets/docs/GATE2025_Information_Brochure.pdf",
+  "faqs": {
+    "question": "What is the validity of the GATE score?",
+    "answer": "The GATE score is valid for three years from the date of announcement of the results."
+  },
+  "created": "2025-07-13T07:50:55.277988+00:00",
+  "updated": "2025-07-13T07:50:55.278070+00:00"
+}

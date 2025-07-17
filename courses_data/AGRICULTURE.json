@@ -1,0 +1,510 @@
+{
+  "courseId": "AGRICULTURE",
+  "courseName": "Agriculture",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to undergraduate agriculture courses in India typically involves qualifying a national-level entrance exam such as ICAR AIEEA UG or CUET-UG. Some state agricultural universities may conduct their own entrance tests. Eligibility generally requires completion of 10+2 with Physics, Chemistry, and Biology/Mathematics. Selection is based on entrance exam scores and counseling.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the career prospects after completing a B.Sc in Agriculture?",
+      "answer": "Graduates can work as Agricultural Officers, Research Scientists, Farm Managers, or pursue higher studies. There are opportunities in government departments, agri-business firms, research organizations, and the banking sector."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "B_SC_AGRICULTURE",
+      "branchName": "B.Sc Agriculture",
+      "description": "B.Sc Agriculture is a four-year undergraduate program focusing on the science and technology of farming, crop production, soil management, and agricultural economics. Graduates are equipped to work in research, government, agri-business, and extension services, contributing to food security and rural development.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Fundamentals of Agronomy",
+        "Soil Science",
+        "Plant Breeding and Genetics",
+        "Agricultural Economics",
+        "Entomology",
+        "Plant Pathology",
+        "Agricultural Extension",
+        "Crop Physiology"
+      ],
+      "careerOptions": [
+        "Agricultural Officer",
+        "Research Scientist",
+        "Farm Manager",
+        "Agri-entrepreneur"
+      ],
+      "averageFeesRange": "₹1–3 LPA",
+      "popularColleges": [
+        "Indian Agricultural Research Institute, New Delhi",
+        "Punjab Agricultural University, Ludhiana"
+      ],
+      "jobRoles": [
+        "Agricultural Officer",
+        "Research Associate",
+        "Farm Manager"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "IFFCO",
+          "Monsanto",
+          "UPL Limited"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "HORTICULTURE",
+      "branchName": "Horticulture",
+      "description": "Horticulture focuses on the cultivation of fruits, vegetables, flowers, and ornamental plants. The program covers plant breeding, pest management, and landscape design, preparing graduates for roles in commercial horticulture, research, and government advisory services.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Fundamentals of Horticulture",
+        "Fruit Science",
+        "Vegetable Science",
+        "Floriculture",
+        "Plant Propagation",
+        "Post-Harvest Technology",
+        "Plant Pathology",
+        "Soil Science"
+      ],
+      "careerOptions": [
+        "Horticulturist",
+        "Nursery Manager",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "Tamil Nadu Agricultural University, Coimbatore",
+        "Dr. YSR Horticultural University, Andhra Pradesh"
+      ],
+      "jobRoles": [
+        "Horticulture Officer",
+        "Floriculturist",
+        "Research Assistant"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Godrej Agrovet",
+          "Syngenta",
+          "State Horticulture Departments"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AGRONOMY",
+      "branchName": "Agronomy",
+      "description": "Agronomy is the science of crop production and soil management. The branch emphasizes sustainable agriculture, crop rotation, irrigation, and weed management, preparing students for research, extension, and consultancy roles in the agriculture sector.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Principles of Agronomy",
+        "Crop Production",
+        "Irrigation and Water Management",
+        "Weed Management",
+        "Soil Fertility and Nutrient Management",
+        "Agro-meteorology",
+        "Field Crops",
+        "Soil Science"
+      ],
+      "careerOptions": [
+        "Agronomist",
+        "Research Scientist",
+        "Extension Officer"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "GB Pant University of Agriculture and Technology, Pantnagar",
+        "University of Agricultural Sciences, Bengaluru"
+      ],
+      "jobRoles": [
+        "Agronomist",
+        "Crop Consultant",
+        "Field Officer"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Bayer CropScience",
+          "Krishi Vigyan Kendras",
+          "Mahindra Agribusiness"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "SOIL_SCIENCE",
+      "branchName": "Soil Science",
+      "description": "Soil Science deals with the study of soil as a natural resource, including its formation, classification, mapping, and fertility. Graduates are trained in soil conservation, land reclamation, and environmental impact assessment, with opportunities in research, consultancy, and government agencies.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Soil Chemistry",
+        "Soil Fertility and Nutrient Management",
+        "Soil Microbiology",
+        "Soil Physics",
+        "Soil and Water Conservation",
+        "Soil Survey and Land Use Planning",
+        "Environmental Science",
+        "Soil Mineralogy"
+      ],
+      "careerOptions": [
+        "Soil Scientist",
+        "Environmental Consultant",
+        "Researcher"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "Indian Agricultural Research Institute, New Delhi",
+        "Tamil Nadu Agricultural University, Coimbatore"
+      ],
+      "jobRoles": [
+        "Soil Scientist",
+        "Land Use Planner",
+        "Soil Conservation Officer"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "ICAR",
+          "State Soil Testing Labs",
+          "Agrochemical Companies"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AGRICULTURAL_ENGINEERING",
+      "branchName": "Agricultural Engineering",
+      "description": "Agricultural Engineering applies engineering principles to agriculture, focusing on farm machinery, irrigation, soil conservation, and post-harvest technology. Graduates are prepared for roles in equipment design, irrigation management, and agri-infrastructure development.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Farm Machinery and Power",
+        "Soil and Water Engineering",
+        "Agricultural Process Engineering",
+        "Irrigation and Drainage Engineering",
+        "Renewable Energy in Agriculture",
+        "Post-Harvest Technology",
+        "Farm Structures",
+        "Agro-Processing"
+      ],
+      "careerOptions": [
+        "Agricultural Engineer",
+        "Irrigation Engineer",
+        "Design Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "College of Agricultural Engineering, Bengaluru",
+        "Punjab Agricultural University, Ludhiana"
+      ],
+      "jobRoles": [
+        "Agricultural Engineer",
+        "Project Manager",
+        "Equipment Designer"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "John Deere",
+          "Mahindra & Mahindra",
+          "Escorts Group"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PLANT_PATHOLOGY",
+      "branchName": "Plant Pathology",
+      "description": "Plant Pathology focuses on the study of plant diseases, their causes, mechanisms, and control. It prepares students for roles in crop protection, research, and agricultural extension, contributing to food security and sustainable agriculture.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Principles of Plant Pathology",
+        "Mycology",
+        "Bacteriology",
+        "Virology",
+        "Plant Disease Epidemiology",
+        "Disease Management",
+        "Fungal Taxonomy",
+        "Integrated Pest Management"
+      ],
+      "careerOptions": [
+        "Agricultural Research Scientist",
+        "Plant Disease Diagnostic Expert"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Agricultural Research Institute, New Delhi",
+        "Punjab Agricultural University, Ludhiana"
+      ],
+      "jobRoles": [
+        "Plant Pathologist",
+        "Research Associate",
+        "Extension Officer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ICAR_AIEEA_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "ICAR",
+          "Syngenta",
+          "Bayer CropScience"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AGRICULTURAL_ECONOMICS",
+      "branchName": "Agricultural Economics",
+      "description": "Agricultural Economics deals with the application of economic principles to optimize agricultural production and distribution. It covers farm management, rural development, and agri-policy, preparing graduates for roles in research, policy, and agribusiness.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Microeconomics",
+        "Macroeconomics",
+        "Agricultural Marketing",
+        "Farm Management",
+        "Agricultural Finance",
+        "Econometrics",
+        "Agricultural Policy",
+        "Rural Development"
+      ],
+      "careerOptions": [
+        "Agricultural Economist",
+        "Policy Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Banaras Hindu University, Varanasi",
+        "Indian Agricultural Research Institute, New Delhi"
+      ],
+      "jobRoles": [
+        "Agricultural Economist",
+        "Market Analyst",
+        "Research Officer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ICAR_AIEEA_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "NABARD",
+          "FICCI",
+          "AgroStar"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AGRI-BUSINESS_MANAGEMENT",
+      "branchName": "Agri-Business Management",
+      "description": "Agri-Business Management combines agricultural science with business and management principles. It trains students for leadership roles in agri-input companies, food processing, supply chain, and rural entrepreneurship.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Principles of Management",
+        "Agricultural Marketing",
+        "Supply Chain Management",
+        "Rural Marketing",
+        "Financial Management",
+        "Human Resource Management",
+        "Agri-Entrepreneurship",
+        "Business Communication"
+      ],
+      "careerOptions": [
+        "Agri-Business Manager",
+        "Supply Chain Analyst"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "National Institute of Agricultural Extension Management (MANAGE), Hyderabad",
+        "Indian Institute of Management, Ahmedabad (PGP-FABM)"
+      ],
+      "jobRoles": [
+        "Agri-Business Manager",
+        "Product Manager",
+        "Sales Executive"
+      ],
+      "examId": [
+        "CAT",
+        "ICAR_AIEEA_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "ITC Limited",
+          "Godrej Agrovet",
+          "Mahindra Agribusiness"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "FORESTRY",
+      "branchName": "Forestry",
+      "description": "Forestry focuses on the management, conservation, and sustainable development of forests and natural resources. Graduates work in forest management, wildlife conservation, and environmental consultancy.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Forest Ecology",
+        "Silviculture",
+        "Forest Management",
+        "Wildlife Management",
+        "Forest Policy and Law",
+        "Forest Mensuration",
+        "Agroforestry",
+        "Forest Protection"
+      ],
+      "careerOptions": [
+        "Forest Officer",
+        "Wildlife Conservationist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Forest Research Institute, Dehradun",
+        "College of Forestry, Kerala Agricultural University"
+      ],
+      "jobRoles": [
+        "Forest Range Officer",
+        "Forest Manager",
+        "Environmental Consultant"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ICAR_AIEEA_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Forest Department",
+          "WWF India",
+          "Tata Steel (Environment Division)"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ANIMAL_HUSBANDRY",
+      "branchName": "Animal Husbandry",
+      "description": "Animal Husbandry covers breeding, care, and management of livestock for food, fiber, and other products. It prepares students for roles in veterinary services, dairy, poultry, and livestock management.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Livestock Production Management",
+        "Animal Nutrition",
+        "Animal Genetics and Breeding",
+        "Veterinary Science",
+        "Dairy Science",
+        "Poultry Science",
+        "Animal Health",
+        "Animal Reproduction"
+      ],
+      "careerOptions": [
+        "Livestock Development Officer",
+        "Dairy Farm Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "National Dairy Research Institute, Karnal",
+        "Indian Veterinary Research Institute, Bareilly"
+      ],
+      "jobRoles": [
+        "Animal Husbandry Officer",
+        "Veterinary Assistant",
+        "Dairy Technologist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ICAR_AIEEA_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Amul",
+          "Mother Dairy",
+          "State Livestock Departments"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "DAIRY_SCIENCE",
+      "branchName": "Dairy Science",
+      "description": "Dairy Science focuses on the study of milk production, processing, and distribution, along with animal husbandry, dairy technology, and quality control. The branch prepares students for roles in the dairy industry, research, and allied sectors, addressing the growing demand for skilled professionals in India's expanding dairy sector.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Dairy Technology",
+        "Milk Production Management",
+        "Dairy Microbiology",
+        "Animal Nutrition",
+        "Dairy Engineering",
+        "Dairy Chemistry",
+        "Livestock Production Management",
+        "Dairy Business Management"
+      ],
+      "careerOptions": [
+        "Dairy Technologist",
+        "Quality Control Officer",
+        "Dairy Plant Manager",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "ICAR - National Dairy Research Institute, Karnal",
+        "College of Food and Dairy Technology, Chennai"
+      ],
+      "jobRoles": [
+        "Dairy Technologist",
+        "Quality Assurance Manager",
+        "Production Supervisor"
+      ],
+      "examId": [
+        "CUET_UG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Amul",
+          "Mother Dairy",
+          "Nestle India"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

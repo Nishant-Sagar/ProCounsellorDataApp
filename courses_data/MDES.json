@@ -1,0 +1,444 @@
+{
+  "courseId": "MDES",
+  "courseName": "Mdes",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to M.Des courses in India typically requires candidates to hold a relevant undergraduate degree (such as B.Des, B.Arch, BFA, or B.Tech) and qualify in national-level entrance exams like CEED, NID DAT, or NIFT Entrance. Shortlisted candidates may also undergo portfolio reviews, interviews, and studio tests as part of the selection process.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What is the eligibility for M.Des in India?",
+      "answer": "Candidates must have a bachelor's degree in design, architecture, engineering, or a related field from a recognized university and qualify in entrance exams such as CEED, NID DAT, or NIFT Entrance."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "PRODUCT_DESIGN",
+      "branchName": "Product Design",
+      "description": "Product Design focuses on the creation and development of new products, combining aesthetics, functionality, and user experience. The scope includes consumer goods, electronics, furniture, and innovative solutions for daily life.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Design Thinking",
+        "Materials and Manufacturing Processes",
+        "Ergonomics",
+        "Product Development",
+        "CAD and 3D Modeling",
+        "Prototyping",
+        "User Research"
+      ],
+      "careerOptions": [
+        "Product Designer",
+        "Design Consultant"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (IIT) Bombay",
+        "National Institute of Design (NID) Ahmedabad"
+      ],
+      "jobRoles": [
+        "Product Designer",
+        "Industrial Designer",
+        "Design Researcher"
+      ],
+      "examId": [
+        "CEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Tata Elxsi",
+          "Philips",
+          "Godrej"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INDUSTRIAL_DESIGN",
+      "branchName": "Industrial Design",
+      "description": "Industrial Design deals with designing products, systems, and services for mass production, focusing on usability, aesthetics, and manufacturability. The field spans automotive, appliances, tools, and public infrastructure.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Industrial Design Methods",
+        "Design for Manufacturing",
+        "Human Factors",
+        "Sustainable Design",
+        "Visual Communication",
+        "Materials and Processes"
+      ],
+      "careerOptions": [
+        "Industrial Designer",
+        "Design Manager"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (IIT) Guwahati",
+        "National Institute of Design (NID) Bengaluru"
+      ],
+      "jobRoles": [
+        "Industrial Designer",
+        "Product Manager",
+        "Design Strategist"
+      ],
+      "examId": [
+        "CEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Siemens",
+          "Whirlpool",
+          "Tata Motors"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "UI/UX_DESIGN",
+      "branchName": "UI/UX Design",
+      "description": "UI/UX Design focuses on crafting user interfaces and experiences for digital products such as websites, apps, and software. The field emphasizes usability, accessibility, and visual appeal to enhance user satisfaction.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "User Experience Design",
+        "User Interface Design",
+        "Interaction Design",
+        "Information Architecture",
+        "Usability Testing",
+        "Visual Design"
+      ],
+      "careerOptions": [
+        "UI/UX Designer",
+        "Interaction Designer"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (IIT) Hyderabad",
+        "National Institute of Design (NID) Gandhinagar"
+      ],
+      "jobRoles": [
+        "UI Designer",
+        "UX Researcher",
+        "Product Designer"
+      ],
+      "examId": [
+        "CEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹25 LPA",
+        "companies": [
+          "Microsoft",
+          "Infosys",
+          "Flipkart"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INTERACTION_DESIGN",
+      "branchName": "Interaction Design",
+      "description": "Interaction Design is centered on designing interactive digital products, environments, and systems. It covers user flows, prototyping, and the behavioral aspects of how users engage with technology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Interaction Design Principles",
+        "Human-Computer Interaction",
+        "Prototyping and Wireframing",
+        "Cognitive Psychology",
+        "Usability Engineering",
+        "Design Research"
+      ],
+      "careerOptions": [
+        "Interaction Designer",
+        "UX Architect"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "National Institute of Design (NID) Bengaluru",
+        "Indian Institute of Technology (IIT) Bombay"
+      ],
+      "jobRoles": [
+        "Interaction Designer",
+        "UX Designer",
+        "Design Researcher"
+      ],
+      "examId": [
+        "CEED",
+        "NID_DAT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹22 LPA",
+        "companies": [
+          "Google",
+          "TCS",
+          "Cognizant"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "TEXTILE_AND_APPAREL_DESIGN",
+      "branchName": "Textile and Apparel Design",
+      "description": "Textile and Apparel Design covers the creation of fabrics, patterns, and garments, blending creativity with technical knowledge. The scope includes fashion, home furnishings, and industrial textiles.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Textile Science",
+        "Apparel Manufacturing",
+        "Fashion Illustration",
+        "Surface Ornamentation",
+        "Textile Testing",
+        "Pattern Making"
+      ],
+      "careerOptions": [
+        "Textile Designer",
+        "Apparel Designer"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "National Institute of Fashion Technology (NIFT) Delhi",
+        "National Institute of Fashion Technology (NIFT) Bengaluru"
+      ],
+      "jobRoles": [
+        "Textile Designer",
+        "Fashion Designer",
+        "Apparel Merchandiser"
+      ],
+      "examId": [
+        "NIFT_ENTRANCE",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Raymond",
+          "Fabindia",
+          "Aditya Birla Fashion"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "TRANSPORTATION_DESIGN",
+      "branchName": "Transportation Design",
+      "description": "Transportation Design focuses on the conceptualization, design, and development of vehicles and mobility systems, including cars, public transport, and emerging mobility solutions. The branch prepares students for roles in automotive, aerospace, and mobility innovation sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Automotive Design",
+        "Vehicle Packaging and Ergonomics",
+        "3D Modelling and Visualization",
+        "Sustainable Mobility",
+        "Design Research",
+        "Transportation Systems",
+        "Materials and Manufacturing Processes"
+      ],
+      "careerOptions": [
+        "Automotive Designer",
+        "Mobility Solutions Specialist"
+      ],
+      "averageFeesRange": "₹2–4.5 LPA",
+      "popularColleges": [
+        "National Institute of Design, Ahmedabad",
+        "IIT Bombay (IDC School of Design)"
+      ],
+      "jobRoles": [
+        "Transportation Designer",
+        "Vehicle Interior Designer",
+        "Concept Artist"
+      ],
+      "examId": [
+        "CEED",
+        "NID_D_AT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Tata Motors",
+          "Mahindra & Mahindra",
+          "Maruti Suzuki"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nid.edu/academics/transportation-design"
+    },
+    {
+      "branchId": "FASHION_DESIGN",
+      "branchName": "Fashion Design",
+      "description": "Fashion Design covers the creation of apparel, accessories, and lifestyle products, blending creativity with technical skills. The branch equips students for the fashion industry, including design, merchandising, and entrepreneurship.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Apparel Design",
+        "Textile Science",
+        "Fashion Illustration",
+        "Pattern Making and Garment Construction",
+        "Fashion Marketing",
+        "History of Costume",
+        "Surface Ornamentation"
+      ],
+      "careerOptions": [
+        "Fashion Designer",
+        "Fashion Entrepreneur"
+      ],
+      "averageFeesRange": "₹2–5 LPA",
+      "popularColleges": [
+        "National Institute of Fashion Technology (NIFT), Delhi",
+        "National Institute of Design, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Apparel Designer",
+        "Fashion Consultant",
+        "Textile Designer"
+      ],
+      "examId": [
+        "NID_D_AT",
+        "NIFT_MDES"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Aditya Birla Fashion",
+          "Raymond",
+          "Fabindia"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nift.ac.in/sites/default/files/inline-files/M.Des%20Brochure.pdf"
+    },
+    {
+      "branchId": "INTERIOR_DESIGN",
+      "branchName": "Interior Design",
+      "description": "Interior Design focuses on the planning, design, and execution of interior spaces in residential, commercial, and public environments. The branch emphasizes aesthetics, functionality, sustainability, and user experience.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Interior Space Planning",
+        "Furniture Design",
+        "Lighting Design",
+        "Materials and Finishes",
+        "Building Services",
+        "Sustainable Design",
+        "CAD and 3D Visualization"
+      ],
+      "careerOptions": [
+        "Interior Designer",
+        "Space Planner"
+      ],
+      "averageFeesRange": "₹1.5–4 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "Pearl Academy, Delhi"
+      ],
+      "jobRoles": [
+        "Interior Designer",
+        "Exhibition Designer",
+        "Set Designer"
+      ],
+      "examId": [
+        "CEED",
+        "NID_D_AT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Livspace",
+          "Godrej Interio",
+          "Morphogenesis"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programmes/postgraduate/master-of-interior-architecture-and-design"
+    },
+    {
+      "branchId": "VISUAL_COMMUNICATION",
+      "branchName": "Visual Communication",
+      "description": "Visual Communication deals with conveying ideas and information through visual media, including graphic design, typography, illustration, and digital media. The branch prepares students for creative roles in media, advertising, and digital content industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Graphic Design",
+        "Typography",
+        "Photography",
+        "Digital Media Design",
+        "Information Design",
+        "Motion Graphics",
+        "Design Research"
+      ],
+      "careerOptions": [
+        "Graphic Designer",
+        "Art Director"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Bombay (IDC School of Design)",
+        "National Institute of Design, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Visual Communication Designer",
+        "UI/UX Designer",
+        "Brand Identity Designer"
+      ],
+      "examId": [
+        "CEED",
+        "NID_D_AT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹14 LPA",
+        "companies": [
+          "Wipro Digital",
+          "TCS",
+          "Cognizant"
+        ]
+      },
+      "branchBrochureUrl": "https://www.idc.iitb.ac.in/academics/mdes-visual-communication"
+    },
+    {
+      "branchId": "ANIMATION_AND_MULTIMEDIA_DESIGN",
+      "branchName": "Animation and Multimedia Design",
+      "description": "Animation and Multimedia Design focuses on creating animated content, visual effects, and interactive media for entertainment, education, and advertising. The branch covers both traditional and digital animation techniques.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "2D and 3D Animation",
+        "Storyboarding",
+        "Visual Effects (VFX)",
+        "Multimedia Production",
+        "Digital Sculpting",
+        "Sound Design",
+        "Interactive Media"
+      ],
+      "careerOptions": [
+        "Animator",
+        "Multimedia Designer"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "National Institute of Design, Ahmedabad",
+        "MIT Institute of Design, Pune"
+      ],
+      "jobRoles": [
+        "Animator",
+        "VFX Artist",
+        "Multimedia Specialist"
+      ],
+      "examId": [
+        "CEED",
+        "NID_D_AT"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹13 LPA",
+        "companies": [
+          "Technicolor",
+          "Prime Focus",
+          "Toonz Animation"
+        ]
+      },
+      "branchBrochureUrl": "https://www.nid.edu/academics/animation-film-design"
+    }
+  ]
+}

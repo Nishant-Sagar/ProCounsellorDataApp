@@ -1,0 +1,497 @@
+{
+  "courseId": "HEALTH_SCIENCE",
+  "courseName": "Health Science",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to postgraduate health science courses in India typically requires a relevant undergraduate degree (such as BPT, B.Sc Nursing, MBBS, or equivalent) from a recognized university. Candidates must qualify for national or university-level entrance exams like CUET PG, INI CET, TISSNET, or institute-specific tests. Selection is based on entrance exam scores, academic performance, and sometimes personal interviews or counseling rounds.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the career prospects after completing a postgraduate degree in Health Science?",
+      "answer": "Postgraduates in Health Science can pursue careers in clinical practice, hospital administration, public health organizations, research, teaching, and consultancy roles in both government and private sectors."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "MPT_PHYSIOTHERAPY",
+      "branchName": "MPT (Physiotherapy)",
+      "description": "Master of Physiotherapy (MPT) focuses on advanced techniques in physical therapy, rehabilitation, and movement sciences. Graduates are equipped to assess, diagnose, and treat physical disabilities, injuries, and disorders, working in hospitals, clinics, sports centers, and rehabilitation facilities.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Physiotherapy Techniques",
+        "Musculoskeletal Physiotherapy",
+        "Neurological Physiotherapy",
+        "Cardiopulmonary Physiotherapy",
+        "Research Methodology",
+        "Electrotherapy",
+        "Exercise Therapy",
+        "Biomechanics"
+      ],
+      "careerOptions": [
+        "Clinical Physiotherapist",
+        "Academic/Researcher"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Manipal College of Health Professions, Manipal",
+        "Christian Medical College (CMC), Vellore"
+      ],
+      "jobRoles": [
+        "Physiotherapist",
+        "Rehabilitation Specialist",
+        "Sports Physiotherapist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MOT_OCCUPATIONAL_THERAPY",
+      "branchName": "MOT (Occupational Therapy)",
+      "description": "Master of Occupational Therapy (MOT) trains students to help individuals achieve independence in daily living and work tasks. The program covers therapeutic techniques for physical, mental, and developmental conditions, preparing graduates for roles in hospitals, rehabilitation centers, and community health.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Occupational Therapy in Physical Dysfunction",
+        "Mental Health Occupational Therapy",
+        "Pediatric Occupational Therapy",
+        "Assistive Technology",
+        "Research Methods",
+        "Rehabilitation Sciences",
+        "Biomechanics",
+        "Community-Based Rehabilitation"
+      ],
+      "careerOptions": [
+        "Occupational Therapist",
+        "Rehabilitation Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "All India Institute of Physical Medicine and Rehabilitation, Mumbai",
+        "SRM Institute of Science and Technology, Chennai"
+      ],
+      "jobRoles": [
+        "Occupational Therapist",
+        "Rehabilitation Specialist",
+        "Clinical Instructor"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹7 LPA",
+        "companies": [
+          "AIIMS",
+          "Apollo Hospitals",
+          "Rehabilitation Centers"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_NURSING",
+      "branchName": "M.Sc Nursing",
+      "description": "M.Sc Nursing is a postgraduate program that prepares nurses for advanced practice, leadership, and research roles. The curriculum covers specialized nursing fields, clinical practice, and healthcare management, enabling graduates to work in hospitals, academics, and public health organizations.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Nursing Practice",
+        "Nursing Research and Statistics",
+        "Medical-Surgical Nursing",
+        "Pediatric Nursing",
+        "Obstetric and Gynecological Nursing",
+        "Community Health Nursing",
+        "Nursing Management",
+        "Psychiatric Nursing"
+      ],
+      "careerOptions": [
+        "Nurse Educator",
+        "Clinical Nurse Specialist"
+      ],
+      "averageFeesRange": "₹1.2–2.5 LPA",
+      "popularColleges": [
+        "AIIMS Delhi",
+        "PGIMER Chandigarh"
+      ],
+      "jobRoles": [
+        "Nurse Practitioner",
+        "Nursing Tutor",
+        "Nursing Superintendent"
+      ],
+      "examId": [
+        "INI_CET",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "AIIMS",
+          "Fortis Healthcare",
+          "Apollo Hospitals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MPH_PUBLIC_HEALTH",
+      "branchName": "MPH (Public Health)",
+      "description": "Master of Public Health (MPH) focuses on public health policy, epidemiology, biostatistics, and health program management. Graduates work in government agencies, NGOs, research organizations, and international health bodies to improve population health outcomes.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Epidemiology",
+        "Biostatistics",
+        "Health Policy and Management",
+        "Environmental Health",
+        "Social and Behavioral Sciences",
+        "Public Health Nutrition",
+        "Health Economics",
+        "Research Methods"
+      ],
+      "careerOptions": [
+        "Public Health Specialist",
+        "Epidemiologist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Tata Institute of Social Sciences (TISS), Mumbai",
+        "JIPMER, Puducherry"
+      ],
+      "jobRoles": [
+        "Public Health Consultant",
+        "Epidemiologist",
+        "Health Program Manager"
+      ],
+      "examId": [
+        "TISSNET",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "WHO",
+          "UNICEF",
+          "Ministry of Health and Family Welfare"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MHA_HOSPITAL_ADMINISTRATION",
+      "branchName": "MHA (Hospital Administration)",
+      "description": "Master of Hospital Administration (MHA) prepares students for leadership and management roles in healthcare institutions. The program covers hospital operations, healthcare laws, quality management, and health informatics, enabling graduates to manage hospitals, clinics, and health systems.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Hospital Operations Management",
+        "Healthcare Quality Management",
+        "Health Economics",
+        "Healthcare Laws and Ethics",
+        "Health Information Systems",
+        "Financial Management in Healthcare",
+        "Strategic Management",
+        "Human Resource Management"
+      ],
+      "careerOptions": [
+        "Hospital Administrator",
+        "Healthcare Manager"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "AIIMS Delhi",
+        "Armed Forces Medical College (AFMC), Pune"
+      ],
+      "jobRoles": [
+        "Hospital Administrator",
+        "Operations Manager",
+        "Quality Manager"
+      ],
+      "examId": [
+        "INI_CET",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_CLINICAL_PSYCHOLOGY",
+      "branchName": "M.Sc Clinical Psychology",
+      "description": "M.Sc Clinical Psychology focuses on the assessment, diagnosis, and treatment of mental health disorders. The program trains students in psychological testing, counseling, and therapeutic interventions, preparing them for roles in hospitals, clinics, and research settings.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Psychopathology",
+        "Psychological Assessment",
+        "Cognitive Behavior Therapy",
+        "Neuropsychology",
+        "Research Methodology",
+        "Counseling Techniques",
+        "Developmental Psychology"
+      ],
+      "careerOptions": [
+        "Clinical Psychologist",
+        "Mental Health Counselor"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru",
+        "Amity University, Noida"
+      ],
+      "jobRoles": [
+        "Clinical Psychologist",
+        "Rehabilitation Counselor",
+        "Research Associate"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "NIMHANS",
+          "Fortis Healthcare",
+          "Apollo Hospitals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_RADIOLOGY",
+      "branchName": "M.Sc Radiology",
+      "description": "M.Sc Radiology trains students in advanced imaging techniques such as X-ray, MRI, CT, and ultrasound. Graduates become experts in diagnostic imaging, playing a crucial role in disease detection and management in hospitals and diagnostic centers.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Radiographic Techniques",
+        "Medical Imaging Physics",
+        "Radiation Safety",
+        "Ultrasound Technology",
+        "CT and MRI Imaging",
+        "Anatomy and Physiology",
+        "Interventional Radiology"
+      ],
+      "careerOptions": [
+        "Radiology Technologist",
+        "Imaging Specialist"
+      ],
+      "averageFeesRange": "₹1.8–3.5 LPA",
+      "popularColleges": [
+        "Christian Medical College (CMC), Vellore",
+        "Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh"
+      ],
+      "jobRoles": [
+        "Radiology Technologist",
+        "MRI/CT Technician",
+        "Application Specialist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Apollo Hospitals",
+          "Max Healthcare",
+          "Siemens Healthineers"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_ANESTHESIA_TECHNOLOGY",
+      "branchName": "M.Sc Anesthesia Technology",
+      "description": "M.Sc Anesthesia Technology prepares students to assist anesthesiologists during surgeries and critical care. The curriculum covers anesthesia equipment, pharmacology, and patient monitoring, enabling graduates to work in operation theaters and intensive care units.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Anesthesia Technology",
+        "Pharmacology",
+        "Operation Theater Techniques",
+        "Critical Care Medicine",
+        "Patient Monitoring",
+        "Medical Ethics",
+        "Emergency Procedures"
+      ],
+      "careerOptions": [
+        "Anesthesia Technologist",
+        "Operation Theater Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "JIPMER, Puducherry",
+        "Manipal Academy of Higher Education, Manipal"
+      ],
+      "jobRoles": [
+        "Anesthesia Technologist",
+        "Operation Theater Technician",
+        "Critical Care Technologist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹7.5 LPA",
+        "companies": [
+          "Fortis Healthcare",
+          "Apollo Hospitals",
+          "Medanta"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_MEDICAL_LAB_TECHNOLOGY",
+      "branchName": "M.Sc Medical Lab Technology",
+      "description": "M.Sc Medical Lab Technology focuses on advanced laboratory diagnostic techniques. Students learn about clinical biochemistry, microbiology, hematology, and molecular diagnostics, preparing them for roles in hospitals, diagnostic labs, and research institutions.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Clinical Biochemistry",
+        "Medical Microbiology",
+        "Hematology",
+        "Immunology",
+        "Molecular Diagnostics",
+        "Clinical Pathology",
+        "Laboratory Management"
+      ],
+      "careerOptions": [
+        "Lab Manager",
+        "Clinical Laboratory Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "AIIMS, New Delhi",
+        "Banaras Hindu University (BHU), Varanasi"
+      ],
+      "jobRoles": [
+        "Medical Lab Technologist",
+        "Lab Manager",
+        "Quality Control Analyst"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Dr. Lal PathLabs",
+          "SRL Diagnostics",
+          "Apollo Hospitals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_OPTOMETRY",
+      "branchName": "M.Sc Optometry",
+      "description": "M.Sc Optometry is designed to train professionals in vision science, eye care, and optical technology. Graduates are equipped to diagnose and manage visual disorders, prescribe corrective lenses, and provide pre- and post-operative eye care.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Ocular Anatomy and Physiology",
+        "Clinical Optometry",
+        "Optometric Instruments",
+        "Contact Lens Practice",
+        "Low Vision Aids",
+        "Visual Optics",
+        "Binocular Vision and Orthoptics"
+      ],
+      "careerOptions": [
+        "Optometrist",
+        "Vision Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Elite School of Optometry, Chennai",
+        "Manipal College of Health Professions, Manipal"
+      ],
+      "jobRoles": [
+        "Optometrist",
+        "Vision Therapist",
+        "Clinical Researcher"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹7.5 LPA",
+        "companies": [
+          "L V Prasad Eye Institute",
+          "Dr. Agarwal's Eye Hospital",
+          "Titan Eyeplus"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "M_SC_NEUROSCIENCE",
+      "branchName": "M.Sc Neuroscience",
+      "description": "M.Sc Neuroscience is a postgraduate program focused on the scientific study of the nervous system, including its structure, function, development, genetics, physiology, pharmacology, and pathology. The course prepares students for research, clinical, and academic careers in neuroscience, neurobiology, and allied health sciences. Graduates contribute to advancements in brain research, neurological disease management, and neurotechnology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Neuroanatomy",
+        "Neurophysiology",
+        "Molecular and Cellular Neuroscience",
+        "Neuropharmacology",
+        "Neurogenetics",
+        "Cognitive Neuroscience",
+        "Neuroimmunology",
+        "Neurochemistry"
+      ],
+      "careerOptions": [
+        "Neuroscience Researcher",
+        "Clinical Neurophysiologist"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru",
+        "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry"
+      ],
+      "jobRoles": [
+        "Research Scientist",
+        "Neurobiologist",
+        "Academic Lecturer"
+      ],
+      "examId": [
+        "INI_CET",
+        "JIPMER_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5–7 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "NIMHANS",
+          "AIIMS",
+          "Dr. Reddy's Laboratories"
+        ]
+      },
+      "branchBrochureUrl": "https://nimhans.ac.in/academics/"
+    }
+  ]
+}

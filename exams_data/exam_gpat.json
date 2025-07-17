@@ -1,0 +1,54 @@
+{
+  "examId": "GPAT",
+  "examName": "Graduate Pharmacy Aptitude Test",
+  "fullForm": "Graduate Pharmacy Aptitude Test",
+  "examLevel": "Postgraduate",
+  "examType": "National Level Entrance Exam",
+  "mode": [
+    "Computer Based Test"
+  ],
+  "conductingBody": "National Board of Examinations in Medical Sciences (NBEMS) on behalf of Pharmacy Council of India (PCI)",
+  "officialWebsite": "https://natboard.edu.in",
+  "applicationFees": {
+    "general": "2200",
+    "obc": "2200",
+    "sc_st": "1100"
+  },
+  "eligibility": "Bachelor’s degree in Pharmacy (4 years after 10+2, including lateral entry candidates). Final year students of B.Pharm are also eligible. B.Tech (Pharmaceutical and Fine Chemical Technology) or equivalent is NOT eligible.",
+  "subjectsTested": [
+    "Pharmaceutical Chemistry",
+    "Pharmaceutics",
+    "Pharmacology",
+    "Pharmacognosy",
+    "Other Pharmacy Subjects"
+  ],
+  "maxMarks": "500",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Pharmaceutical Chemistry": "NA",
+    "Pharmaceutics": "NA",
+    "Pharmacology": "NA",
+    "Pharmacognosy": "NA",
+    "Other Pharmacy Subjects": "NA"
+  },
+  "negativeMarking": "Yes (-1 for each incorrect answer, +4 for each correct answer)",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "M.Pharm",
+    "Equivalent Postgraduate Pharmacy Courses"
+  ],
+  "examSyllabusPdfUrl": "https://natboard.edu.in/viewnbeexam?exam=GPAT",
+  "previousYearCutoffs": {
+    "general": "96.18 percentile (2024)",
+    "obc": "90.57 percentile (2024)",
+    "sc": "80.56 percentile (2024)",
+    "st": "74.57 percentile (2024)"
+  },
+  "examBrochureUrl": "https://natboard.edu.in/viewnbeexam?exam=GPAT",
+  "faqs": {
+    "question": "What is the marking scheme for GPAT?",
+    "answer": "Each correct answer is awarded 4 marks. For every incorrect answer, 1 mark is deducted. No marks are deducted for unattempted questions."
+  },
+  "created": "2025-07-13T07:47:40.890165+00:00",
+  "updated": "2025-07-13T07:47:40.890252+00:00"
+}

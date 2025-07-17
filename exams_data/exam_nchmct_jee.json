@@ -1,0 +1,53 @@
+{
+  "examId": "NCHMCT_JEE",
+  "examName": "NCHM JEE",
+  "fullForm": "National Council for Hotel Management Joint Entrance Examination",
+  "examLevel": "National Level Exam",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Online"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://nchm.nta.nic.in",
+  "applicationFees": {
+    "general": "1000",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Passed 10+2 system of Senior Secondary examination or its equivalent with English as one of the subjects. Candidates must have passed English as a subject of study (core/elective/functional) in the qualifying examination. Those appearing in 10+2 or equivalent examination can also appear on a provisional basis.",
+  "subjectsTested": [
+    "Numerical Ability and Analytical Aptitude",
+    "Reasoning and Logical Deduction",
+    "General Knowledge & Current Affairs",
+    "English Language",
+    "Aptitude for Service Sector"
+  ],
+  "maxMarks": "200",
+  "duration": "3 Hours",
+  "marksPerSubject": {
+    "Numerical Ability and Analytical Aptitude": "40",
+    "Reasoning and Logical Deduction": "40",
+    "General Knowledge & Current Affairs": "40",
+    "English Language": "60",
+    "Aptitude for Service Sector": "20"
+  },
+  "negativeMarking": "1 mark will be deducted for each incorrect answer except for the Aptitude for Service Sector section, where graded marking is used.",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Sc. (Hospitality & Hotel Administration)"
+  ],
+  "examSyllabusPdfUrl": "https://nchm.nta.nic.in/images/NCHMJEE2024Syllabus.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://nchm.nta.nic.in/images/NCHMJEE2024InformationBulletin.pdf",
+  "faqs": {
+    "question": "Who is eligible to apply for NCHMCT JEE?",
+    "answer": "Candidates who have passed 10+2 or equivalent examination with English as one of the subjects are eligible to apply. Those appearing in the qualifying examination can also apply on a provisional basis."
+  },
+  "created": "2025-07-13T07:48:18.608636+00:00",
+  "updated": "2025-07-13T07:48:18.608702+00:00"
+}

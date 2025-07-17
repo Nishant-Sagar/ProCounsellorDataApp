@@ -1,0 +1,44 @@
+{
+  "examId": "BHU_PET",
+  "examName": "BHU PET",
+  "fullForm": "Banaras Hindu University Postgraduate Entrance Test",
+  "examLevel": "University-level",
+  "examType": "Postgraduate Entrance Exam",
+  "mode": [
+    "Online",
+    "Offline"
+  ],
+  "conductingBody": "Banaras Hindu University (Previously); Now conducted by National Testing Agency (NTA) under CUET PG",
+  "officialWebsite": "https://bhuonline.in",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Bachelor’s degree in the relevant discipline from a recognized university. Specific eligibility criteria may vary by course. Candidates should check the official notification for detailed requirements.",
+  "subjectsTested": [
+    "NA"
+  ],
+  "maxMarks": "NA",
+  "duration": "2 hours",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "Postgraduate (PG) degree courses at Banaras Hindu University"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://bhuonline.in/pdfs22/PET%20Information%20Bulletin%202022.pdf",
+  "faqs": {
+    "question": "Is BHU PET still conducted as a separate exam?",
+    "answer": "No, from 2022 onwards, BHU PET has been merged with the CUET PG (Common University Entrance Test for Postgraduate), conducted by the National Testing Agency (NTA) for admission to postgraduate courses at BHU and other central universities."
+  },
+  "created": "2025-07-13T07:51:54.433667+00:00",
+  "updated": "2025-07-13T07:51:54.433680+00:00"
+}

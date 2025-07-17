@@ -1,0 +1,60 @@
+{
+  "examId": "IIT_JAM",
+  "examName": "IIT JAM",
+  "fullForm": "Indian Institute of Technology Joint Admission Test for MSc",
+  "examLevel": "Postgraduate",
+  "examType": "National Level Entrance Exam",
+  "mode": [
+    "Computer Based Test"
+  ],
+  "conductingBody": "IIT Delhi (for 2025)",
+  "officialWebsite": "https://jam.iitm.ac.in",
+  "applicationFees": {
+    "general": "₹1900 (one test paper), ₹2600 (two test papers)",
+    "obc": "₹1900 (one test paper), ₹2600 (two test papers)",
+    "sc_st": "₹950 (one test paper), ₹1300 (two test papers)"
+  },
+  "eligibility": "Candidates must have a bachelor’s degree with at least 55% aggregate marks (50% for SC/ST/PwD) from a recognized university. There is no age limit.",
+  "subjectsTested": [
+    "Biotechnology",
+    "Chemistry",
+    "Economics",
+    "Geology",
+    "Mathematics",
+    "Mathematical Statistics",
+    "Physics"
+  ],
+  "maxMarks": "100",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Biotechnology": "100",
+    "Chemistry": "100",
+    "Economics": "100",
+    "Geology": "100",
+    "Mathematics": "100",
+    "Mathematical Statistics": "100",
+    "Physics": "100"
+  },
+  "negativeMarking": "Section A (MCQ): -1/3 for 1-mark questions, -2/3 for 2-mark questions; No negative marking in Section B (MSQ) and Section C (NAT)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "MSc",
+    "Joint MSc-PhD",
+    "MSc-PhD Dual Degree",
+    "Integrated PhD"
+  ],
+  "examSyllabusPdfUrl": "https://jam.iitm.ac.in/doc/JAM2024_Syllabi.pdf",
+  "previousYearCutoffs": {
+    "general": "Mathematics: 22.56, Physics: 17.91, Chemistry: 21.96 (2024)",
+    "obc": "Mathematics: 20.30, Physics: 16.12, Chemistry: 19.76 (2024)",
+    "sc": "Mathematics: 11.28, Physics: 8.96, Chemistry: 10.98 (2024)",
+    "st": "Mathematics: 11.28, Physics: 8.96, Chemistry: 10.98 (2024)"
+  },
+  "examBrochureUrl": "https://jam.iitm.ac.in/doc/JAM2024_Brochure.pdf",
+  "faqs": {
+    "question": "What is the purpose of IIT JAM?",
+    "answer": "IIT JAM is conducted for admission to MSc, Joint MSc-PhD, MSc-PhD Dual Degree, and other postgraduate science programs at IITs, IISc, and participating institutes."
+  },
+  "created": "2025-07-13T07:52:51.084089+00:00",
+  "updated": "2025-07-13T07:52:51.084164+00:00"
+}

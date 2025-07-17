@@ -1,0 +1,70 @@
+{
+  "courseId": "PHARMACY",
+  "courseName": "Pharmacy",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to B.Pharm programs in India is typically based on entrance exams conducted at the national, state, or university level, such as CUET-UG, WBJEE, MHT-CET, or university-specific tests. Some institutes may also offer merit-based admissions based on Class 12th marks in science subjects (Physics, Chemistry, Biology/Mathematics). Candidates must have completed 10+2 with required subjects and meet minimum eligibility criteria set by the respective institutions.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the eligibility criteria for admission to B.Pharm in India?",
+      "answer": "Candidates must have completed 10+2 or equivalent examination with Physics, Chemistry, and Biology/Mathematics as compulsory subjects, and must have obtained a minimum aggregate percentage as specified by the respective college or entrance exam authority."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "B_PHARM_BACHELOR_OF_PHARMACY",
+      "branchName": "B.Pharm (Bachelor of Pharmacy)",
+      "description": "B.Pharm is a four-year undergraduate program that equips students with knowledge and skills in pharmaceutical sciences, drug formulation, pharmacology, and pharmacy practice. Graduates are prepared for roles in pharmaceutical industries, hospitals, research, and regulatory bodies. The course covers drug manufacturing, quality control, and patient care, offering a strong foundation for further studies or professional practice in pharmacy.",
+      "duration": "4 years",
+      "coreSubjects": [
+        "Pharmaceutical Chemistry",
+        "Pharmacology",
+        "Pharmaceutics",
+        "Pharmacognosy",
+        "Human Anatomy and Physiology",
+        "Biochemistry",
+        "Pharmaceutical Analysis",
+        "Hospital and Clinical Pharmacy",
+        "Medicinal Chemistry",
+        "Pharmaceutical Microbiology"
+      ],
+      "careerOptions": [
+        "Pharmacist",
+        "Drug Inspector",
+        "Pharmaceutical Research Associate",
+        "Quality Control Analyst"
+      ],
+      "averageFeesRange": "₹1.5–4 LPA",
+      "popularColleges": [
+        "Jamia Hamdard University, Delhi",
+        "NIPER Hyderabad",
+        "BITS Pilani",
+        "JSS College of Pharmacy, Ooty"
+      ],
+      "jobRoles": [
+        "Pharmacist",
+        "Production Executive",
+        "Quality Assurance Officer"
+      ],
+      "examId": [
+        "CUET_UG",
+        "WBJEE",
+        "MHT_CET",
+        "UPTU_SEE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Sun Pharma",
+          "Cipla",
+          "Dr. Reddy's Laboratories"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

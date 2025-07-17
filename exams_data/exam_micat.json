@@ -1,0 +1,56 @@
+{
+  "examId": "MICAT",
+  "examName": "MICAT",
+  "fullForm": "MICA Admission Test",
+  "examLevel": "University-level",
+  "examType": "Postgraduate Entrance Exam (MBA/PGDM)",
+  "mode": [
+    "Online (Computer-Based Test)"
+  ],
+  "conductingBody": "Mudra Institute of Communications, Ahmedabad (MICA)",
+  "officialWebsite": "https://www.mica.ac.in",
+  "applicationFees": {
+    "general": "2100",
+    "obc": "2100",
+    "sc_st": "2100"
+  },
+  "eligibility": "Candidates must have a bachelor's degree (10+2+3) or equivalent qualification in any discipline recognized by the Association of Indian Universities (AIU). Candidates must also have a valid CAT, XAT, or GMAT score.",
+  "subjectsTested": [
+    "Psychometric Test",
+    "Descriptive Test",
+    "Divergent and Convergent Thinking",
+    "Verbal Ability",
+    "Quantitative Ability",
+    "General Awareness"
+  ],
+  "maxMarks": "NA",
+  "duration": "2 hours 15 minutes",
+  "marksPerSubject": {
+    "Psychometric Test": "NA",
+    "Descriptive Test": "NA",
+    "Divergent and Convergent Thinking": "NA",
+    "Verbal Ability": "NA",
+    "Quantitative Ability": "NA",
+    "General Awareness": "NA"
+  },
+  "negativeMarking": "Yes (for objective sections only; 0.25 marks deducted for each incorrect answer in VA, QA, GA, DCT sections)",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "Post Graduate Diploma in Management-Communications (PGDM-C)",
+    "Post Graduate Diploma in Management (PGDM)"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.mica.ac.in/postgraduate-programme/pgdm-c",
+  "faqs": {
+    "question": "Is MICAT mandatory for admission to MICA's PGDM-C program?",
+    "answer": "Yes, MICAT is mandatory for admission to MICA's PGDM-C and PGDM programs. Candidates must also have a valid CAT, XAT, or GMAT score to be eligible."
+  },
+  "created": "2025-07-13T07:45:54.745638+00:00",
+  "updated": "2025-07-13T07:45:54.745670+00:00"
+}

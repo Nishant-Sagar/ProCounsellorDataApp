@@ -1,0 +1,453 @@
+{
+  "courseId": "MARCH",
+  "courseName": "Master of Architecture (M.Arch)",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to M.Arch and its specializations in India typically requires a recognized B.Arch degree with a minimum percentage (usually 50–55%). Candidates must qualify in entrance exams such as CEED or GATE (Architecture), followed by portfolio review and/or personal interview at the respective institution. Some institutes may also conduct their own entrance tests.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What is the eligibility for M.Arch specializations in India?",
+      "answer": "Candidates must have a B.Arch degree from a recognized university with at least 50–55% marks. Admission is usually based on entrance exams like CEED or GATE (Architecture), and may include a portfolio review and interview."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "URBAN_DESIGN",
+      "branchName": "Urban Design",
+      "description": "Urban Design focuses on the planning and design of urban spaces, integrating architecture, landscape, and city planning to create functional, sustainable, and aesthetically pleasing urban environments. Graduates work on city revitalization, public spaces, and urban policy projects.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Urban Design Theory",
+        "Urban Planning and Policy",
+        "Site Planning and Analysis",
+        "Urban Infrastructure",
+        "Sustainable Urbanism",
+        "Urban Renewal and Redevelopment",
+        "GIS and Mapping"
+      ],
+      "careerOptions": [
+        "Urban Designer",
+        "City Planner"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Delhi",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Urban Designer",
+        "Urban Planner",
+        "Urban Policy Consultant"
+      ],
+      "examId": [
+        "CEED",
+        "GATE_ARCH",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Atkins",
+          "AECOM",
+          "L&T Realty"
+        ]
+      },
+      "branchBrochureUrl": "https://spa.ac.in/Academics/UrbanDesign"
+    },
+    {
+      "branchId": "LANDSCAPE_ARCHITECTURE",
+      "branchName": "Landscape Architecture",
+      "description": "Landscape Architecture deals with the design, planning, and management of outdoor spaces, including parks, gardens, campuses, and ecological restoration projects. It combines environmental science, art, and technology to create sustainable and functional landscapes.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Landscape Design",
+        "Planting Design",
+        "Landscape Ecology",
+        "Site Engineering",
+        "Landscape Construction",
+        "Environmental Planning",
+        "History of Landscape Architecture"
+      ],
+      "careerOptions": [
+        "Landscape Architect",
+        "Environmental Planner"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Delhi",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Landscape Architect",
+        "Site Planner",
+        "Environmental Consultant"
+      ],
+      "examId": [
+        "CEED",
+        "GATE_ARCH",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Design Cell",
+          "Oikos Landscape",
+          "Atkins"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programs/postgraduate/master-of-landscape-architecture"
+    },
+    {
+      "branchId": "ENVIRONMENTAL_ARCHITECTURE",
+      "branchName": "Environmental Architecture",
+      "description": "Environmental Architecture emphasizes sustainable design principles, energy efficiency, and ecological responsibility in building and urban design. The branch prepares professionals to address climate change, resource management, and green building standards.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Sustainable Architecture",
+        "Environmental Impact Assessment",
+        "Green Building Technologies",
+        "Climate Responsive Design",
+        "Energy Efficient Building Systems",
+        "Building Performance Analysis",
+        "Environmental Policy"
+      ],
+      "careerOptions": [
+        "Sustainable Design Consultant",
+        "Environmental Architect"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "School of Planning and Architecture, Bhopal"
+      ],
+      "jobRoles": [
+        "Environmental Architect",
+        "Green Building Consultant",
+        "Sustainability Analyst"
+      ],
+      "examId": [
+        "CEED",
+        "GATE_ARCH",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹11 LPA",
+        "companies": [
+          "IGBC",
+          "TERI",
+          "AECOM"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programs/postgraduate/master-of-architecture-in-sustainable-design"
+    },
+    {
+      "branchId": "ARCHITECTURAL_CONSERVATION",
+      "branchName": "Architectural Conservation",
+      "description": "Architectural Conservation focuses on the preservation, restoration, and adaptive reuse of historic buildings and sites. The branch combines architectural knowledge with heritage management, history, and conservation science.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Conservation Theory",
+        "Heritage Documentation",
+        "Materials and Techniques in Conservation",
+        "Structural Assessment",
+        "Heritage Legislation",
+        "Adaptive Reuse",
+        "Conservation Management"
+      ],
+      "careerOptions": [
+        "Conservation Architect",
+        "Heritage Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Delhi",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Conservation Architect",
+        "Heritage Manager",
+        "Restoration Consultant"
+      ],
+      "examId": [
+        "CEED",
+        "GATE_ARCH",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "INTACH",
+          "ASI",
+          "Conservation Architects Pvt Ltd"
+        ]
+      },
+      "branchBrochureUrl": "https://spa.ac.in/Academics/ArchitecturalConservation"
+    },
+    {
+      "branchId": "INTERIOR_ARCHITECTURE",
+      "branchName": "Interior Architecture",
+      "description": "Interior Architecture blends architecture and interior design, focusing on the spatial, functional, and aesthetic aspects of building interiors. The branch covers adaptive reuse, ergonomics, lighting, and material selection for residential, commercial, and institutional spaces.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Interior Design Studio",
+        "Building Services",
+        "Materials and Finishes",
+        "Lighting Design",
+        "Ergonomics",
+        "Space Planning",
+        "Furniture Design"
+      ],
+      "careerOptions": [
+        "Interior Architect",
+        "Space Planner"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "JJ College of Architecture, Mumbai"
+      ],
+      "jobRoles": [
+        "Interior Architect",
+        "Interior Designer",
+        "Project Manager"
+      ],
+      "examId": [
+        "CEED",
+        "GATE_ARCH",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Livspace",
+          "Morphogenesis",
+          "Godrej Interio"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programs/postgraduate/master-of-interior-architecture-and-design"
+    },
+    {
+      "branchId": "SUSTAINABLE_ARCHITECTURE",
+      "branchName": "Sustainable Architecture",
+      "description": "Sustainable Architecture focuses on designing buildings and environments that minimize environmental impact, use resources efficiently, and promote ecological balance. The scope includes green building design, energy efficiency, and integration of renewable technologies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Sustainable Building Materials",
+        "Green Building Design",
+        "Energy Efficient Architecture",
+        "Environmental Impact Assessment",
+        "Climate Responsive Design",
+        "Renewable Energy Systems",
+        "Building Performance Simulation"
+      ],
+      "careerOptions": [
+        "Sustainable Design Consultant",
+        "Green Building Project Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Delhi",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Sustainability Architect",
+        "Green Building Consultant",
+        "Environmental Planner"
+      ],
+      "examId": [
+        "GATE_ARCH",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "AECOM",
+          "L&T Construction",
+          "Tata Consulting Engineers"
+        ]
+      },
+      "branchBrochureUrl": "https://spa.ac.in/academics/postgraduate-programmes/march-sustainable-architecture"
+    },
+    {
+      "branchId": "URBAN_AND_REGIONAL_PLANNING",
+      "branchName": "Urban and Regional Planning",
+      "description": "Urban and Regional Planning deals with the development and management of urban spaces and regions, focusing on land use, infrastructure, and sustainable growth. The scope covers city planning, policy formulation, and regional development strategies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Urban Development Policies",
+        "Regional Planning Techniques",
+        "Land Use Planning",
+        "Infrastructure Planning",
+        "Urban Economics",
+        "GIS and Remote Sensing",
+        "Transport Planning"
+      ],
+      "careerOptions": [
+        "Urban Planner",
+        "Regional Development Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Bhopal",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Urban Planner",
+        "Town Planning Officer",
+        "Policy Analyst"
+      ],
+      "examId": [
+        "GATE_ARCH",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹13 LPA",
+        "companies": [
+          "NIUA",
+          "CRISIL",
+          "Urban Local Bodies"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programmes/postgraduate/march-urban-and-regional-planning"
+    },
+    {
+      "branchId": "TRANSPORT_PLANNING",
+      "branchName": "Transport Planning",
+      "description": "Transport Planning focuses on designing and managing transportation systems for urban and regional areas. The field covers traffic engineering, public transport systems, and sustainable mobility solutions.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Traffic Engineering",
+        "Public Transport Systems",
+        "Transport Policy and Economics",
+        "Urban Mobility Planning",
+        "GIS for Transport",
+        "Sustainable Transport",
+        "Transport Modelling"
+      ],
+      "careerOptions": [
+        "Transport Planner",
+        "Traffic Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "School of Planning and Architecture, Delhi"
+      ],
+      "jobRoles": [
+        "Transport Planner",
+        "Traffic Analyst",
+        "Mobility Consultant"
+      ],
+      "examId": [
+        "GATE_ARCH",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.8 LPA",
+        "highestSalary2025": "₹11 LPA",
+        "companies": [
+          "UMTC",
+          "RITES Ltd.",
+          "AECOM"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programmes/postgraduate/march-transport-planning"
+    },
+    {
+      "branchId": "HOUSING",
+      "branchName": "Housing",
+      "description": "The Housing branch addresses the design, planning, and management of residential environments, focusing on affordable housing, policy, and sustainable community development.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Housing Policy and Finance",
+        "Affordable Housing Design",
+        "Community Development",
+        "Urban Housing Systems",
+        "Real Estate Management",
+        "Slum Upgradation",
+        "Sustainable Housing"
+      ],
+      "careerOptions": [
+        "Housing Policy Analyst",
+        "Real Estate Developer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "School of Planning and Architecture, Delhi",
+        "CEPT University, Ahmedabad"
+      ],
+      "jobRoles": [
+        "Housing Planner",
+        "Project Manager (Housing)",
+        "Policy Analyst"
+      ],
+      "examId": [
+        "GATE_ARCH",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.2 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "HUDCO",
+          "NBCC",
+          "Private Real Estate Firms"
+        ]
+      },
+      "branchBrochureUrl": "https://spa.ac.in/academics/postgraduate-programmes/march-housing"
+    },
+    {
+      "branchId": "ENVIRONMENTAL_PLANNING",
+      "branchName": "Environmental Planning",
+      "description": "Environmental Planning integrates ecological principles into urban and regional planning to ensure sustainable development. The scope includes environmental impact assessment, resource management, and policy formulation.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Environmental Impact Assessment",
+        "Ecological Planning",
+        "Resource Management",
+        "Environmental Laws and Policies",
+        "GIS for Environment",
+        "Sustainable Development",
+        "Climate Change Adaptation"
+      ],
+      "careerOptions": [
+        "Environmental Planner",
+        "Sustainability Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "CEPT University, Ahmedabad",
+        "School of Planning and Architecture, Bhopal"
+      ],
+      "jobRoles": [
+        "Environmental Planner",
+        "EIA Consultant",
+        "Sustainability Analyst"
+      ],
+      "examId": [
+        "GATE_ARCH",
+        "CEED"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.7 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "TERI",
+          "AECOM",
+          "Environmental NGOs"
+        ]
+      },
+      "branchBrochureUrl": "https://cept.ac.in/programmes/postgraduate/march-environmental-planning"
+    }
+  ]
+}

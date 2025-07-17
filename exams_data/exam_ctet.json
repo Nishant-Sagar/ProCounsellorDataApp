@@ -1,0 +1,57 @@
+{
+  "examId": "CTET",
+  "examName": "Central Teacher Eligibility Test",
+  "fullForm": "Central Teacher Eligibility Test",
+  "examLevel": "National",
+  "examType": "Eligibility Test",
+  "mode": [
+    "Offline (Pen and Paper/OMR-based)"
+  ],
+  "conductingBody": "Central Board of Secondary Education (CBSE)",
+  "officialWebsite": "https://ctet.nic.in",
+  "applicationFees": {
+    "general": "Single Paper: ₹1000, Both Papers: ₹1200",
+    "obc": "Single Paper: ₹1000, Both Papers: ₹1200",
+    "sc_st": "Single Paper: ₹500, Both Papers: ₹600"
+  },
+  "eligibility": "Paper 1: Senior Secondary (or equivalent) with at least 50% marks and passed or appearing in final year of 2-year Diploma in Elementary Education or BEd. Paper 2: Graduation and passed or appearing in final year of 2-year Diploma in Elementary Education or BEd.[1][2]",
+  "subjectsTested": [
+    "Child Development and Pedagogy",
+    "Language I",
+    "Language II",
+    "Mathematics",
+    "Environmental Studies",
+    "Science",
+    "Social Studies/Social Science"
+  ],
+  "maxMarks": "150 (per paper)",
+  "duration": "2 hours 30 minutes (per paper)",
+  "marksPerSubject": {
+    "Child Development and Pedagogy": "30",
+    "Language I": "30",
+    "Language II": "30",
+    "Mathematics": "30 (Paper 1) / 30 (Paper 2, optional)",
+    "Environmental Studies": "30 (Paper 1)",
+    "Science": "30 (Paper 2, optional)",
+    "Social Studies/Social Science": "60 (Paper 2, optional)"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "Eligibility for appointment as teacher for Classes 1 to 8 in central government schools (KVS, NVS, etc.)"
+  ],
+  "examSyllabusPdfUrl": "https://ctet.nic.in/CMS/Public/View.aspx?page=46",
+  "previousYearCutoffs": {
+    "general": "90 out of 150",
+    "obc": "82 out of 150",
+    "sc": "82 out of 150",
+    "st": "82 out of 150"
+  },
+  "examBrochureUrl": "https://ctet.nic.in/CMS/Public/View.aspx?page=46",
+  "faqs": {
+    "question": "What is the validity period of the CTET certificate?",
+    "answer": "The CTET eligibility certificate is valid for a lifetime."
+  },
+  "created": "2025-07-13T07:49:52.384986+00:00",
+  "updated": "2025-07-13T07:49:52.385413+00:00"
+}

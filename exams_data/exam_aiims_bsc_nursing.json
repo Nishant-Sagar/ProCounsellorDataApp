@@ -1,0 +1,53 @@
+{
+  "examId": "AIIMS_BSC_NURSING",
+  "examName": "AIIMS BSc Nursing Entrance Exam",
+  "fullForm": "All India Institute of Medical Sciences Bachelor of Science Nursing Entrance Exam",
+  "examLevel": "Undergraduate",
+  "examType": "Entrance Exam",
+  "mode": [
+    "Computer-Based Test",
+    "Online"
+  ],
+  "conductingBody": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+  "officialWebsite": "https://aiimsexams.ac.in",
+  "applicationFees": {
+    "general": "1500",
+    "obc": "1500",
+    "sc_st": "1200"
+  },
+  "eligibility": "Candidates must have passed 10+2 with English, Physics, Chemistry, and Biology/Mathematics as compulsory subjects. Minimum marks required: 50-55% for General/EWS/OBC, 45-50% for SC/ST categories[2].",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "General Knowledge"
+  ],
+  "maxMarks": "100",
+  "duration": "120 minutes",
+  "marksPerSubject": {
+    "Physics": "NA",
+    "Chemistry": "NA",
+    "Biology": "NA",
+    "General Knowledge": "NA"
+  },
+  "negativeMarking": "1/3 marks deducted for each incorrect answer[1][2].",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "BSc (Hons.) Nursing",
+    "BSc (Post-Basic) Nursing"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the mode and marking scheme of the AIIMS BSc Nursing Entrance Exam?",
+    "answer": "The AIIMS BSc Nursing Entrance Exam is conducted in online Computer-Based Test (CBT) mode. Each correct answer is awarded 1 mark, and 1/3 mark is deducted for every incorrect answer. The exam duration is 120 minutes and consists of 100 questions[1][2]."
+  },
+  "created": "2025-07-13T07:44:35.828650+00:00",
+  "updated": "2025-07-13T07:44:35.828744+00:00"
+}

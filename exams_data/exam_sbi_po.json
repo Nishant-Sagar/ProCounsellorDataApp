@@ -1,0 +1,49 @@
+{
+  "examId": "SBI_PO",
+  "examName": "SBI PO",
+  "fullForm": "State Bank of India Probationary Officer",
+  "examLevel": "National",
+  "examType": "Recruitment",
+  "mode": [
+    "Online"
+  ],
+  "conductingBody": "State Bank of India",
+  "officialWebsite": "https://www.sbi.co.in",
+  "applicationFees": {
+    "general": "750",
+    "obc": "750",
+    "sc_st": "0"
+  },
+  "eligibility": "Graduation in any discipline from a recognized university and age between 21 to 30 years.",
+  "subjectsTested": [
+    "English Language",
+    "Numerical Ability",
+    "Reasoning Ability"
+  ],
+  "maxMarks": "100 (Prelims), 250 (Mains)",
+  "duration": "60 minutes (Prelims), 3 hours 30 minutes (Mains)",
+  "marksPerSubject": {
+    "English Language": "40 (Prelims)",
+    "Numerical Ability": "30 (Prelims)",
+    "Reasoning Ability": "30 (Prelims)"
+  },
+  "negativeMarking": "Yes, 0.25 marks deducted for each wrong answer in Prelims and Mains",
+  "examFrequency": "Yearly",
+  "coursesLinked": [
+    "Probationary Officer (PO) position in State Bank of India"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.sbi.co.in/documents/77530/25386736/SBI_PO_2025_Notification.pdf",
+  "faqs": {
+    "question": "What is the selection process for SBI PO?",
+    "answer": "The selection process consists of Preliminary Exam, Main Exam, Psychometric Test, Group Exercises, and Interview. The Preliminary Exam is qualifying in nature."
+  },
+  "created": "2025-07-13T07:49:06.615401+00:00",
+  "updated": "2025-07-13T07:49:06.615491+00:00"
+}

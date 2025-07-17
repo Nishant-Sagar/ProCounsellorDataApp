@@ -1,0 +1,56 @@
+{
+  "examId": "KCET",
+  "examName": "KCET",
+  "fullForm": "Karnataka Common Entrance Test",
+  "examLevel": "State Level",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Offline"
+  ],
+  "conductingBody": "Karnataka Examination Authority (KEA)",
+  "officialWebsite": "https://cetonline.karnataka.gov.in/kea/",
+  "applicationFees": {
+    "general": "₹500 (Offline)",
+    "obc": "₹500 (Offline)",
+    "sc_st": "₹250 (Offline)"
+  },
+  "eligibility": "Candidates must be Indian nationals and must have passed 2nd PUC/class 12th/equivalent examination with Physics and Mathematics as compulsory subjects and Chemistry/Biology/Biotechnology/Electronics/Computer Science with English as a language subject.[3]",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Mathematics",
+    "Biology"
+  ],
+  "maxMarks": "180",
+  "duration": "80 minutes per subject",
+  "marksPerSubject": {
+    "Physics": "60",
+    "Chemistry": "60",
+    "Mathematics": "60",
+    "Biology": "60"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "Engineering",
+    "Technology",
+    "Bachelor of Pharmacy (BPharma)",
+    "Diploma in Pharmacy (DPharma)",
+    "Agriculture (Farm Science)",
+    "Veterinary Science"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://cetonline.karnataka.gov.in/kea/pdfs/ugcet2025/brochure.pdf",
+  "faqs": {
+    "question": "Is there negative marking in KCET?",
+    "answer": "No, there is no negative marking in KCET.[2]"
+  },
+  "created": "2025-07-13T07:43:45.310325+00:00",
+  "updated": "2025-07-13T07:43:45.310383+00:00"
+}

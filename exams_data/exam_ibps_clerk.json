@@ -1,0 +1,60 @@
+{
+  "examId": "IBPS_CLERK",
+  "examName": "IBPS Clerk",
+  "fullForm": "Institute of Banking Personnel Selection Clerk",
+  "examLevel": "National",
+  "examType": "Recruitment",
+  "mode": [
+    "Online"
+  ],
+  "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+  "officialWebsite": "https://www.ibps.in",
+  "applicationFees": {
+    "general": "INR 850",
+    "obc": "INR 850",
+    "sc_st": "INR 175"
+  },
+  "eligibility": "Graduate degree in any discipline from a recognized university.",
+  "subjectsTested": [
+    "English Language",
+    "Reasoning Ability",
+    "Numerical Ability",
+    "Quantitative Aptitude",
+    "General/Financial Awareness",
+    "Computer Aptitude"
+  ],
+  "maxMarks": "Prelims: 100, Mains: 200",
+  "duration": "Prelims: 60 minutes, Mains: 160 minutes",
+  "marksPerSubject": {
+    "Prelims": {
+      "English Language": "30",
+      "Reasoning Ability": "35",
+      "Numerical Ability": "35"
+    },
+    "Mains": {
+      "General/Financial Awareness": "50",
+      "General English": "40",
+      "Reasoning Ability & Computer Aptitude": "60",
+      "Quantitative Aptitude": "50"
+    }
+  },
+  "negativeMarking": "0.25 marks for each wrong answer in both Prelims and Mains",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "Clerical Cadre positions in Public Sector Banks"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "How many stages are there in the IBPS Clerk selection process?",
+    "answer": "There are two stages: Preliminary Exam and Main Exam. Selection is based on performance in the Main Exam only.[2][4]"
+  },
+  "created": "2025-07-13T07:49:00.795430+00:00",
+  "updated": "2025-07-13T07:49:00.795547+00:00"
+}

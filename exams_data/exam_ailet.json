@@ -1,0 +1,55 @@
+{
+  "examId": "AILET",
+  "examName": "AILET",
+  "fullForm": "All India Law Entrance Test",
+  "examLevel": "National",
+  "examType": "Entrance Exam for Law",
+  "mode": [
+    "Offline (Pen-and-Paper Based)"
+  ],
+  "conductingBody": "National Law University, Delhi",
+  "officialWebsite": "https://nludelhi.ac.in",
+  "applicationFees": {
+    "general": "3500",
+    "obc": "3500",
+    "sc_st": "1500"
+  },
+  "eligibility": "Senior Secondary School Examination (10+2 system) or an equivalent examination with 45% marks (40% in case of SC/ST/Persons with Disabilities). Candidates appearing for the 12th standard annual examination in the year of admission are also eligible to apply.[4]",
+  "subjectsTested": [
+    "English",
+    "Logical Reasoning",
+    "General Knowledge",
+    "Legal Aptitude",
+    "Mathematics"
+  ],
+  "maxMarks": "150",
+  "duration": "2 hours",
+  "marksPerSubject": {
+    "English": "NA",
+    "Logical Reasoning": "NA",
+    "General Knowledge": "NA",
+    "Legal Aptitude": "NA",
+    "Mathematics": "NA"
+  },
+  "negativeMarking": "Yes",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "BA LLB (Hons)",
+    "LLM",
+    "PhD"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "When will AILET 2025 be conducted?",
+    "answer": "AILET 2025 will be conducted on Sunday, December 8, 2024, from 2:00 PM to 4:00 PM.[2]"
+  },
+  "created": "2025-07-13T07:46:19.197835+00:00",
+  "updated": "2025-07-13T07:46:19.197949+00:00"
+}

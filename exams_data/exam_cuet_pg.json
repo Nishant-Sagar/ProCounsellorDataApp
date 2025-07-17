@@ -1,0 +1,52 @@
+{
+  "examId": "CUET_PG",
+  "examName": "JNU PG Entrance (via CUET PG)",
+  "fullForm": "Common University Entrance Test for Postgraduate",
+  "examLevel": "Postgraduate",
+  "examType": "Entrance Exam",
+  "mode": [
+    "Computer Based Test"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://cuet.nta.nic.in",
+  "applicationFees": {
+    "general": "₹1200 (for up to 2 test papers in a slot)",
+    "obc": "₹900 (for up to 2 test papers in a slot)",
+    "sc_st": "₹800 (for up to 2 test papers in a slot)"
+  },
+  "eligibility": "Candidates must have a Bachelor’s degree in the relevant discipline from a recognized university. Specific eligibility criteria may vary by programme. Final-year students can also apply.",
+  "subjectsTested": [
+    "Varies by programme (e.g., English, Economics, Political Science, International Relations, Life Sciences, etc.)"
+  ],
+  "maxMarks": "400",
+  "duration": "105 minutes",
+  "marksPerSubject": {
+    "General Paper": "100",
+    "Subject Paper": "300"
+  },
+  "negativeMarking": "Yes (1 mark deducted for each incorrect answer)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "MA",
+    "MSc",
+    "MCA",
+    "MPH",
+    "MTech (except CSE and ECE)",
+    "PG Diploma",
+    "Advanced Diploma of Proficiency"
+  ],
+  "examSyllabusPdfUrl": "https://cuet.nta.nic.in/images/CUET_PG_2025_Information_Bulletin.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://cuet.nta.nic.in/images/CUET_PG_2025_Information_Bulletin.pdf",
+  "faqs": {
+    "question": "How do I apply for JNU PG admission via CUET PG?",
+    "answer": "Eligible candidates must register and appear for CUET PG conducted by NTA, select JNU as a preferred university, and participate in JNU’s counselling process using their CUET PG scores.[2][3]"
+  },
+  "created": "2025-07-13T07:52:02.125891+00:00",
+  "updated": "2025-07-13T07:52:02.126447+00:00"
+}

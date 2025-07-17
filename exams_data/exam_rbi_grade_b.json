@@ -1,0 +1,58 @@
+{
+  "examId": "RBI_GRADE_B",
+  "examName": "RBI Grade B",
+  "fullForm": "Reserve Bank of India Grade B",
+  "examLevel": "National",
+  "examType": "Recruitment Exam for Government Service",
+  "mode": [
+    "Online"
+  ],
+  "conductingBody": "Reserve Bank of India (RBI)",
+  "officialWebsite": "https://www.rbi.org.in",
+  "applicationFees": {
+    "general": "850",
+    "obc": "850",
+    "sc_st": "100"
+  },
+  "eligibility": "Graduation with minimum 60% marks (50% for SC/ST/PwBD) or equivalent grade. Age limit: 21 to 30 years. Nationality: Indian.",
+  "subjectsTested": [
+    "General Awareness",
+    "English Language",
+    "Quantitative Aptitude",
+    "Reasoning",
+    "Economic and Social Issues",
+    "Finance and Management"
+  ],
+  "maxMarks": "Phase 1: 200, Phase 2: 300",
+  "duration": "Phase 1: 120 minutes, Phase 2: 330 minutes (combined for all papers)",
+  "marksPerSubject": {
+    "Phase 1 General Awareness": "80",
+    "Phase 1 English Language": "30",
+    "Phase 1 Quantitative Aptitude": "30",
+    "Phase 1 Reasoning": "60",
+    "Phase 2 Economic and Social Issues": "100",
+    "Phase 2 English (Writing Skills)": "100",
+    "Phase 2 Finance and Management": "100"
+  },
+  "negativeMarking": "Yes (1/4th mark deducted for each wrong answer in Phase 1)",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "Grade B Officer (General)",
+    "Grade B Officer (DEPR)",
+    "Grade B Officer (DSIM)"
+  ],
+  "examSyllabusPdfUrl": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4199",
+  "previousYearCutoffs": {
+    "general": "150.25 (Phase 1, 2023)",
+    "obc": "142.25 (Phase 1, 2023)",
+    "sc": "128.50 (Phase 1, 2023)",
+    "st": "128.50 (Phase 1, 2023)"
+  },
+  "examBrochureUrl": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4199",
+  "faqs": {
+    "question": "What is the selection process for RBI Grade B?",
+    "answer": "The selection process consists of three phases: Phase 1 (Prelims), Phase 2 (Mains), and Interview. Candidates must qualify each phase to be considered for final selection."
+  },
+  "created": "2025-07-13T07:49:19.229564+00:00",
+  "updated": "2025-07-13T07:49:19.229666+00:00"
+}

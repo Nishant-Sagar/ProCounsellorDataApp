@@ -1,0 +1,48 @@
+{
+  "examId": "IRMA_PGDM",
+  "examName": "IRMA PGDM (RM) Admission",
+  "fullForm": "Institute of Rural Management Anand Post Graduate Diploma in Management (Rural Management) Admission",
+  "examLevel": "Postgraduate",
+  "examType": "Entrance + Interview",
+  "mode": [
+    "Online Application",
+    "Personal Interview"
+  ],
+  "conductingBody": "Institute of Rural Management Anand (IRMA)",
+  "officialWebsite": "https://irma.ac.in/",
+  "applicationFees": {
+    "general": "2000",
+    "obc": "2000",
+    "sc_st": "1000"
+  },
+  "eligibility": "Bachelor’s degree in any discipline from a recognized university with at least 50% aggregate marks (45% for SC/ST/DAP/OBC-NC/EWS/PwD). Final-year students can apply but must submit proof of degree completion by September 2025. Candidates must also have valid CAT, XAT, or CMAT scores.",
+  "subjectsTested": [
+    "Quantitative Ability",
+    "Verbal Ability",
+    "Logical Reasoning",
+    "General Awareness",
+    "Issues of Social Concern (IRMASAT)"
+  ],
+  "maxMarks": "NA",
+  "duration": "NA",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "PGDM (Rural Management)"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "85 percentile (CAT/XAT/CMAT) for merit-based calls",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.irma.ac.in/pdf/PGDM(RM)_2025-27_Brochure.pdf",
+  "faqs": {
+    "question": "What is the selection process for IRMA PGDM (RM) admission?",
+    "answer": "Candidates must apply online and submit valid CAT, XAT, or CMAT scores. Shortlisted candidates are called for IRMAWAT (Written Ability Test) and a Personal Interview. Final selection is based on entrance exam scores, IRMAWAT, PI, academic performance, work experience, and diversity factors."
+  },
+  "created": "2025-07-13T07:53:28.950542+00:00",
+  "updated": "2025-07-13T07:53:28.950573+00:00"
+}

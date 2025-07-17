@@ -1,0 +1,404 @@
+{
+  "courseId": "MPHARM",
+  "courseName": "Mpharm",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to MPharm programs in India typically requires a BPharm degree with a minimum aggregate (usually 50% or above). Most institutes accept scores from national-level entrance exams such as GPAT or university-level tests like CUET-PG. Shortlisted candidates may also undergo counseling or interviews at select institutions.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What is the value of an MPharm degree in India?",
+      "answer": "An MPharm degree enhances career prospects in pharmaceutical research, academia, quality control, and regulatory affairs. Graduates are eligible for higher-level positions in pharma companies, research organizations, and can pursue doctoral studies."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "PHARMACEUTICS",
+      "branchName": "Pharmaceutics",
+      "description": "Pharmaceutics focuses on the formulation, development, manufacturing, and evaluation of pharmaceutical dosage forms. It covers drug delivery systems, pharmaceutical technology, and regulatory aspects, preparing graduates for roles in formulation R&D and production.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Pharmaceutics",
+        "Drug Delivery Systems",
+        "Pharmaceutical Technology",
+        "Biopharmaceutics & Pharmacokinetics",
+        "Industrial Pharmacy",
+        "Regulatory Affairs",
+        "Physical Pharmaceutics"
+      ],
+      "careerOptions": [
+        "Formulation Scientist",
+        "Production Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jamia Hamdard, New Delhi",
+        "NIPER Hyderabad"
+      ],
+      "jobRoles": [
+        "Formulation Development Scientist",
+        "Production Executive",
+        "Quality Assurance Officer"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Sun Pharma",
+          "Cipla",
+          "Dr. Reddy's Laboratories"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PHARMACOLOGY",
+      "branchName": "Pharmacology",
+      "description": "Pharmacology deals with the study of drug action on biological systems, including mechanisms, therapeutic uses, and adverse effects. Graduates contribute to drug discovery, clinical trials, and safety evaluation in the pharmaceutical and healthcare sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Pharmacology",
+        "Clinical Pharmacology",
+        "Molecular Pharmacology",
+        "Toxicology",
+        "Pharmacological Screening Methods",
+        "Biostatistics",
+        "Pharmacovigilance"
+      ],
+      "careerOptions": [
+        "Clinical Research Associate",
+        "Drug Safety Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "BITS Pilani",
+        "Manipal College of Pharmaceutical Sciences"
+      ],
+      "jobRoles": [
+        "Clinical Research Associate",
+        "Pharmacovigilance Specialist",
+        "Research Scientist"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹7.5 LPA",
+        "companies": [
+          "Novartis",
+          "IQVIA",
+          "Biocon"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PHARMACEUTICAL_CHEMISTRY",
+      "branchName": "Pharmaceutical Chemistry",
+      "description": "Pharmaceutical Chemistry emphasizes the design, synthesis, and analysis of drug molecules. It covers medicinal chemistry, organic synthesis, and analytical techniques, enabling graduates to work in drug discovery, quality control, and chemical research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Medicinal Chemistry",
+        "Advanced Organic Chemistry",
+        "Analytical Techniques",
+        "Drug Design & Discovery",
+        "Spectroscopy",
+        "Pharmaceutical Analysis",
+        "Bioorganic Chemistry"
+      ],
+      "careerOptions": [
+        "Medicinal Chemist",
+        "Quality Control Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "ICT Mumbai",
+        "NIPER Mohali"
+      ],
+      "jobRoles": [
+        "Research Chemist",
+        "Quality Control Analyst",
+        "Analytical Scientist"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.3 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Glenmark Pharmaceuticals",
+          "Lupin",
+          "Aurobindo Pharma"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PHARMACEUTICAL_ANALYSIS",
+      "branchName": "Pharmaceutical Analysis",
+      "description": "Pharmaceutical Analysis focuses on qualitative and quantitative analysis of drugs and pharmaceuticals. It covers advanced analytical techniques, quality assurance, and regulatory compliance, preparing graduates for roles in quality control and regulatory labs.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Pharmaceutical Analysis",
+        "Quality Assurance",
+        "Analytical Instrumentation",
+        "Validation & Calibration",
+        "Spectroscopy & Chromatography",
+        "Regulatory Guidelines",
+        "Pharmaceutical Microbiology"
+      ],
+      "careerOptions": [
+        "Quality Assurance Manager",
+        "Analytical Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "JSS College of Pharmacy, Ooty",
+        "Panjab University, Chandigarh"
+      ],
+      "jobRoles": [
+        "Quality Control Analyst",
+        "Regulatory Affairs Executive",
+        "Analytical Chemist"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.4 LPA",
+        "highestSalary2025": "₹7.8 LPA",
+        "companies": [
+          "Pfizer",
+          "Zydus Cadila",
+          "Torrent Pharmaceuticals"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PHARMACOGNOSY",
+      "branchName": "Pharmacognosy",
+      "description": "Pharmacognosy is the study of medicinal drugs derived from natural sources such as plants, animals, and minerals. It covers phytochemistry, herbal drug technology, and natural product research, supporting careers in herbal drug industry and research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Pharmacognosy",
+        "Phytochemistry",
+        "Herbal Drug Technology",
+        "Natural Product Chemistry",
+        "Plant Biotechnology",
+        "Standardization of Herbal Drugs",
+        "Ethnopharmacology"
+      ],
+      "careerOptions": [
+        "Herbal Product Researcher",
+        "Quality Control Analyst (Herbal)"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jamia Hamdard, New Delhi",
+        "JSS College of Pharmacy, Mysore"
+      ],
+      "jobRoles": [
+        "Research Scientist (Herbal)",
+        "Quality Assurance Officer",
+        "Product Development Executive"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.1 LPA",
+        "highestSalary2025": "₹7 LPA",
+        "companies": [
+          "Himalaya Drug Company",
+          "Patanjali Ayurved",
+          "Dabur"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CLINICAL_PHARMACY",
+      "branchName": "Clinical Pharmacy",
+      "description": "Clinical Pharmacy focuses on optimizing medication therapy and promoting patient care in clinical settings. Graduates are trained to work closely with doctors and healthcare teams to ensure safe and effective drug use, manage therapy, and counsel patients.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Clinical Pharmacokinetics",
+        "Pharmacotherapeutics",
+        "Clinical Research",
+        "Pharmacy Practice",
+        "Clinical Toxicology",
+        "Hospital Pharmacy",
+        "Biostatistics",
+        "Clinical Trials"
+      ],
+      "careerOptions": [
+        "Clinical Pharmacist",
+        "Drug Safety Associate"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jamia Hamdard, New Delhi",
+        "JSS College of Pharmacy, Ooty"
+      ],
+      "jobRoles": [
+        "Clinical Pharmacist",
+        "Pharmacovigilance Officer",
+        "Medical Writer"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Cipla"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INDUSTRIAL_PHARMACY",
+      "branchName": "Industrial Pharmacy",
+      "description": "Industrial Pharmacy deals with the manufacturing, development, and quality control of pharmaceutical products. The branch prepares students for roles in pharmaceutical production, formulation, and regulatory compliance in the pharma industry.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Pharmaceutical Technology",
+        "Industrial Pharmacy",
+        "Quality Assurance",
+        "Pharmaceutical Engineering",
+        "Biopharmaceutics",
+        "Pharmaceutical Analysis",
+        "Drug Regulatory Affairs"
+      ],
+      "careerOptions": [
+        "Production Manager",
+        "Quality Assurance Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "NIPER Hyderabad",
+        "Institute of Chemical Technology, Mumbai"
+      ],
+      "jobRoles": [
+        "Production Executive",
+        "Quality Control Analyst",
+        "Formulation Scientist"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Sun Pharma",
+          "Dr. Reddy's Laboratories",
+          "Cipla"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "REGULATORY_AFFAIRS",
+      "branchName": "Regulatory Affairs",
+      "description": "Regulatory Affairs focuses on ensuring pharmaceutical products comply with regulations and standards set by government agencies. Graduates work on drug approval processes, documentation, and liaising with regulatory bodies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Drug Regulatory Affairs",
+        "Pharmaceutical Jurisprudence",
+        "Intellectual Property Rights",
+        "Quality Assurance",
+        "Clinical Trials Regulations",
+        "Documentation and Dossier Preparation"
+      ],
+      "careerOptions": [
+        "Regulatory Affairs Specialist",
+        "Drug Safety Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "BITS Pilani",
+        "NIPER Mohali"
+      ],
+      "jobRoles": [
+        "Regulatory Affairs Executive",
+        "Dossier Specialist",
+        "Compliance Officer"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.2 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "GlaxoSmithKline",
+          "Pfizer",
+          "Lupin"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "HOSPITAL_AND_CLINICAL_PHARMACY",
+      "branchName": "Hospital and Clinical Pharmacy",
+      "description": "Hospital and Clinical Pharmacy integrates pharmaceutical care in hospital settings, focusing on medication management, patient counseling, and collaboration with healthcare teams to improve patient outcomes.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Hospital Pharmacy Management",
+        "Clinical Pharmacy",
+        "Pharmacotherapeutics",
+        "Pharmacy Practice",
+        "Patient Counseling",
+        "Clinical Toxicology"
+      ],
+      "careerOptions": [
+        "Hospital Pharmacist",
+        "Clinical Research Associate"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Manipal College of Pharmaceutical Sciences",
+        "Jamia Hamdard, New Delhi"
+      ],
+      "jobRoles": [
+        "Hospital Pharmacist",
+        "Clinical Pharmacist",
+        "Pharmacy Manager"
+      ],
+      "examId": [
+        "GPAT",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹8.5 LPA",
+        "companies": [
+          "Apollo Hospitals",
+          "Max Healthcare",
+          "Fortis Healthcare"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

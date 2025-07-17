@@ -1,0 +1,49 @@
+{
+  "examId": "NIFT_PG_ENTRANCE",
+  "examName": "NIFT PG Entrance Exam",
+  "fullForm": "National Institute of Fashion Technology Postgraduate Entrance Examination",
+  "examLevel": "National",
+  "examType": "Postgraduate",
+  "mode": [
+    "Online (GAT)",
+    "Offline (CAT)",
+    "Personal Interview"
+  ],
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialWebsite": "https://exams.nta.ac.in/NIFT/",
+  "applicationFees": {
+    "general": "3000",
+    "obc": "3000",
+    "sc_st": "1500"
+  },
+  "eligibility": "Candidates must have an undergraduate degree from a recognized university. Specific eligibility criteria for each PG course (M.Des, M.F.M, M.F.Tech) are detailed in the official information bulletin.",
+  "subjectsTested": [
+    "Creative Ability Test (CAT)",
+    "General Ability Test (GAT)",
+    "Personal Interview"
+  ],
+  "maxMarks": "NA",
+  "duration": "NA",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Once every year",
+  "coursesLinked": [
+    "M.Des",
+    "M.F.M",
+    "M.F.Tech"
+  ],
+  "examSyllabusPdfUrl": "https://exams.nta.ac.in/NIFT/images/updated-ib-for-nift-entrance-exam-2025-T9qQBv2lWWlTs3X-22112024.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://exams.nta.ac.in/NIFT/images/updated-ib-for-nift-entrance-exam-2025-T9qQBv2lWWlTs3X-22112024.pdf",
+  "faqs": {
+    "question": "What are the stages of the NIFT PG Entrance Exam?",
+    "answer": "For M.Des, the exam includes CAT, GAT, and Personal Interview. For M.F.M and M.F.Tech, candidates appear for GAT and Personal Interview."
+  },
+  "created": "2025-07-13T07:52:38.169853+00:00",
+  "updated": "2025-07-13T07:52:38.169922+00:00"
+}

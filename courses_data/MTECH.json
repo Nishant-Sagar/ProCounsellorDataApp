@@ -1,0 +1,1255 @@
+{
+  "courseId": "MTECH",
+  "courseName": "Mtech",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to MTech programs in India is primarily through national-level entrance exams such as GATE. Candidates must hold a relevant undergraduate degree (usually BTech/BE) and qualify in the entrance exam. Based on exam scores, candidates participate in centralized counseling or institute-specific selection processes, which may include interviews or written tests at some institutes.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What is the main entrance exam for MTech admissions in India?",
+      "answer": "The Graduate Aptitude Test in Engineering (GATE) is the primary entrance exam for MTech admissions at most top Indian institutes."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "COMPUTER_SCIENCE_ENGINEERING",
+      "branchName": "Computer Science Engineering",
+      "description": "This branch focuses on advanced concepts in computer science, including algorithms, software engineering, systems, and emerging technologies. Graduates are equipped for roles in research, development, and leadership in the IT sector.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Algorithms",
+        "Operating Systems",
+        "Computer Networks",
+        "Database Systems",
+        "Software Engineering",
+        "Distributed Computing",
+        "Compiler Design",
+        "Machine Learning"
+      ],
+      "careerOptions": [
+        "Software Development",
+        "Research and Academia"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Delhi"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "Systems Architect",
+        "Research Scientist"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹15 LPA",
+        "highestSalary2025": "₹45 LPA",
+        "companies": [
+          "Google",
+          "Microsoft",
+          "TCS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "DATA_SCIENCE",
+      "branchName": "Data Science",
+      "description": "This branch covers the extraction of insights from large datasets using statistics, machine learning, and computational methods. It prepares students for roles in analytics, business intelligence, and research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Statistical Methods",
+        "Data Mining",
+        "Big Data Analytics",
+        "Machine Learning",
+        "Data Visualization",
+        "Programming for Data Science",
+        "Deep Learning",
+        "Data Warehousing"
+      ],
+      "careerOptions": [
+        "Data Scientist",
+        "Business Analyst"
+      ],
+      "averageFeesRange": "₹2–3.5 LPA",
+      "popularColleges": [
+        "IIT Hyderabad",
+        "IISc Bangalore"
+      ],
+      "jobRoles": [
+        "Data Scientist",
+        "Data Analyst",
+        "Machine Learning Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹14 LPA",
+        "highestSalary2025": "₹40 LPA",
+        "companies": [
+          "Amazon",
+          "Flipkart",
+          "Deloitte"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ARTIFICIAL_INTELLIGENCE",
+      "branchName": "Artificial Intelligence",
+      "description": "This branch delves into the design and development of intelligent systems, covering areas such as neural networks, robotics, and natural language processing. Graduates are prepared for careers in AI research and industry applications.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Artificial Intelligence",
+        "Neural Networks",
+        "Natural Language Processing",
+        "Robotics",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Computer Vision",
+        "Knowledge Representation"
+      ],
+      "careerOptions": [
+        "AI Researcher",
+        "AI Solutions Architect"
+      ],
+      "averageFeesRange": "₹2–3.5 LPA",
+      "popularColleges": [
+        "IIT Hyderabad",
+        "IIT Jodhpur"
+      ],
+      "jobRoles": [
+        "AI Engineer",
+        "Research Scientist",
+        "AI Consultant"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹15 LPA",
+        "highestSalary2025": "₹42 LPA",
+        "companies": [
+          "IBM",
+          "Accenture",
+          "Infosys"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MACHINE_LEARNING",
+      "branchName": "Machine Learning",
+      "description": "This branch specializes in algorithms and statistical models that enable computers to learn from data. It is highly interdisciplinary, drawing from computer science, statistics, and mathematics.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Machine Learning",
+        "Statistical Learning",
+        "Deep Learning",
+        "Pattern Recognition",
+        "Optimization Techniques",
+        "Probabilistic Graphical Models",
+        "Data Preprocessing",
+        "Time Series Analysis"
+      ],
+      "careerOptions": [
+        "Machine Learning Engineer",
+        "Data Scientist"
+      ],
+      "averageFeesRange": "₹2–3.5 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Kharagpur"
+      ],
+      "jobRoles": [
+        "Machine Learning Engineer",
+        "Data Scientist",
+        "Research Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹14 LPA",
+        "highestSalary2025": "₹40 LPA",
+        "companies": [
+          "Google",
+          "Wipro",
+          "Capgemini"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CYBERSECURITY",
+      "branchName": "Cybersecurity",
+      "description": "This branch focuses on protecting computer systems and networks from cyber threats. It covers cryptography, network security, ethical hacking, and digital forensics.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Network Security",
+        "Cryptography",
+        "Ethical Hacking",
+        "Digital Forensics",
+        "Information Security Management",
+        "Cyber Law",
+        "Malware Analysis",
+        "Cloud Security"
+      ],
+      "careerOptions": [
+        "Cybersecurity Analyst",
+        "Security Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Cybersecurity Analyst",
+        "Security Engineer",
+        "Penetration Tester"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹13 LPA",
+        "highestSalary2025": "₹38 LPA",
+        "companies": [
+          "Cisco",
+          "EY",
+          "KPMG"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "SOFTWARE_ENGINEERING",
+      "branchName": "Software Engineering",
+      "description": "Software Engineering focuses on the systematic design, development, testing, and maintenance of software systems. The branch prepares students for advanced roles in software development, project management, and research, with applications across IT, finance, healthcare, and more.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Software Architecture",
+        "Advanced Algorithms",
+        "Software Project Management",
+        "Software Testing and Quality Assurance",
+        "Object-Oriented Analysis and Design",
+        "Software Metrics and Estimation",
+        "Requirement Engineering"
+      ],
+      "careerOptions": [
+        "Software Developer",
+        "Project Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Delhi"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "Quality Assurance Engineer",
+        "Technical Lead"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹10 LPA",
+        "highestSalary2025": "₹45 LPA",
+        "companies": [
+          "TCS",
+          "Infosys",
+          "Google India"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "INFORMATION_TECHNOLOGY",
+      "branchName": "Information Technology",
+      "description": "Information Technology covers the study of computer systems, networking, databases, and information security. Graduates are equipped to manage IT infrastructure, develop applications, and ensure data integrity in organizations.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Network Security",
+        "Cloud Computing",
+        "Operating Systems",
+        "Web Technologies",
+        "Distributed Systems"
+      ],
+      "careerOptions": [
+        "IT Consultant",
+        "System Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "IT Analyst",
+        "Network Administrator",
+        "Database Administrator"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹9 LPA",
+        "highestSalary2025": "₹40 LPA",
+        "companies": [
+          "Wipro",
+          "Accenture",
+          "IBM India"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "VLSI_DESIGN",
+      "branchName": "VLSI Design",
+      "description": "VLSI (Very Large Scale Integration) Design specializes in the design and development of integrated circuits and semiconductor devices. The branch is crucial for careers in chip design, electronics, and embedded systems industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Digital VLSI Design",
+        "Analog VLSI Design",
+        "CMOS Technology",
+        "VLSI Testing",
+        "FPGA Design",
+        "Semiconductor Device Physics",
+        "EDA Tools"
+      ],
+      "careerOptions": [
+        "VLSI Design Engineer",
+        "Physical Design Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kharagpur",
+        "IIT Hyderabad"
+      ],
+      "jobRoles": [
+        "VLSI Engineer",
+        "ASIC Design Engineer",
+        "Verification Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹11 LPA",
+        "highestSalary2025": "₹38 LPA",
+        "companies": [
+          "Intel India",
+          "Texas Instruments",
+          "Qualcomm"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "EMBEDDED_SYSTEMS",
+      "branchName": "Embedded Systems",
+      "description": "Embedded Systems focuses on the design and development of hardware and software for embedded devices used in automotive, consumer electronics, robotics, and industrial automation.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Embedded System Design",
+        "Microcontrollers and Applications",
+        "Real-Time Operating Systems",
+        "Embedded C Programming",
+        "Digital Signal Processing",
+        "IoT Systems",
+        "Hardware-Software Co-Design"
+      ],
+      "careerOptions": [
+        "Embedded Systems Engineer",
+        "Firmware Developer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Roorkee",
+        "NIT Warangal"
+      ],
+      "jobRoles": [
+        "Embedded Software Engineer",
+        "System Designer",
+        "IoT Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8.5 LPA",
+        "highestSalary2025": "₹32 LPA",
+        "companies": [
+          "Bosch",
+          "Honeywell",
+          "Samsung R&D"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "COMMUNICATION_SYSTEMS",
+      "branchName": "Communication Systems",
+      "description": "Communication Systems deals with the design, analysis, and implementation of communication networks, wireless systems, and signal processing. It is vital for careers in telecom, networking, and broadcasting industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Digital Communication",
+        "Wireless Communication",
+        "Optical Communication",
+        "Antenna and Wave Propagation",
+        "Signal Processing",
+        "Information Theory and Coding",
+        "Microwave Engineering"
+      ],
+      "careerOptions": [
+        "Telecom Engineer",
+        "Network Architect"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "IIT Madras"
+      ],
+      "jobRoles": [
+        "Communication Engineer",
+        "RF Engineer",
+        "Network Planning Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹30 LPA",
+        "companies": [
+          "Bharti Airtel",
+          "Nokia Networks",
+          "ISRO"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "SIGNAL_PROCESSING",
+      "branchName": "Signal Processing",
+      "description": "Signal Processing focuses on the analysis, modification, and synthesis of signals such as sound, images, and scientific measurements. It is widely used in telecommunications, audio engineering, biomedical engineering, and image processing, offering vast opportunities in both research and industry.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Digital Signal Processing",
+        "Statistical Signal Processing",
+        "Adaptive Signal Processing",
+        "Multirate Signal Processing",
+        "Image Processing",
+        "Speech Processing",
+        "Random Processes",
+        "Pattern Recognition"
+      ],
+      "careerOptions": [
+        "Research Scientist",
+        "Telecommunications Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Delhi"
+      ],
+      "jobRoles": [
+        "Signal Processing Engineer",
+        "DSP Engineer",
+        "Systems Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹25 LPA",
+        "companies": [
+          "Texas Instruments",
+          "Qualcomm",
+          "ISRO"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "POWER_SYSTEMS",
+      "branchName": "Power Systems",
+      "description": "Power Systems deals with the generation, transmission, distribution, and utilization of electrical power. It covers advanced topics in smart grids, renewable energy integration, and power electronics, preparing graduates for roles in the energy sector and utilities.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Power System Analysis",
+        "High Voltage Engineering",
+        "Power System Protection",
+        "Electrical Machines",
+        "Power Electronics",
+        "Renewable Energy Systems",
+        "Smart Grids",
+        "Control of Power Systems"
+      ],
+      "careerOptions": [
+        "Power System Engineer",
+        "Energy Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Power Systems Engineer",
+        "Electrical Design Engineer",
+        "Grid Operations Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Siemens",
+          "NTPC",
+          "ABB"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CONTROL_SYSTEMS",
+      "branchName": "Control Systems",
+      "description": "Control Systems engineering focuses on the modeling, analysis, and design of systems that regulate the behavior of devices or processes. Applications span robotics, automation, aerospace, and manufacturing, making it a versatile and in-demand specialization.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Linear Control Systems",
+        "Nonlinear Systems",
+        "Optimal Control",
+        "Digital Control Systems",
+        "System Identification",
+        "Robotics and Automation",
+        "Process Control",
+        "Embedded Systems"
+      ],
+      "careerOptions": [
+        "Automation Engineer",
+        "Robotics Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "IIT Kharagpur"
+      ],
+      "jobRoles": [
+        "Control Systems Engineer",
+        "Automation Engineer",
+        "Process Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹22 LPA",
+        "companies": [
+          "ABB",
+          "Honeywell",
+          "Tata Motors"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "THERMAL_ENGINEERING",
+      "branchName": "Thermal Engineering",
+      "description": "Thermal Engineering specializes in the study of heat transfer, thermodynamics, and energy systems. It is crucial for industries such as automotive, aerospace, power plants, and HVAC, focusing on efficient energy conversion and management.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Thermodynamics",
+        "Heat and Mass Transfer",
+        "Fluid Mechanics",
+        "Computational Fluid Dynamics",
+        "Refrigeration and Air Conditioning",
+        "Power Plant Engineering",
+        "Renewable Energy Systems",
+        "Combustion Engineering"
+      ],
+      "careerOptions": [
+        "Thermal Design Engineer",
+        "Energy Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Bombay"
+      ],
+      "jobRoles": [
+        "Thermal Engineer",
+        "HVAC Engineer",
+        "Energy Systems Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "BHEL",
+          "L&T",
+          "Tata Power"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MANUFACTURING_ENGINEERING",
+      "branchName": "Manufacturing Engineering",
+      "description": "Manufacturing Engineering focuses on the design, operation, and optimization of manufacturing processes and systems. It covers advanced manufacturing, automation, materials science, and quality control, preparing graduates for roles in production and process industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Manufacturing Processes",
+        "Computer Integrated Manufacturing",
+        "Materials Science",
+        "Industrial Automation",
+        "Production Planning and Control",
+        "Quality Engineering",
+        "Robotics in Manufacturing",
+        "Supply Chain Management"
+      ],
+      "careerOptions": [
+        "Production Manager",
+        "Process Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Manufacturing Engineer",
+        "Production Engineer",
+        "Quality Control Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Tata Motors",
+          "Maruti Suzuki",
+          "Mahindra & Mahindra"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "STRUCTURAL_ENGINEERING",
+      "branchName": "Structural Engineering",
+      "description": "Structural Engineering focuses on the analysis, design, and construction of structures such as buildings, bridges, and dams. It ensures structures are safe, stable, and capable of withstanding environmental forces. The field offers opportunities in infrastructure development, consultancy, and research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Structural Analysis",
+        "Design of Concrete Structures",
+        "Design of Steel Structures",
+        "Finite Element Methods",
+        "Structural Dynamics",
+        "Earthquake Engineering",
+        "Construction Materials",
+        "Structural Reliability"
+      ],
+      "careerOptions": [
+        "Structural Engineer in construction companies",
+        "Researcher or academician in engineering institutes"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Delhi"
+      ],
+      "jobRoles": [
+        "Structural Engineer",
+        "Design Engineer",
+        "Project Consultant"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Larsen & Toubro",
+          "Tata Projects",
+          "AECOM"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "TRANSPORTATION_ENGINEERING",
+      "branchName": "Transportation Engineering",
+      "description": "Transportation Engineering deals with the planning, design, operation, and maintenance of transportation systems such as roads, highways, railways, airports, and urban transit. It plays a vital role in infrastructure development and urban planning.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Traffic Engineering",
+        "Highway Engineering",
+        "Pavement Design",
+        "Transportation Planning",
+        "Geometric Design of Roads",
+        "Railway Engineering",
+        "Airport Engineering",
+        "Urban Transportation Systems"
+      ],
+      "careerOptions": [
+        "Transportation Planner in government agencies",
+        "Consultant in infrastructure firms"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "IIT Kharagpur"
+      ],
+      "jobRoles": [
+        "Transportation Engineer",
+        "Traffic Analyst",
+        "Highway Design Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "AECOM",
+          "RITES",
+          "L&T Infrastructure"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ENVIRONMENTAL_ENGINEERING",
+      "branchName": "Environmental Engineering",
+      "description": "Environmental Engineering focuses on developing solutions to environmental challenges such as water and air pollution, waste management, and sustainable development. Graduates work on projects related to environmental protection, policy, and technology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Water Supply Engineering",
+        "Wastewater Treatment",
+        "Air Pollution Control",
+        "Solid Waste Management",
+        "Environmental Impact Assessment",
+        "Environmental Chemistry",
+        "Industrial Waste Management",
+        "Environmental Microbiology"
+      ],
+      "careerOptions": [
+        "Environmental Consultant",
+        "Researcher in environmental agencies"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "IIT Roorkee"
+      ],
+      "jobRoles": [
+        "Environmental Engineer",
+        "Pollution Control Officer",
+        "Sustainability Consultant"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6.5 LPA",
+        "highestSalary2025": "₹14 LPA",
+        "companies": [
+          "Tata Consulting Engineers",
+          "WSP India",
+          "Envirotech"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "GEOTECHNICAL_ENGINEERING",
+      "branchName": "Geotechnical Engineering",
+      "description": "Geotechnical Engineering involves the study of soil and rock mechanics to design foundations, slopes, retaining structures, and tunnels. It is crucial for safe and cost-effective construction in civil engineering projects.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Soil Mechanics",
+        "Foundation Engineering",
+        "Rock Mechanics",
+        "Earth Retaining Structures",
+        "Ground Improvement Techniques",
+        "Geotechnical Earthquake Engineering",
+        "Soil Dynamics",
+        "Slope Stability"
+      ],
+      "careerOptions": [
+        "Geotechnical Consultant",
+        "Site Investigation Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Bombay"
+      ],
+      "jobRoles": [
+        "Geotechnical Engineer",
+        "Foundation Design Engineer",
+        "Site Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹16 LPA",
+        "companies": [
+          "Fugro",
+          "L&T GeoStructure",
+          "AFCONS Infrastructure"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ROBOTICS",
+      "branchName": "Robotics",
+      "description": "Robotics is an interdisciplinary branch that integrates mechanical engineering, electronics, computer science, and artificial intelligence to design, build, and operate robots and automated systems. It has applications in manufacturing, healthcare, defense, and research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Robotics Engineering",
+        "Control Systems",
+        "Artificial Intelligence",
+        "Embedded Systems",
+        "Machine Vision",
+        "Mechatronics",
+        "Sensors and Actuators",
+        "Robot Kinematics and Dynamics"
+      ],
+      "careerOptions": [
+        "Robotics Engineer in manufacturing",
+        "Researcher in automation and AI"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "IIT Hyderabad"
+      ],
+      "jobRoles": [
+        "Robotics Engineer",
+        "Automation Engineer",
+        "Research Scientist"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹22 LPA",
+        "companies": [
+          "ABB India",
+          "TATA Elxsi",
+          "Bosch"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AUTOMOBILE_ENGINEERING",
+      "branchName": "Automobile Engineering",
+      "description": "Automobile Engineering focuses on the design, development, manufacturing, and testing of vehicles and their components. The branch covers advancements in automotive technology, safety, emissions, and alternative fuels, preparing graduates for roles in the automotive and allied industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Automotive Engine Technology",
+        "Vehicle Dynamics",
+        "Automotive Electronics",
+        "Automotive Materials and Manufacturing",
+        "Automotive Design",
+        "Hybrid and Electric Vehicles",
+        "Automotive Safety Engineering"
+      ],
+      "careerOptions": [
+        "Automotive Design Engineer",
+        "R&D Engineer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "VIT Vellore"
+      ],
+      "jobRoles": [
+        "Automobile Engineer",
+        "Quality Control Engineer",
+        "Production Manager"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "Tata Motors",
+          "Mahindra & Mahindra",
+          "Maruti Suzuki"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AEROSPACE_ENGINEERING",
+      "branchName": "Aerospace Engineering",
+      "description": "Aerospace Engineering deals with the design, development, testing, and production of aircraft, spacecraft, and related systems. The branch covers aerodynamics, propulsion, avionics, and structural analysis, offering opportunities in aviation, defense, and space research sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Aerodynamics",
+        "Aircraft Structures",
+        "Propulsion Systems",
+        "Flight Mechanics",
+        "Avionics",
+        "Space Technology",
+        "Computational Fluid Dynamics"
+      ],
+      "careerOptions": [
+        "Aerospace Engineer",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "IIT Kanpur",
+        "Indian Institute of Science (IISc) Bangalore"
+      ],
+      "jobRoles": [
+        "Aerospace Engineer",
+        "Design Engineer",
+        "Systems Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "ISRO",
+          "HAL",
+          "DRDO"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "NANOTECHNOLOGY",
+      "branchName": "Nanotechnology",
+      "description": "Nanotechnology is an interdisciplinary field focusing on the manipulation and application of materials at the nanoscale. It covers nanomaterials, nanoelectronics, nanobiotechnology, and their applications in medicine, electronics, energy, and materials science.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Nanomaterials",
+        "Nanoelectronics",
+        "Nanobiotechnology",
+        "Characterization Techniques",
+        "Quantum Mechanics",
+        "Nanofabrication",
+        "Surface Science"
+      ],
+      "careerOptions": [
+        "Nanotechnologist",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Bombay",
+        "Amity University Noida"
+      ],
+      "jobRoles": [
+        "Nanotechnology Researcher",
+        "Materials Scientist",
+        "Process Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Reliance Industries",
+          "Tata Chemicals",
+          "DRDO"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BIOTECHNOLOGY",
+      "branchName": "Biotechnology",
+      "description": "Biotechnology integrates biology with technology to develop products and processes for healthcare, agriculture, and industry. The branch covers genetic engineering, molecular biology, bioinformatics, and bioprocess engineering, offering careers in research, pharmaceuticals, and biotech firms.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Molecular Biology",
+        "Genetic Engineering",
+        "Bioprocess Engineering",
+        "Bioinformatics",
+        "Immunology",
+        "Cell Biology",
+        "Biostatistics"
+      ],
+      "careerOptions": [
+        "Biotechnologist",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3.5 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "Anna University"
+      ],
+      "jobRoles": [
+        "Bioprocess Engineer",
+        "Research Associate",
+        "Quality Analyst"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Biocon",
+          "Serum Institute of India",
+          "Dr. Reddy's Laboratories"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PETROLEUM_ENGINEERING",
+      "branchName": "Petroleum Engineering",
+      "description": "Petroleum Engineering focuses on the exploration, extraction, production, and management of oil and gas resources. The branch covers reservoir engineering, drilling technology, and petroleum geology, preparing graduates for careers in the energy sector.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Reservoir Engineering",
+        "Drilling Engineering",
+        "Petroleum Geology",
+        "Production Engineering",
+        "Petroleum Refining",
+        "Enhanced Oil Recovery",
+        "Offshore Engineering"
+      ],
+      "careerOptions": [
+        "Petroleum Engineer",
+        "Reservoir Engineer"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Institute of Technology (ISM) Dhanbad",
+        "Pandit Deendayal Energy University (PDEU), Gandhinagar"
+      ],
+      "jobRoles": [
+        "Drilling Engineer",
+        "Production Engineer",
+        "Reservoir Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "ONGC",
+          "Reliance Industries",
+          "Cairn Oil & Gas"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CHEMICAL_ENGINEERING",
+      "branchName": "Chemical Engineering",
+      "description": "Chemical Engineering focuses on the design, development, and operation of processes that convert raw materials into valuable products such as fuels, chemicals, pharmaceuticals, and food. The branch integrates principles of chemistry, physics, mathematics, biology, and economics to efficiently use, produce, design, transport, and transform energy and materials. Graduates are in demand in industries like petrochemicals, pharmaceuticals, energy, and environmental engineering.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Transport Phenomena",
+        "Chemical Reaction Engineering",
+        "Process Dynamics and Control",
+        "Thermodynamics",
+        "Process Equipment Design",
+        "Separation Processes",
+        "Advanced Chemical Engineering Mathematics",
+        "Biochemical Engineering"
+      ],
+      "careerOptions": [
+        "Process Engineer",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Bombay"
+      ],
+      "jobRoles": [
+        "Process Engineer",
+        "Production Manager",
+        "Design Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8.5 LPA",
+        "highestSalary2025": "₹22 LPA",
+        "companies": [
+          "Reliance Industries",
+          "Indian Oil Corporation",
+          "L&T"
+        ]
+      },
+      "branchBrochureUrl": "https://www.iitm.ac.in/academics/departments/chemical-engineering"
+    },
+    {
+      "branchId": "INSTRUMENTATION_ENGINEERING",
+      "branchName": "Instrumentation Engineering",
+      "description": "Instrumentation Engineering deals with the measurement, control, and automation of processes. This branch covers the design and maintenance of instruments and systems used in industries for monitoring and controlling engineering processes. It is crucial in sectors such as manufacturing, oil and gas, power plants, and automation.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Industrial Instrumentation",
+        "Process Control",
+        "Sensors and Transducers",
+        "Analytical Instrumentation",
+        "Digital Signal Processing",
+        "Microprocessors and Microcontrollers",
+        "Control System Design",
+        "Biomedical Instrumentation"
+      ],
+      "careerOptions": [
+        "Instrumentation Engineer",
+        "Automation Specialist"
+      ],
+      "averageFeesRange": "₹1.5–2.5 LPA",
+      "popularColleges": [
+        "IIT Kharagpur",
+        "NIT Trichy"
+      ],
+      "jobRoles": [
+        "Instrumentation Engineer",
+        "Control Systems Engineer",
+        "Automation Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7.5 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Siemens",
+          "ABB",
+          "Honeywell"
+        ]
+      },
+      "branchBrochureUrl": "https://www.iitkgp.ac.in/department/IN"
+    },
+    {
+      "branchId": "INDUSTRIAL_ENGINEERING",
+      "branchName": "Industrial Engineering",
+      "description": "Industrial Engineering focuses on optimizing complex processes, systems, or organizations by eliminating waste of time, money, materials, and other resources. The branch combines engineering, mathematics, and management principles to improve efficiency, productivity, and quality in manufacturing and service industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Operations Research",
+        "Production Planning and Control",
+        "Supply Chain Management",
+        "Quality Control and Assurance",
+        "Ergonomics",
+        "Simulation Modeling",
+        "Industrial Management",
+        "Manufacturing Systems"
+      ],
+      "careerOptions": [
+        "Industrial Engineer",
+        "Operations Manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "IIT Delhi",
+        "IIT Kharagpur"
+      ],
+      "jobRoles": [
+        "Industrial Engineer",
+        "Quality Analyst",
+        "Operations Manager"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹8 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "Tata Consultancy Services",
+          "Maruti Suzuki",
+          "Mahindra & Mahindra"
+        ]
+      },
+      "branchBrochureUrl": "https://mech.iitd.ac.in/industrial-engineering"
+    },
+    {
+      "branchId": "ENGINEERING_DESIGN",
+      "branchName": "Engineering Design",
+      "description": "Engineering Design is an interdisciplinary branch that emphasizes the creative and analytical aspects of designing new products, systems, or processes. The curriculum covers areas such as product design, computer-aided design (CAD), system integration, and innovation management. Graduates are equipped to work in R&D, product development, and design consultancy.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Engineering Design Process",
+        "Computer-Aided Design (CAD)",
+        "Finite Element Analysis",
+        "Product Development",
+        "Mechanics of Materials",
+        "Design for Manufacturing",
+        "Innovation and Creativity",
+        "System Integration"
+      ],
+      "careerOptions": [
+        "Design Engineer",
+        "Product Development Manager"
+      ],
+      "averageFeesRange": "₹2–3 LPA",
+      "popularColleges": [
+        "IIT Madras",
+        "IIT Guwahati"
+      ],
+      "jobRoles": [
+        "Design Engineer",
+        "Product Designer",
+        "R&D Engineer"
+      ],
+      "examId": [
+        "GATE"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹9 LPA",
+        "highestSalary2025": "₹25 LPA",
+        "companies": [
+          "Tata Motors",
+          "GE India",
+          "Bosch"
+        ]
+      },
+      "branchBrochureUrl": "https://ed.iitm.ac.in/"
+    }
+  ]
+}

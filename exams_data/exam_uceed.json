@@ -1,0 +1,53 @@
+{
+  "examId": "UCEED",
+  "examName": "UCEED",
+  "fullForm": "Undergraduate Common Entrance Examination for Design",
+  "examLevel": "National",
+  "examType": "Undergraduate",
+  "mode": [
+    "Part-A: Computer-Based Test (Online)",
+    "Part-B: Pen and Paper (Offline)"
+  ],
+  "conductingBody": "Indian Institute of Technology Bombay",
+  "officialWebsite": "https://www.uceed.iitb.ac.in",
+  "applicationFees": {
+    "general": "INR 3,800",
+    "obc": "INR 1,900",
+    "sc_st": "INR 1,900"
+  },
+  "eligibility": "Candidates must have passed Class 12 (or equivalent) in any stream (Science, Commerce, or Arts & Humanities) in 2024 or appearing in 2025. Candidates can attempt UCEED a maximum of two times in consecutive years. There is an age limit: candidates belonging to the OPEN/EWS/OBC-NCL category must have been born on or after October 1, 2000, and those belonging to SC, ST, or PwD categories must have been born on or after October 1, 1995.[4]",
+  "subjectsTested": [
+    "Visualization and Spatial Ability",
+    "Observation and Design Sensitivity",
+    "Environmental and Social Awareness",
+    "Analytical and Logical Reasoning",
+    "Language and Creativity",
+    "Design Thinking and Problem Solving",
+    "Drawing"
+  ],
+  "maxMarks": "300",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Part-A": "240 marks (Computer-Based, Objective Type)",
+    "Part-B": "60 marks (Drawing, Pen and Paper)"
+  },
+  "negativeMarking": "Yes (only in Part-A, Section 1: Numerical Answer Type - No negative marking; Section 2: Multiple Select Questions - Negative marking; Section 3: Multiple Choice Questions - Negative marking)",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Des (Bachelor of Design)"
+  ],
+  "examSyllabusPdfUrl": "https://www.uceed.iitb.ac.in/2025/assets/downloads/docs/UCEED2025_Information_Brochure.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.uceed.iitb.ac.in/2025/assets/downloads/docs/UCEED2025_Information_Brochure.pdf",
+  "faqs": {
+    "question": "Is UCEED conducted online or offline?",
+    "answer": "UCEED is conducted in two parts: Part-A is a computer-based test (online), and Part-B is a pen and paper test (offline) where candidates must draw/sketch on paper.[2]"
+  },
+  "created": "2025-07-13T07:46:55.230193+00:00",
+  "updated": "2025-07-13T07:46:55.230395+00:00"
+}

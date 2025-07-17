@@ -1,0 +1,942 @@
+{
+  "courseId": "MSC",
+  "courseName": "Msc",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to MSc courses in India is typically based on entrance exams such as CUET PG and IIT JAM, followed by counseling or interviews at select universities. Some institutions may also offer merit-based admissions based on undergraduate performance. Applicants must hold a relevant bachelor's degree in the respective discipline.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What is the eligibility criteria for MSc admission in India?",
+      "answer": "Candidates must have a bachelor's degree in the relevant subject (BSc or equivalent) with a minimum aggregate (usually 50–60%) from a recognized university. Some universities require candidates to qualify entrance exams like CUET PG or IIT JAM."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "MATHEMATICS",
+      "branchName": "Mathematics",
+      "description": "MSc Mathematics is a postgraduate program focusing on advanced mathematical theories, analytical techniques, and their applications in research, education, data science, and industry. It prepares students for academic, research, and quantitative roles in various sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Real Analysis",
+        "Abstract Algebra",
+        "Topology",
+        "Linear Algebra",
+        "Complex Analysis",
+        "Numerical Methods",
+        "Differential Equations",
+        "Probability and Statistics"
+      ],
+      "careerOptions": [
+        "Academician/Professor",
+        "Data Scientist",
+        "Research Analyst",
+        "Actuary"
+      ],
+      "averageFeesRange": "₹10,000–₹1.5 LPA",
+      "popularColleges": [
+        "Indian Institute of Science (IISc), Bangalore",
+        "Jawaharlal Nehru University (JNU), New Delhi"
+      ],
+      "jobRoles": [
+        "Mathematician",
+        "Data Analyst",
+        "Quantitative Researcher"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "TCS",
+          "ISRO",
+          "Analytics Vidhya"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "PHYSICS",
+      "branchName": "Physics",
+      "description": "MSc Physics is a postgraduate course covering advanced concepts in classical and modern physics, experimental techniques, and research methodologies. Graduates are equipped for careers in research, academia, and technology-driven industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Quantum Mechanics",
+        "Classical Mechanics",
+        "Electrodynamics",
+        "Statistical Mechanics",
+        "Solid State Physics",
+        "Nuclear Physics",
+        "Mathematical Physics",
+        "Electronics"
+      ],
+      "careerOptions": [
+        "Research Scientist",
+        "Lecturer/Professor",
+        "Technical Officer"
+      ],
+      "averageFeesRange": "₹12,000–₹2 LPA",
+      "popularColleges": [
+        "Banaras Hindu University (BHU), Varanasi",
+        "University of Hyderabad"
+      ],
+      "jobRoles": [
+        "Physicist",
+        "Research Associate",
+        "Lab Supervisor"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "DRDO",
+          "BARC",
+          "ISRO"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CHEMISTRY",
+      "branchName": "Chemistry",
+      "description": "MSc Chemistry provides in-depth knowledge of physical, organic, inorganic, and analytical chemistry, preparing students for research, teaching, and roles in chemical, pharmaceutical, and allied industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Organic Chemistry",
+        "Inorganic Chemistry",
+        "Physical Chemistry",
+        "Analytical Chemistry",
+        "Spectroscopy",
+        "Environmental Chemistry",
+        "Polymer Chemistry",
+        "Biochemistry"
+      ],
+      "careerOptions": [
+        "Research Chemist",
+        "Quality Control Analyst",
+        "Lecturer"
+      ],
+      "averageFeesRange": "₹15,000–₹2.5 LPA",
+      "popularColleges": [
+        "Delhi University (DU)",
+        "Indian Institute of Science Education and Research (IISER)"
+      ],
+      "jobRoles": [
+        "Chemist",
+        "Lab Analyst",
+        "Process Developer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Dr. Reddy's Laboratories",
+          "Lupin",
+          "ONGC"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BIOTECHNOLOGY",
+      "branchName": "Biotechnology",
+      "description": "MSc Biotechnology blends biology and technology, focusing on genetic engineering, molecular biology, and bioinformatics. Graduates work in research, pharmaceuticals, healthcare, and agricultural industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Molecular Biology",
+        "Genetic Engineering",
+        "Bioprocess Engineering",
+        "Immunology",
+        "Cell Biology",
+        "Bioinformatics",
+        "Microbial Technology",
+        "Plant Biotechnology"
+      ],
+      "careerOptions": [
+        "Biotechnologist",
+        "Research Scientist",
+        "Quality Assurance Manager"
+      ],
+      "averageFeesRange": "₹30,000–₹3 LPA",
+      "popularColleges": [
+        "Jawaharlal Nehru University (JNU), New Delhi",
+        "Amity University, Noida"
+      ],
+      "jobRoles": [
+        "Research Associate",
+        "Biotech Analyst",
+        "Lab Manager"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5.2 LPA",
+        "highestSalary2025": "₹11 LPA",
+        "companies": [
+          "Biocon",
+          "Serum Institute of India",
+          "Cipla"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MICROBIOLOGY",
+      "branchName": "Microbiology",
+      "description": "MSc Microbiology focuses on the study of microorganisms and their applications in medicine, agriculture, and industry. The program prepares students for careers in research, diagnostics, and biotechnology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Microbial Physiology",
+        "Immunology",
+        "Virology",
+        "Industrial Microbiology",
+        "Environmental Microbiology",
+        "Molecular Biology",
+        "Food Microbiology",
+        "Genetics"
+      ],
+      "careerOptions": [
+        "Microbiologist",
+        "Clinical Research Associate",
+        "Quality Control Officer"
+      ],
+      "averageFeesRange": "₹20,000–₹2 LPA",
+      "popularColleges": [
+        "University of Delhi",
+        "Panjab University, Chandigarh"
+      ],
+      "jobRoles": [
+        "Microbiologist",
+        "Lab Technician",
+        "Research Scientist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.7 LPA",
+        "highestSalary2025": "₹9.5 LPA",
+        "companies": [
+          "Ranbaxy",
+          "Dr. Lal PathLabs",
+          "Nestle"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ZOOLOGY",
+      "branchName": "Zoology",
+      "description": "Zoology is the scientific study of animal biology, including their structure, physiology, evolution, classification, and ecology. The MSc in Zoology prepares students for research, teaching, and roles in wildlife conservation, environmental management, and related fields.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Animal Physiology",
+        "Cell and Molecular Biology",
+        "Ecology and Environmental Biology",
+        "Genetics and Evolution",
+        "Developmental Biology",
+        "Entomology",
+        "Immunology",
+        "Biostatistics"
+      ],
+      "careerOptions": [
+        "Research Scientist",
+        "Wildlife Biologist",
+        "Academician",
+        "Environmental Consultant"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "Banaras Hindu University",
+        "University of Delhi"
+      ],
+      "jobRoles": [
+        "Zoologist",
+        "Wildlife Conservationist",
+        "Research Associate"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Wildlife Institute of India",
+          "National Biodiversity Authority",
+          "WWF India"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BOTANY",
+      "branchName": "Botany",
+      "description": "Botany focuses on the scientific study of plants, including their physiology, structure, genetics, ecology, distribution, and economic importance. MSc Botany graduates are equipped for careers in research, teaching, agriculture, forestry, and biotechnology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Plant Physiology",
+        "Plant Anatomy",
+        "Genetics and Plant Breeding",
+        "Microbiology",
+        "Plant Ecology",
+        "Phytochemistry",
+        "Plant Pathology",
+        "Molecular Biology"
+      ],
+      "careerOptions": [
+        "Plant Scientist",
+        "Agricultural Officer",
+        "Researcher",
+        "Academician"
+      ],
+      "averageFeesRange": "₹1–2.5 LPA",
+      "popularColleges": [
+        "Jawaharlal Nehru University",
+        "University of Calcutta"
+      ],
+      "jobRoles": [
+        "Botanist",
+        "Plant Biotechnologist",
+        "Research Scientist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹7.5 LPA",
+        "companies": [
+          "Indian Council of Agricultural Research",
+          "Biocon",
+          "Forest Research Institute"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BIOCHEMISTRY",
+      "branchName": "Biochemistry",
+      "description": "Biochemistry explores the chemical processes within and related to living organisms. The MSc in Biochemistry prepares students for roles in research, pharmaceuticals, healthcare, and biotechnology industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Enzymology",
+        "Molecular Biology",
+        "Cell Biology",
+        "Immunology",
+        "Genetics",
+        "Metabolism",
+        "Clinical Biochemistry",
+        "Bioinformatics"
+      ],
+      "careerOptions": [
+        "Biochemist",
+        "Clinical Researcher",
+        "Pharmaceutical Scientist",
+        "Academician"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "All India Institute of Medical Sciences (AIIMS)",
+        "University of Hyderabad"
+      ],
+      "jobRoles": [
+        "Research Scientist",
+        "Clinical Biochemist",
+        "Quality Control Analyst"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Dr. Reddy's Laboratories",
+          "Biocon",
+          "AIIMS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "STATISTICS",
+      "branchName": "Statistics",
+      "description": "Statistics involves the collection, analysis, interpretation, and presentation of numerical data. MSc Statistics graduates are in demand in sectors like data science, finance, government, research, and academia.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Probability Theory",
+        "Statistical Inference",
+        "Linear Models",
+        "Sampling Techniques",
+        "Multivariate Analysis",
+        "Time Series Analysis",
+        "Design of Experiments",
+        "Statistical Computing"
+      ],
+      "careerOptions": [
+        "Statistician",
+        "Data Analyst",
+        "Actuary",
+        "Researcher"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Statistical Institute (ISI)",
+        "University of Delhi"
+      ],
+      "jobRoles": [
+        "Statistician",
+        "Data Scientist",
+        "Business Analyst"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ISI_ADMISSION_TEST"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹15 LPA",
+        "companies": [
+          "TCS",
+          "Deloitte",
+          "Indian Statistical Institute"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ENVIRONMENTAL_SCIENCE",
+      "branchName": "Environmental Science",
+      "description": "Environmental Science is an interdisciplinary field that studies the environment and solutions to environmental challenges. MSc graduates work in research, policy, environmental consultancy, NGOs, and government agencies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Environmental Chemistry",
+        "Ecology",
+        "Environmental Pollution",
+        "Environmental Impact Assessment",
+        "Remote Sensing and GIS",
+        "Environmental Microbiology",
+        "Climate Change",
+        "Waste Management"
+      ],
+      "careerOptions": [
+        "Environmental Consultant",
+        "Research Scientist",
+        "Policy Analyst",
+        "Academician"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jawaharlal Nehru University",
+        "Tata Institute of Social Sciences"
+      ],
+      "jobRoles": [
+        "Environmental Scientist",
+        "Sustainability Analyst",
+        "Research Associate"
+      ],
+      "examId": [
+        "CUET_PG",
+        "TISSNET"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "TERI",
+          "Greenpeace India",
+          "CPCB"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "GEOLOGY",
+      "branchName": "Geology",
+      "description": "Geology is the scientific study of the Earth, its structure, materials, processes, and history. The MSc in Geology prepares students for careers in mineral exploration, environmental consultancy, and research, with applications in natural resource management and geotechnical industries.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Mineralogy",
+        "Petrology",
+        "Structural Geology",
+        "Paleontology",
+        "Geochemistry",
+        "Geomorphology",
+        "Hydrogeology"
+      ],
+      "careerOptions": [
+        "Geologist in mining or oil & gas sector",
+        "Research scientist or academician"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Banaras Hindu University",
+        "Indian Institute of Science (IISc) Bangalore"
+      ],
+      "jobRoles": [
+        "Exploration Geologist",
+        "Hydrogeologist",
+        "Environmental Consultant"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Oil and Natural Gas Corporation (ONGC)",
+          "Geological Survey of India",
+          "Schlumberger"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "FORENSIC_SCIENCE",
+      "branchName": "Forensic Science",
+      "description": "Forensic Science applies scientific principles to criminal investigations and legal matters. The MSc in Forensic Science covers crime scene analysis, toxicology, and DNA analysis, preparing graduates for roles in law enforcement, forensic labs, and research.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Forensic Toxicology",
+        "Forensic Biology",
+        "Crime Scene Investigation",
+        "Forensic Chemistry",
+        "Digital Forensics",
+        "Questioned Document Examination"
+      ],
+      "careerOptions": [
+        "Forensic scientist in government labs",
+        "Crime scene investigator"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Lok Nayak Jayaprakash Narayan National Institute of Criminology & Forensic Science, Delhi",
+        "Amity University, Noida"
+      ],
+      "jobRoles": [
+        "Forensic Analyst",
+        "Crime Laboratory Scientist",
+        "DNA Analyst"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Central Forensic Science Laboratory (CFSL)",
+          "State Forensic Science Laboratories",
+          "Delhi Police"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "FOOD_SCIENCE_AND_TECHNOLOGY",
+      "branchName": "Food Science and Technology",
+      "description": "Food Science and Technology focuses on the study of food processing, preservation, safety, and quality control. MSc graduates work in food manufacturing, quality assurance, R&D, and regulatory agencies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Food Chemistry",
+        "Food Microbiology",
+        "Food Processing Technology",
+        "Food Engineering",
+        "Food Safety and Quality Assurance",
+        "Nutrition"
+      ],
+      "careerOptions": [
+        "Food technologist in industry",
+        "Quality assurance manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Central Food Technological Research Institute (CFTRI), Mysore",
+        "Guru Nanak Dev University, Amritsar"
+      ],
+      "jobRoles": [
+        "Food Technologist",
+        "Quality Control Analyst",
+        "R&D Scientist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ICAR_AIEEA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "Nestle India",
+          "ITC Limited",
+          "Britannia"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "LIFE_SCIENCES",
+      "branchName": "Life Sciences",
+      "description": "Life Sciences is a broad field covering the study of living organisms, including biology, biotechnology, genetics, and ecology. MSc Life Sciences graduates find opportunities in research, pharmaceuticals, healthcare, and academia.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Cell Biology",
+        "Genetics",
+        "Biochemistry",
+        "Molecular Biology",
+        "Immunology",
+        "Microbiology",
+        "Ecology"
+      ],
+      "careerOptions": [
+        "Research scientist in biotech/pharma",
+        "Lecturer or academician"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jawaharlal Nehru University (JNU), New Delhi",
+        "University of Hyderabad"
+      ],
+      "jobRoles": [
+        "Research Associate",
+        "Biotechnologist",
+        "Lab Manager"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Biocon",
+          "Dr. Reddy's Laboratories",
+          "CSIR Labs"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "AGRICULTURAL_SCIENCES",
+      "branchName": "Agricultural Sciences",
+      "description": "Agricultural Sciences involves the study of crop production, soil science, agronomy, and agricultural biotechnology. MSc graduates contribute to food security, sustainable agriculture, and research in agri-business and government sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Agronomy",
+        "Soil Science",
+        "Plant Breeding and Genetics",
+        "Agricultural Microbiology",
+        "Crop Physiology",
+        "Horticulture"
+      ],
+      "careerOptions": [
+        "Agricultural scientist in research institutes",
+        "Agri-business manager"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Indian Agricultural Research Institute (IARI), New Delhi",
+        "Tamil Nadu Agricultural University, Coimbatore"
+      ],
+      "jobRoles": [
+        "Agricultural Officer",
+        "Research Scientist",
+        "Extension Officer"
+      ],
+      "examId": [
+        "ICAR_AIEEA",
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.7 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Indian Council of Agricultural Research (ICAR)",
+          "Monsanto India",
+          "State Agriculture Departments"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "GENETICS",
+      "branchName": "Genetics",
+      "description": "MSc Genetics focuses on the study of genes, genetic variation, and heredity in living organisms. It covers molecular genetics, human genetics, and genetic engineering, preparing students for research and applied roles in healthcare, agriculture, and biotechnology.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Molecular Genetics",
+        "Human Genetics",
+        "Genetic Engineering",
+        "Cell Biology",
+        "Biostatistics",
+        "Immunology",
+        "Microbial Genetics"
+      ],
+      "careerOptions": [
+        "Research Scientist",
+        "Genetic Counselor"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Jawaharlal Nehru University (JNU)",
+        "Banaras Hindu University (BHU)"
+      ],
+      "jobRoles": [
+        "Geneticist",
+        "Research Associate",
+        "Lab Technician"
+      ],
+      "examId": [
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "Biocon",
+          "Dr. Reddy's Laboratories",
+          "AIIMS"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "DATA_SCIENCE",
+      "branchName": "Data Science",
+      "description": "MSc Data Science trains students in statistical analysis, machine learning, big data technologies, and data visualization. Graduates are equipped for roles in analytics, IT, finance, and research sectors, addressing the growing demand for data-driven decision making.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Statistics",
+        "Machine Learning",
+        "Big Data Analytics",
+        "Data Mining",
+        "Programming in Python/R",
+        "Data Visualization",
+        "Database Management"
+      ],
+      "careerOptions": [
+        "Data Scientist",
+        "Business Analyst"
+      ],
+      "averageFeesRange": "₹2–4 LPA",
+      "popularColleges": [
+        "Indian Institute of Science (IISc) Bangalore",
+        "Indian Statistical Institute (ISI) Kolkata"
+      ],
+      "jobRoles": [
+        "Data Analyst",
+        "Machine Learning Engineer",
+        "Data Engineer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "ISI_ADMISSION_TEST"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹7 LPA",
+        "highestSalary2025": "₹20 LPA",
+        "companies": [
+          "TCS",
+          "Infosys",
+          "Accenture"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "COMPUTER_SCIENCE",
+      "branchName": "Computer Science",
+      "description": "MSc Computer Science covers advanced computing concepts, algorithms, software engineering, and emerging technologies. The program prepares students for IT, research, and academic careers, with strong placement opportunities in the tech industry.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Algorithms",
+        "Operating Systems",
+        "Database Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Artificial Intelligence",
+        "Programming Languages"
+      ],
+      "careerOptions": [
+        "Software Developer",
+        "IT Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "University of Delhi",
+        "IIT Madras"
+      ],
+      "jobRoles": [
+        "Software Engineer",
+        "System Analyst",
+        "Research Scientist"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹6 LPA",
+        "highestSalary2025": "₹18 LPA",
+        "companies": [
+          "Google",
+          "Wipro",
+          "IBM"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ELECTRONICS",
+      "branchName": "Electronics",
+      "description": "MSc Electronics delves into electronic circuits, communication systems, embedded systems, and microprocessors. Graduates are suited for roles in electronics design, telecommunications, and research organizations.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Analog and Digital Electronics",
+        "Microprocessors and Microcontrollers",
+        "Communication Systems",
+        "Solid State Physics",
+        "Embedded Systems",
+        "VLSI Design"
+      ],
+      "careerOptions": [
+        "Electronics Engineer",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "University of Hyderabad",
+        "Jamia Millia Islamia"
+      ],
+      "jobRoles": [
+        "Electronics Design Engineer",
+        "Test Engineer",
+        "System Analyst"
+      ],
+      "examId": [
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹5 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Bharat Electronics Limited",
+          "ISRO",
+          "Tata Consultancy Services"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "MARINE_BIOLOGY",
+      "branchName": "Marine Biology",
+      "description": "MSc Marine Biology studies marine organisms, ecosystems, and oceanography. The course prepares students for research, conservation, and roles in marine resource management and environmental consultancies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Marine Ecology",
+        "Oceanography",
+        "Marine Biotechnology",
+        "Fisheries Science",
+        "Marine Microbiology",
+        "Environmental Science"
+      ],
+      "careerOptions": [
+        "Marine Biologist",
+        "Environmental Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Cochin University of Science and Technology",
+        "Andhra University"
+      ],
+      "jobRoles": [
+        "Marine Researcher",
+        "Aquatic Ecologist",
+        "Conservation Officer"
+      ],
+      "examId": [
+        "CUET_PG"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "National Institute of Oceanography",
+          "WWF India",
+          "Fisheries Department"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "ATMOSPHERIC_SCIENCE",
+      "branchName": "Atmospheric Science",
+      "description": "Atmospheric Science is an interdisciplinary branch of science that studies the Earth's atmosphere, weather processes, climate systems, and their interactions with land and ocean. The course covers meteorology, climatology, atmospheric chemistry, and physics, preparing students for research, forecasting, and environmental consultancy roles.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Meteorology",
+        "Climatology",
+        "Atmospheric Physics",
+        "Atmospheric Chemistry",
+        "Remote Sensing and GIS",
+        "Numerical Weather Prediction",
+        "Climate Change and Variability",
+        "Environmental Modelling"
+      ],
+      "careerOptions": [
+        "Weather Forecaster",
+        "Atmospheric Scientist",
+        "Environmental Consultant",
+        "Research Scientist"
+      ],
+      "averageFeesRange": "₹30,000–1.5 Lakh per year",
+      "popularColleges": [
+        "Indian Institute of Technology Delhi",
+        "University of Pune"
+      ],
+      "jobRoles": [
+        "Meteorologist",
+        "Climate Analyst",
+        "Research Associate"
+      ],
+      "examId": [
+        "CUET_PG",
+        "IIT_JAM"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "India Meteorological Department",
+          "ISRO",
+          "National Remote Sensing Centre"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "examId": "ATMA",
+  "examName": "ATMA",
+  "fullForm": "AIMS Test for Management Admissions",
+  "examLevel": "National Level",
+  "examType": "Postgraduate Entrance Exam",
+  "mode": [
+    "Centre-Based Online Test"
+  ],
+  "conductingBody": "Association of Indian Management Schools (AIMS)",
+  "officialWebsite": "https://atmaaims.com",
+  "applicationFees": {
+    "general": "2000",
+    "obc": "2000",
+    "sc_st": "2000"
+  },
+  "eligibility": "Candidates must have a bachelor's degree in any discipline from a recognized university. Final year students are also eligible to apply. Minimum marks required may vary by institute.",
+  "subjectsTested": [
+    "Analytical Reasoning Skills",
+    "Verbal Skills",
+    "Quantitative Skills"
+  ],
+  "maxMarks": "180",
+  "duration": "180 minutes",
+  "marksPerSubject": {
+    "Analytical Reasoning Skills": "60",
+    "Verbal Skills": "60",
+    "Quantitative Skills": "60"
+  },
+  "negativeMarking": "0.25 marks deducted for each incorrect answer",
+  "examFrequency": "4-5 times a year",
+  "coursesLinked": [
+    "MBA",
+    "PGDM",
+    "MCA",
+    "PGDBA",
+    "MMS"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "How many times can I attempt the ATMA exam in a year?",
+    "answer": "There is no limit on the number of attempts; candidates can appear for ATMA as many times as it is conducted in a year."
+  },
+  "created": "2025-07-13T07:45:59.723981+00:00",
+  "updated": "2025-07-13T07:45:59.724159+00:00"
+}

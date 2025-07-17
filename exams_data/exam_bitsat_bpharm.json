@@ -1,0 +1,53 @@
+{
+  "examId": "BITSAT_BPHARM",
+  "examName": "BITSAT BPharm",
+  "fullForm": "Birla Institute of Technology and Science Admission Test - Bachelor of Pharmacy",
+  "examLevel": "University-based National Level Exam",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Computer-based Test (CBT)"
+  ],
+  "conductingBody": "Birla Institute of Technology and Science (BITS), Pilani",
+  "officialWebsite": "https://www.bitsadmission.com",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Candidates must have passed the 12th examination from a recognized Central or State board or its equivalent with Physics, Chemistry, and Biology. Adequate proficiency in English is also required. Candidates with PCM may also apply for the Pharmacy program.",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "English Proficiency",
+    "Logical Reasoning"
+  ],
+  "maxMarks": "390",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Physics": "40",
+    "Chemistry": "40",
+    "Biology": "45",
+    "English Proficiency": "15",
+    "Logical Reasoning": "10"
+  },
+  "negativeMarking": "1 mark will be deducted for each incorrect answer.",
+  "examFrequency": "Twice a year",
+  "coursesLinked": [
+    "BPharm"
+  ],
+  "examSyllabusPdfUrl": "https://www.bitsadmission.com/bitsat/BITSAT2025_Syllabus.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.bitsadmission.com/bitsat/BITSAT2025_Brochure.pdf",
+  "faqs": {
+    "question": "What is the mode of BITSAT BPharm exam?",
+    "answer": "BITSAT BPharm is conducted as a computer-based test (CBT) at designated centers."
+  },
+  "created": "2025-07-13T07:47:46.992174+00:00",
+  "updated": "2025-07-13T07:47:46.992299+00:00"
+}

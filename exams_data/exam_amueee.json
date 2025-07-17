@@ -1,0 +1,51 @@
+{
+  "examId": "AMUEEE",
+  "examName": "AMUEEE",
+  "fullForm": "Aligarh Muslim University Engineering Entrance Examination",
+  "examLevel": "University",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Offline"
+  ],
+  "conductingBody": "Aligarh Muslim University",
+  "officialWebsite": "https://www.amucontrollerexams.com",
+  "applicationFees": {
+    "general": "INR 650 (B.Tech), INR 750 (B.Arch and B.Tech), INR 450 (B.E. evening)",
+    "obc": "INR 650 (B.Tech), INR 750 (B.Arch and B.Tech), INR 450 (B.E. evening)",
+    "sc_st": "INR 650 (B.Tech), INR 750 (B.Arch and B.Tech), INR 450 (B.E. evening)"
+  },
+  "eligibility": "Candidates must have passed Class 12 or equivalent examination with Physics, Chemistry, Mathematics, and English with at least 50% aggregate marks.",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Mathematics"
+  ],
+  "maxMarks": "150",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Physics": "50",
+    "Chemistry": "50",
+    "Mathematics": "50"
+  },
+  "negativeMarking": "Yes",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Tech",
+    "B.Arch",
+    "B.E. (Evening)"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the eligibility criteria for AMUEEE?",
+    "answer": "Candidates must have passed Class 12 or equivalent with Physics, Chemistry, Mathematics, and English, securing at least 50% aggregate marks."
+  },
+  "created": "2025-07-13T07:43:26.332828+00:00",
+  "updated": "2025-07-13T07:43:26.332847+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "examId": "MH_CET_LAW",
+  "examName": "MH CET Law",
+  "fullForm": "Maharashtra Common Entrance Test for Law",
+  "examLevel": "State-level",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Computer-Based Test",
+    "Online"
+  ],
+  "conductingBody": "State Common Entrance Test Cell, Maharashtra",
+  "officialWebsite": "https://cetcell.mahacet.org",
+  "applicationFees": {
+    "general": "Rs. 800",
+    "obc": "Rs. 800",
+    "sc_st": "Rs. 400"
+  },
+  "eligibility": "For 5-year LLB: Passed 10+2 or equivalent from a recognized board with minimum 45% marks (40% for SC/ST candidates of Maharashtra); For 3-year LLB: Graduation in any discipline from a recognized university with minimum 45% marks (40% for SC/ST candidates of Maharashtra)[1][3].",
+  "subjectsTested": [
+    "Legal Aptitude and Legal Reasoning",
+    "Logical and Analytical Reasoning",
+    "General Knowledge with Current Affairs",
+    "English",
+    "Mathematical Aptitude"
+  ],
+  "maxMarks": "120",
+  "duration": "2 hours",
+  "marksPerSubject": {
+    "Legal Aptitude and Legal Reasoning": "40",
+    "General Knowledge with Current Affairs": "30",
+    "Logical and Analytical Reasoning": "30",
+    "English": "15",
+    "Mathematical Aptitude": "5"
+  },
+  "negativeMarking": "No negative marking",
+  "examFrequency": "Once in a year",
+  "coursesLinked": [
+    "3-year LLB",
+    "5-year Integrated LLB"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://cetcell.mahacet.org/CAP_LLB5_2024/Information_Brochure_LLB5_2024.pdf",
+  "faqs": {
+    "question": "Is there negative marking in MH CET Law?",
+    "answer": "No, there is no negative marking in MH CET Law exam.[3]"
+  },
+  "created": "2025-07-13T07:46:38.737818+00:00",
+  "updated": "2025-07-13T07:46:38.738253+00:00"
+}

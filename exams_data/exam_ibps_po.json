@@ -1,0 +1,60 @@
+{
+  "examId": "IBPS_PO",
+  "examName": "IBPS PO",
+  "fullForm": "Institute of Banking Personnel Selection Probationary Officer",
+  "examLevel": "National",
+  "examType": "Recruitment",
+  "mode": [
+    "Online"
+  ],
+  "conductingBody": "Institute of Banking Personnel Selection (IBPS)",
+  "officialWebsite": "https://www.ibps.in",
+  "applicationFees": {
+    "general": "₹850",
+    "obc": "₹850",
+    "sc_st": "₹175"
+  },
+  "eligibility": "Graduation in any discipline from a recognized university. Age limit is typically 20 to 30 years, with age relaxations as per government norms.",
+  "subjectsTested": [
+    "English Language",
+    "Quantitative Aptitude",
+    "Reasoning Ability",
+    "General/Economy/Banking Awareness",
+    "Computer Aptitude"
+  ],
+  "maxMarks": "225 (Mains) + 100 (Interview)",
+  "duration": "Prelims: 1 hour; Mains: 3 hours 30 minutes",
+  "marksPerSubject": {
+    "Prelims": {
+      "English Language": "30",
+      "Quantitative Aptitude": "35",
+      "Reasoning Ability": "35"
+    },
+    "Mains": {
+      "Reasoning & Computer Aptitude": "60",
+      "General/Economy/Banking Awareness": "40",
+      "English Language": "40",
+      "Data Analysis & Interpretation": "60",
+      "English Language (Letter Writing & Essay)": "25"
+    }
+  },
+  "negativeMarking": "0.25 marks deducted for each wrong answer in both Prelims and Mains objective tests.",
+  "examFrequency": "Annual",
+  "coursesLinked": [
+    "Probationary Officer (PO) recruitment in Public Sector Banks"
+  ],
+  "examSyllabusPdfUrl": "https://www.ibps.in/wp-content/uploads/IBPS_PO_Notification_2025.pdf",
+  "previousYearCutoffs": {
+    "general": "45.75 (Prelims 2023)",
+    "obc": "44.50 (Prelims 2023)",
+    "sc": "36.25 (Prelims 2023)",
+    "st": "32.00 (Prelims 2023)"
+  },
+  "examBrochureUrl": "https://www.ibps.in/wp-content/uploads/IBPS_PO_Notification_2025.pdf",
+  "faqs": {
+    "question": "What is the selection process for IBPS PO?",
+    "answer": "The IBPS PO selection process consists of three stages: Preliminary Exam, Main Exam, and Interview. Candidates must qualify each stage to be provisionally allotted as Probationary Officers in participating banks."
+  },
+  "created": "2025-07-13T07:48:53.591922+00:00",
+  "updated": "2025-07-13T07:48:53.591970+00:00"
+}

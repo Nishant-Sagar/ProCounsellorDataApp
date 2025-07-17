@@ -1,0 +1,53 @@
+{
+  "examId": "AP_EAMCET",
+  "examName": "AP EAMCET",
+  "fullForm": "Andhra Pradesh Engineering, Agriculture and Pharmacy Common Entrance Test",
+  "examLevel": "State-level",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Computer-Based Test"
+  ],
+  "conductingBody": "Jawaharlal Nehru Technological University, Kakinada on behalf of Andhra Pradesh State Council of Higher Education (APSCHE)",
+  "officialWebsite": "https://cets.apsche.ap.gov.in/EAPCET",
+  "applicationFees": {
+    "general": "₹600",
+    "obc": "₹550",
+    "sc_st": "₹500"
+  },
+  "eligibility": "Candidates must have passed or appeared for the final year of Intermediate (10+2) with Mathematics, Physics, and Chemistry as optional or related vocational courses in Engineering and Technology, or hold a Diploma in Engineering/Architecture. Candidates must be Indian nationals or Overseas Citizens of India (OCI).",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Mathematics",
+    "Biology"
+  ],
+  "maxMarks": "160",
+  "duration": "3 hours",
+  "marksPerSubject": {
+    "Physics": "40",
+    "Chemistry": "40",
+    "Mathematics": "80",
+    "Biology": "80"
+  },
+  "negativeMarking": "No negative marking",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Tech",
+    "B.Pharmacy",
+    "B.Sc. Agriculture"
+  ],
+  "examSyllabusPdfUrl": "https://cets.apsche.ap.gov.in/EAPCET/Eapcet/EAPCET_Syllabus.pdf",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://cets.apsche.ap.gov.in/EAPCET/Eapcet/EAPCET_Information_Brochure.pdf",
+  "faqs": {
+    "question": "Is there negative marking in AP EAMCET?",
+    "answer": "No, there is no negative marking in AP EAMCET."
+  },
+  "created": "2025-07-13T07:43:32.139093+00:00",
+  "updated": "2025-07-13T07:43:32.139135+00:00"
+}

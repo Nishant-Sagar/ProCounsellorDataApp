@@ -1,0 +1,48 @@
+{
+  "examId": "BHU_UET_AGRI",
+  "examName": "BHU UET (Agri)",
+  "fullForm": "Banaras Hindu University Undergraduate Entrance Test (Agriculture)",
+  "examLevel": "University",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Online",
+    "Computer-Based Test"
+  ],
+  "conductingBody": "Banaras Hindu University (via CUET-UG)",
+  "officialWebsite": "https://www.bhu.ac.in",
+  "applicationFees": {
+    "general": "650",
+    "obc": "650",
+    "sc_st": "550"
+  },
+  "eligibility": "Candidates must have passed 10+2 or equivalent examination with Physics, Chemistry, and Biology/Mathematics/Agriculture from a recognized board. Minimum percentage and age requirements as per BHU and CUET-UG norms.",
+  "subjectsTested": [
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Mathematics",
+    "Agriculture"
+  ],
+  "maxMarks": "NA",
+  "duration": "NA",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "B.Sc. (Hons.) Agriculture"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "How do I apply for BHU B.Sc. (Hons.) Agriculture admission?",
+    "answer": "Candidates must register and appear for the CUET-UG exam, select BHU as a preferred university, and participate in the BHU counseling process for Agriculture courses."
+  },
+  "created": "2025-07-13T07:48:11.631426+00:00",
+  "updated": "2025-07-13T07:48:11.631523+00:00"
+}

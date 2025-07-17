@@ -1,0 +1,52 @@
+{
+  "examId": "LSAT_INDIA_PG",
+  "examName": "LSAT—India PG",
+  "fullForm": "Law School Admission Test—India Postgraduate",
+  "examLevel": "National",
+  "examType": "Entrance Exam for Postgraduate Law (LLM)",
+  "mode": [
+    "Online",
+    "Remote Proctored"
+  ],
+  "conductingBody": "Law School Admission Council (LSAC) Global",
+  "officialWebsite": "https://www.lsatindia.in/",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Candidates must have completed or be in the final year of an LLB degree from a recognized university to be eligible for LSAT—India PG (LLM admissions).",
+  "subjectsTested": [
+    "Analytical Reasoning",
+    "Logical Reasoning 1",
+    "Logical Reasoning 2",
+    "Reading Comprehension"
+  ],
+  "maxMarks": "NA",
+  "duration": "2 hours 20 minutes",
+  "marksPerSubject": {
+    "Analytical Reasoning": "NA",
+    "Logical Reasoning 1": "NA",
+    "Logical Reasoning 2": "NA",
+    "Reading Comprehension": "NA"
+  },
+  "negativeMarking": "No",
+  "examFrequency": "Twice a year (January and May)",
+  "coursesLinked": [
+    "LLM"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "Who conducts the LSAT—India PG exam and what is its purpose?",
+    "answer": "The LSAT—India PG exam is conducted by the Law School Admission Council (LSAC) Global and is used for admission to postgraduate (LLM) law programs at participating private law colleges in India."
+  },
+  "created": "2025-07-13T07:52:25.430943+00:00",
+  "updated": "2025-07-13T07:52:25.431045+00:00"
+}

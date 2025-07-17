@@ -1,0 +1,47 @@
+{
+  "examId": "NATA",
+  "examName": "NATA",
+  "fullForm": "National Aptitude Test in Architecture",
+  "examLevel": "National",
+  "examType": "Undergraduate Entrance Exam",
+  "mode": [
+    "Computer-Based Test"
+  ],
+  "conductingBody": "Council of Architecture (CoA)",
+  "officialWebsite": "https://www.nata.in",
+  "applicationFees": {
+    "general": "NA",
+    "obc": "NA",
+    "sc_st": "NA"
+  },
+  "eligibility": "Candidates must have passed 10+2 or equivalent examination with Mathematics as a compulsory subject; detailed eligibility as per Council of Architecture guidelines.",
+  "subjectsTested": [
+    "Cognitive Skills",
+    "Visual Perception",
+    "Aesthetic Sensitivity",
+    "Logical Reasoning",
+    "Critical Thinking"
+  ],
+  "maxMarks": "NA",
+  "duration": "180 minutes",
+  "marksPerSubject": {},
+  "negativeMarking": "NA",
+  "examFrequency": "Multiple sessions from March to June annually",
+  "coursesLinked": [
+    "Bachelor of Architecture (B.Arch)"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "https://www.nata.in/pdf/NATA-2025-Brochure.pdf",
+  "faqs": {
+    "question": "Who is eligible to appear for NATA?",
+    "answer": "Candidates who have passed 10+2 or equivalent examination with Mathematics as a compulsory subject are eligible to appear for NATA, as per the Council of Architecture guidelines."
+  },
+  "created": "2025-07-13T07:47:25.459321+00:00",
+  "updated": "2025-07-13T07:47:25.459389+00:00"
+}

@@ -1,0 +1,273 @@
+{
+  "courseId": "MASTER_OF_COMMERCE",
+  "courseName": "Master Of Commerce",
+  "courseType": "PG",
+  "streamLevel": "Postgraduate",
+  "admissionProcess": "Admission to Master of Commerce (M.Com) programs in India is typically based on merit or entrance exams such as CUET PG. Candidates must hold a relevant undergraduate degree (B.Com or equivalent) with required minimum marks. Some universities conduct personal interviews or group discussions as part of the selection process.",
+  "faqs": [
+    {
+      "faqId": "FAQ_1",
+      "question": "What are the eligibility criteria for M.Com in India?",
+      "answer": "Candidates must have a bachelor's degree in commerce or a related field from a recognized university, usually with a minimum aggregate of 50%. Some universities may require candidates to clear an entrance exam such as CUET PG."
+    }
+  ],
+  "coursePhotoUrl": "NA",
+  "videoOverviewUrl": "NA",
+  "branches": [
+    {
+      "branchId": "ACCOUNTING_AND_FINANCE",
+      "branchName": "Accounting and Finance",
+      "description": "This branch focuses on advanced concepts in accounting, financial management, auditing, and investment analysis. It prepares students for roles in financial reporting, analysis, and strategic financial planning in both corporate and public sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Advanced Financial Accounting",
+        "Corporate Accounting",
+        "Financial Management",
+        "Auditing",
+        "Cost Accounting",
+        "Investment Analysis",
+        "International Finance"
+      ],
+      "careerOptions": [
+        "Chartered Accountant",
+        "Financial Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Shri Ram College of Commerce (SRCC), Delhi University",
+        "Loyola College, Chennai"
+      ],
+      "jobRoles": [
+        "Accountant",
+        "Finance Manager",
+        "Auditor"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Deloitte",
+          "KPMG",
+          "EY"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BANKING_AND_INSURANCE",
+      "branchName": "Banking and Insurance",
+      "description": "This branch covers the principles and practices of banking, insurance, risk management, and financial services. It equips students for careers in the banking sector, insurance companies, and financial consultancies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Banking Law and Practice",
+        "Principles of Insurance",
+        "Risk Management",
+        "Financial Markets",
+        "Banking Operations",
+        "Insurance Management"
+      ],
+      "careerOptions": [
+        "Bank Officer",
+        "Insurance Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "St. Xavier's College, Kolkata",
+        "Hansraj College, Delhi University"
+      ],
+      "jobRoles": [
+        "Bank Manager",
+        "Insurance Underwriter",
+        "Risk Analyst"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.2 LPA",
+        "highestSalary2025": "₹8 LPA",
+        "companies": [
+          "HDFC Bank",
+          "ICICI Bank",
+          "LIC"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "BUSINESS_MANAGEMENT",
+      "branchName": "Business Management",
+      "description": "This branch emphasizes managerial concepts, organizational behavior, strategic management, and entrepreneurship. Graduates are prepared for leadership roles in business, consulting, and administration.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Business Management",
+        "Organizational Behavior",
+        "Strategic Management",
+        "Human Resource Management",
+        "Marketing Management",
+        "Business Communication"
+      ],
+      "careerOptions": [
+        "Business Manager",
+        "Management Consultant"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Hindu College, Delhi University",
+        "Lady Shri Ram College for Women, Delhi University"
+      ],
+      "jobRoles": [
+        "Business Analyst",
+        "Operations Manager",
+        "Project Coordinator"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.8 LPA",
+        "highestSalary2025": "₹12 LPA",
+        "companies": [
+          "Tata Consultancy Services",
+          "Infosys",
+          "Deloitte"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "CORPORATE_LAW",
+      "branchName": "Corporate Law",
+      "description": "This branch provides in-depth knowledge of corporate legal frameworks, company law, securities regulation, and business ethics. It is ideal for students aiming for legal advisory roles in corporate sectors.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Corporate Laws",
+        "Company Law",
+        "Securities Law",
+        "Business Ethics",
+        "Intellectual Property Rights",
+        "Labour Laws"
+      ],
+      "careerOptions": [
+        "Corporate Legal Advisor",
+        "Compliance Officer"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Kirori Mal College, Delhi University",
+        "PSGR Krishnammal College for Women, Coimbatore"
+      ],
+      "jobRoles": [
+        "Legal Consultant",
+        "Compliance Manager",
+        "Corporate Lawyer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.7 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "AZB & Partners",
+          "ICICI Bank",
+          "Deloitte"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "TAXATION",
+      "branchName": "Taxation",
+      "description": "This branch focuses on direct and indirect taxation, tax planning, GST, and tax laws. It prepares students for careers in tax consultancy, compliance, and government tax departments.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "Direct Tax Laws",
+        "Indirect Tax Laws",
+        "Tax Planning and Management",
+        "GST and Customs",
+        "Corporate Taxation",
+        "Income Tax Law"
+      ],
+      "careerOptions": [
+        "Tax Consultant",
+        "Tax Analyst"
+      ],
+      "averageFeesRange": "₹1.5–3 LPA",
+      "popularColleges": [
+        "Loyola College, Chennai",
+        "PSG College of Arts and Science, Coimbatore"
+      ],
+      "jobRoles": [
+        "Tax Advisor",
+        "Tax Auditor",
+        "Tax Compliance Officer"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.3 LPA",
+        "highestSalary2025": "₹9 LPA",
+        "companies": [
+          "PwC",
+          "KPMG",
+          "Deloitte"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    },
+    {
+      "branchId": "E_COMMERCE",
+      "branchName": "E-commerce",
+      "description": "The E-commerce branch of Master of Commerce focuses on the study of online business models, digital marketing, electronic payment systems, and the management of commercial transactions conducted electronically. This specialization prepares students for careers in the rapidly growing digital economy, equipping them with skills in online retailing, supply chain management, and e-business strategies.",
+      "duration": "2 years",
+      "coreSubjects": [
+        "E-commerce Concepts and Applications",
+        "Digital Marketing",
+        "Electronic Payment Systems",
+        "Business Analytics",
+        "Supply Chain Management",
+        "Cyber Laws and Security",
+        "Web Technologies",
+        "E-business Strategy"
+      ],
+      "careerOptions": [
+        "E-commerce Manager",
+        "Digital Marketing Specialist"
+      ],
+      "averageFeesRange": "₹1–2.5 Lakh",
+      "popularColleges": [
+        "Hindu College, University of Delhi",
+        "Loyola College, Chennai"
+      ],
+      "jobRoles": [
+        "E-commerce Executive",
+        "Online Business Analyst",
+        "Digital Marketing Manager"
+      ],
+      "examId": [
+        "CUET_PG",
+        "NA"
+      ],
+      "placementStats": {
+        "averageSalary2025": "₹4.5 LPA",
+        "highestSalary2025": "₹10 LPA",
+        "companies": [
+          "Amazon",
+          "Flipkart",
+          "Tata Consultancy Services"
+        ]
+      },
+      "branchBrochureUrl": "NA"
+    }
+  ]
+}

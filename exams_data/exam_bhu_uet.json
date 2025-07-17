@@ -1,0 +1,46 @@
+{
+  "examId": "BHU_UET",
+  "examName": "BHU UET",
+  "fullForm": "Banaras Hindu University Undergraduate Entrance Test",
+  "examLevel": "University",
+  "examType": "Undergraduate",
+  "mode": [
+    "Offline",
+    "Online"
+  ],
+  "conductingBody": "Banaras Hindu University",
+  "officialWebsite": "http://bhuonline.in",
+  "applicationFees": {
+    "general": "650",
+    "obc": "NA",
+    "sc_st": "550"
+  },
+  "eligibility": "Candidates must have passed 10+2 or equivalent examination from a recognized board. Specific eligibility criteria may vary by course.",
+  "subjectsTested": [
+    "NA"
+  ],
+  "maxMarks": "NA",
+  "duration": "2 Hours",
+  "marksPerSubject": {},
+  "negativeMarking": "No",
+  "examFrequency": "Once a year",
+  "coursesLinked": [
+    "LAW",
+    "Science",
+    "Other Undergraduate Courses"
+  ],
+  "examSyllabusPdfUrl": "NA",
+  "previousYearCutoffs": {
+    "general": "NA",
+    "obc": "NA",
+    "sc": "NA",
+    "st": "NA"
+  },
+  "examBrochureUrl": "NA",
+  "faqs": {
+    "question": "What is the full form of BHU UET?",
+    "answer": "BHU UET stands for Banaras Hindu University Undergraduate Entrance Test."
+  },
+  "created": "2025-07-13T07:50:38.765399+00:00",
+  "updated": "2025-07-13T07:50:38.765414+00:00"
+}
