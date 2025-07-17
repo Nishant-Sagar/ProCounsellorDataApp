@@ -34,4 +34,8 @@ colleges/scripts/branch_list.py
 colleges/scripts/sinc_colleges.py
 
 
-node_modules/
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
