@@ -32,3 +32,6 @@ colleges/scripts/colleges_list.py
 colleges/scripts/exams_list.py
 colleges/scripts/branch_list.py
 colleges/scripts/sinc_colleges.py
+
+
+node_modules/
