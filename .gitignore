@@ -28,7 +28,7 @@ college_data/
 courses_data/
 exams_data/
 colleges/scripts/imp.py
-colleges/scripts/college_list.py
-colleges/scripts/exam_list.py
+colleges/scripts/colleges_list.py
+colleges/scripts/exams_list.py
 colleges/scripts/branch_list.py
 colleges/scripts/sinc_colleges.py
