@@ -1,0 +1,1 @@
+// college list page on click it will go to [collegeid] page with collegeid as params in that component
