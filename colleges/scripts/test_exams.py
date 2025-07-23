@@ -182,131 +182,52 @@ def run_exam_data_pipeline(exam_list: list):
 if __name__ == "__main__":
     exam_list = [
     # Engineering
-    "JEE Main",
-    "JEE Advanced",
-    "BITSAT",
-    "VITEEE",
-    "SRMJEEE",
-    "COMEDK UGET",
-    "MHT CET",
-    "WBJEE",
-    "KIITEE",
-    "AMUEEE",
-    "AP EAMCET",
-    "TS EAMCET",
-    "KCET",
-    "OJEE",
-    "GUJCET",
-    "UPSEE (UPCET)",
-
-    # Medical & Allied Health
-    "NEET UG",
-    "AIIMS B.Sc Nursing",
-    "JIPMER Nursing",
-    "NEET PG",
-    "INI CET",
-    "AIAPGET",
-
-    # Management
-    "CAT",
-    "XAT",
-    "CMAT",
-    "MAT",
-    "NMAT",
-    "SNAP",
-    "IIFT",
-    "TISSNET",
-    "MICAT",
-    "ATMA",
-    "KMAT",
-
-    # Law
-    "CLAT",
-    "AILET",
-    "LSAT India",
-    "SLAT",
-    "MH CET Law",
-    "CUET LLB",
-    
-    # Design
-    "NID DAT",
-    "UCEED",
-    "CEED",
-    "NIFT Entrance Exam",
-    "PEARL Academy Entrance",
-    "AIEED",
-
-    # Architecture
-    "NATA",
-    "JEE Main (Paper 2)",
-
-    # Pharmacy
-    "GPAT",
-    "BITS Pilani Pharmacy",
-    "MHT CET (Pharmacy)",
-
-    # Agriculture
-    "ICAR AIEEA UG",
-    "ICAR AIEEA PG",
-    "BHU UET (Agri)",
-    
-    # Hotel Management
-    "NCHMCT JEE",
-
-    # Government/Defense
-    "UPSC Civil Services (IAS)",
-    "SSC CGL",
-    "SSC CHSL",
-    "RRB NTPC",
-    "IBPS PO",
-    "IBPS Clerk",
-    "SBI PO",
-    "SBI Clerk",
-    "RBI Grade B",
-    "NDA",
-    "CDS",
-    "AFCAT",
-    "CAPF",
-
-    # Teaching
-    "CTET",
-    "TET (State wise)",
-    "UGC NET",
-
-    # University Entrance
-    "CUET UG",
-    "CUET PG",
-    "IGNOU OPENMAT",
-    "DUET",
-    "BHU UET",
-    "AMU Entrance",
-
-    # Master's Entrance Exams
-    "GATE",                     # M.Tech, M.E
-    "CEED",                     # M.Des
-    "CUET PG",                  # Central Universities – MA, MSc, MCom, etc.
-    "TISSNET",                  # MA, MSW at TISS
-    "ICAR AIEEA PG",            # MSc Agriculture
-    "INI CET",                  # PG medical (already listed)
-    "AIAPGET",                  # Ayurveda, Homeopathy PG (already listed)
-    "PGIMER Entrance",          # M.Sc Nursing, Paramedical
-    "BHU PET",                  # MA, M.Sc, etc.
-    "JNU PG Entrance (via CUET)",
-    "IGNOU OPENMAT",            # MBA via IGNOU (already listed)
-    "AILET PG",                 # LLM
-    "CLAT PG",                  # LLM
-    "LSAT India PG",            # LLM
-    "NID M.Des Entrance",       # PG Design
-    "NIFT PG Entrance",         # PG Fashion Design
-    "IIT JAM",                  # M.Sc (IITs)
-    "JNUEE (PG)",               # JNU M.Sc, MA (now moved under CUET PG)
-    "ICMR JRF",                 # MSc/PhD Life Sciences
-    "CSIR NET",                 # MSc to PhD science/research
-    "DAIICT PG Entrance",       # M.Sc IT, M.Des, etc.
-    "ISBF Entrance (LSE PG courses)",
-    "IFMR/GIM/IRMA PG Entrance",# Niche B-Schools
+    "MHT-CET (Maharashtra Common Entrance Test)"
+    ,"MAH-MBA/MMS CET"
+    ,"MAH-MCA CET"
+    ,"MAH-M.HMCT CET"
+    ,"MAH-B.HMCT CET"
+    ,"MAH-LLB 5 Years CET"
+    ,"MAH-LLB 3 Years CET"
+    ,"MAH-B.Ed CET"
+    ,"MAH-M.Ed CET"
+    ,"MAH-B.P.Ed CET"
+    ,"MAH-M.P.Ed CET"
+    ,"MAH-B.A/B.Sc-B.Ed CET"
+    ,"MAH-B.Ed-M.Ed CET"
+    ,"MAH-ANM-GNM CET"
+    ,"MAH-B.Sc Nursing CET"
+    ,"MAH-LLM CET"
+    ,"MAH-M.Arch CET"
+    ,"MAH-M.Planning CET"
+    ,"MAH-M.Tech CET"
+    ,"MAH-BFA CET"
+    ,"MAH-B.Design CET (proposed)"
+    ,"MAH-BCA/BBA/BMS/BBM CET"
+    ,"IIMC_ENTRANCE"
+    ,"GATE_ARCH"
+    ,"NID_D_AT"
+    ,"NIFT_ENTRANCE"
+    ,"NIFT_MDES"
+    ,"ICAR_AIEEA"
+    ,"ISI_ADMISSION_TEST"
+    ,"DU_B_ED_ENTRANCE"
+    ,"UP_B_ED_JEE"
+    ,"CUET"
+    ,"MAH_HM_CET"
+    ,"NCHM_JEE"
+    ,"ICAR_AIEEA"
+    ,"UPTU_SEE"
+    ,"NIFT_ENTRANCE"
+    ,"IIT_KHARAGPUR_LAW"
+    ,"IRMASAT"
+    ,"AIIMS_NURSING"
+    ,"NEET_UG"
+    ,"ICAR_AIEEA"
+    ,"IMU_CET"
+    ,"TNEA"
 ]
-    # run_exam_data_pipeline(exam_list)
+    run_exam_data_pipeline(exam_list)
     print(uploaded_exams)
     print(skipped_exams)
 
