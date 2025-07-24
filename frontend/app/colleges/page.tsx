@@ -1,32 +1,53 @@
-'use client';
-import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { XMLParser } from 'fast-xml-parser';
+import { pascalCase } from '../utils/pascalCase';
 
-export default function CollegesPage() {
-  const [colleges, setColleges] = useState([]);
-  const [loading, setLoading] = useState(true);
+interface College {
+  collegeId: string;
+  collegeName: string;
+  logoUrl: string;
+  collegesLocationState: string;
+}
 
-  useEffect(() => {
-    fetch('/api/colleges')
-      .then((res) => res.json())
-      .then((data) => {
-        setColleges(data);
-        setLoading(false);
-      });
-  }, []);
+export default async function CollegesPage() {
+  const res = await fetch('https://procounsellor-backend-1000407154647.asia-south1.run.app/api/colleges/all');
 
-  if (loading) return <p className="p-6">Loading colleges...</p>;
+  const xml = await res.text();
+  const parser = new XMLParser();
+  const json = parser.parse(xml);
+  const colleges: College[] = json.ArrayList.item;
 
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Colleges</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {colleges.map((college) => (
-          <div key={college.id} className="bg-white p-6 border rounded-lg shadow hover:shadow-lg transition-shadow">
-            <h2 className="text-xl font-semibold">{college.name}</h2>
-            <p className="text-gray-600">{college.city}</p>
-          </div>
-        ))}
-      </div>
-    </div>
+    <main className="max-w-full min-h-screen bg-gray-50 mx-auto px-4 py-8">      
+      <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        {colleges.map((college) => {
+          const name = pascalCase(college.collegeName)
+          return (
+          <li
+            key={college.collegeId}
+            className="bg-white rounded-xl shadow-md flex flex-col items-center p-6 hover:shadow-lg transition-shadow"
+          >
+            <img
+              src={college.logoUrl}
+              alt={name}
+              width={64}
+              height={64}
+              className="mb-4 rounded-full object-cover bg-gray-100 object-contain h-16 w-16 "
+            />
+            <h2 className="text-lg font-semibold text-gray-900 mb-1 text-center">
+              {name}
+            </h2>
+            <p className="text-gray-600 mb-4 text-center">{college.collegesLocationState}</p>
+            <Link
+              href={`/college/${college.collegeId}`}
+              className="mt-auto inline-block bg-indigo-600 text-white px-4 py-2 rounded-md font-medium hover:bg-indigo-700 transition"
+            >
+              View
+            </Link>
+          </li>
+        )
+        })}
+      </ul>
+    </main>
   );
 }
