@@ -27,7 +27,7 @@ const CollegeHeader = ({ college }: { college: CollegeData }) => (
             <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
               <GraduationCap className="w-8 h-8 text-white" />
             </div>
-            {college.coursesOffered?.[0]?.ranking && (
+           {Array.isArray(college.coursesOffered) && college.coursesOffered[0]?.ranking && (
                  <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
                     {college.coursesOffered[0].ranking}
                  </span>
