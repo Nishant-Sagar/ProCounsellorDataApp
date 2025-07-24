@@ -468,7 +468,7 @@ import { CourseData } from './types/course';
 
 // 🔧 FIX 1: Add the missing XML parser import
 // Adjust the path based on where your utils folder is located
-import { parseCourseXmlToJson } from '../../../utils/xmlParser'; // Adjust path as needed
+import { parseCourseXmlToJson } from '../../utils/xmlParser'; // Adjust path as needed
 
 type Props = {
   params: { courseId: string }
