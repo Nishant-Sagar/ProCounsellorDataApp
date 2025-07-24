@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+   experimental: {
+    allowedDevOrigins: [
+      'https://procounsellor-backend-1000407154647.asia-south1.run.app',
+    ],
+  },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
