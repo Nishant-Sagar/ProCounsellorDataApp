@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { XMLParser } from 'fast-xml-parser';
 import { pascalCase } from '../utils/pascalCase';
+import { Button } from '@/components/Button';
 
 interface College {
   collegeId: string;
@@ -38,12 +39,7 @@ export default async function CollegesPage() {
               {name}
             </h2>
             <p className="text-gray-600 mb-4 text-center">{college.collegesLocationState}</p>
-            <Link
-              href={`colleges/${college.collegeId}`}
-              className="mt-auto inline-block bg-indigo-600 text-white px-4 py-2 rounded-md font-medium hover:bg-indigo-700 transition"
-            >
-              View
-            </Link>
+            <Button variants='secondary' size='md' text='View' link={`/colleges/${college.collegeId}`}/>
           </li>
         )
         })}

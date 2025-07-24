@@ -1,8 +1,9 @@
 import { GraduationCap } from "lucide-react"
 import Link from "next/link"
+import { Button } from "./Button"
 export default function Header(){
     return <section>
-      <div className="bg-white shadow-sm">
+      <div className="bg-white shadow-sm relative z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -16,15 +17,12 @@ export default function Header(){
               </div>
             </div>
 
-            {/* Navigation */}
             <nav className="flex items-center space-x-8">
               <Link href='/colleges' className="text-gray-700 hover:text-blue-600 font-medium">Colleges</Link>
               <Link href="/courses" className="text-gray-700 hover:text-blue-600 font-medium">Courses</Link>
               <Link href="/exams" className="text-gray-700 hover:text-blue-600 font-medium">Exams</Link>
               <Link href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</Link>
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                Login
-              </button>
+              <Button variants="primary" link="/login" size="lg" text="Login"/>
             </nav>
           </div>
         </div>

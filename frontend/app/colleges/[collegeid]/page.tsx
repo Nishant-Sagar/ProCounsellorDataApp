@@ -1,142 +1,48 @@
 import { XMLParser } from "fast-xml-parser"
 import CollegeHeader from "./components/CollegeHeader";
-interface CollegeData {
-  Scholarships: Scholarship;
-  videosrelatedToCollege: RelatedVideo[];
-  QnA: QnA[];
-  created: Timestamp;
-  collegesLocationState: string;
-  bannerUrl: string;
-  coursesOffered: Course[];
-  collegeFullAddress: string;
-  logoUrl: string;
-  collegeName: string;
-  faqs: Faq[];
-  Reviews: Review;
-  collegeInfo: string;
-  Events: CollegeEvent[];
-  News: NewsItem;
-  collegeId: string;
-  Infrastructure: Infrastructure;
-  updated: Timestamp;
-  ImportantDates: ImportantDate[];
-}
-
-interface Scholarship {
-  scholarshipDescription: string;
-}
-
-interface RelatedVideo {
-  videoUrl: string;
-}
-
-interface QnA {
-  answer: string;
-  question: string;
-}
-
-
-interface Timestamp {
-  seconds: string;
-  nanos: string;
-}
-
-interface Course {
-  alumni: string;
-  examId: string | string[];
-  admissions: string;
-  ranking: string;
-  branches: Branch[];
-  streamName: string;
-  courseId: string;
-}
-
-interface Branch {
-  seat: string;
-  cutoffs: string;
-  branchId: string;
-  fees: string;
-  branchName: string;
-  placement: Placement;
-  faculty: string;
-}
-
-interface Placement {
-  averageSalary2025: string;
-  highestSalary2025: string;
-  companiesVisited2025: string | string[];
-}
-
-interface Faq {
-  answer: string;
-  question: string;
-}
-
-interface Review {
-  reviewText: string;
-}
-
-interface CollegeEvent {
-  eventId: string;
-  eventHeading: string;
-  eventRelatedVideoUrl: string;
-  eventFullDescription: string;
-  eventRelatedPhotoUrl: string;
-}
-
-interface NewsItem {
-  newsId: string;
-  newsRelatedPhotoUrl: string;
-  newsHeading: string;
-  fullNewsDescription: string;
-  newsRelatedVideoUrl: string;
-}
-
-
-interface Infrastructure {
-  infraVideo: InfraVideo;
-  infraPhotos: InfraPhoto[];
-  infraDescription: string;
-}
-
-
-interface InfraVideo {
-  videoUrl: string;
-}
-
-interface InfraPhoto {
-  photoUrl: string;
-}
-
-
-interface ImportantDate {
-  details: DateDetail[];
-  event: string;
-}
-
-interface DateDetail {
-  date: string;
-  stage: string;
-}
-
+import StatsSection from "./components/StatsSection";
+import CollegeOverview from "./components/CollegeOverview";
+import { CollegeData } from "../types/college";
 
 export default async function CollegePage({params}:{params:{collegeid:string}}){
   const {collegeid} = await params
-  let college:CollegeData;
-  const res = await fetch(`https://procounsellor-backend-1000407154647.asia-south1.run.app/api/colleges/getCollegeById?collegeId=${collegeid}`, 
-    {cache:'no-cache'}
-  )
-  if(!res.ok){
-    console.log('failed to fetch data')
+  let college: CollegeData | null = null;
+  try {
+    const res = await fetch(`https://procounsellor-backend-1000407154647.asia-south1.run.app/api/colleges/getCollegeById?collegeId=${collegeid}`, {
+      cache: 'no-cache',
+    });
+
+    if (!res.ok) throw new Error(`Failed to fetch data: ${res.statusText}`);
+
+    const xmlText = await res.text();
+    const parser = new XMLParser();
+    college = parser.parse(xmlText).HashMap;
+//     if (college && college.coursesOffered && !Array.isArray(college.coursesOffered)) {
+//       college.coursesOffered = [college.coursesOffered];
+// }
+
+  } catch (error) {
+    console.error(error);
+    college = null;
   }
-  const data = await res.text()
-  const parser = new XMLParser()
-  const json = parser.parse(data)
-  college = json.HashMap;
-
   
+  if (!college) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <p className="text-lg text-red-500">Failed to load college data.</p>
+      </div>
+    );
+  }
 
-  return <main className="min-h-screen bg-gray-50">
-    <h1 className="text-black">{college.collegeName}</h1>
-  </main>
+  return (
+    <div className="min-h-screen bg-gray-50 isolate">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-indigo-50/50 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(59,130,246,0.05),transparent_50%)] pointer-events-none"></div>
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <CollegeHeader college={college} />
+        <StatsSection college={college} />
+        <CollegeOverview college={college} />
+      </main>
+    </div>
+  );
 }
