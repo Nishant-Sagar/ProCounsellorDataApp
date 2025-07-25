@@ -115,11 +115,11 @@ export default function BranchCard({ branch }: BranchCardProps) {
             </div>
           </div>
           
-          {/* Top Healthcare Employers */}
+          {/* Top Employers */}
           <div>
             <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
               <Building className="w-4 h-4 text-green-600" />
-              Top Healthcare Employers
+              Top Employers
             </h4>
             <div className="flex flex-wrap gap-2">
               {branch.placementStats?.companies?.map((company, index) => (
@@ -152,4 +152,30 @@ export default function BranchCard({ branch }: BranchCardProps) {
               </h4>
               <div className="flex flex-wrap gap-2">
                 {branch.examId?.filter(exam => exam !== 'NA').map((exam, index) => (
-                  <span key
+                  <span key={index} className="bg-indigo-50 text-indigo-800 px-2 py-1 rounded text-xs">
+                    {exam.replace(/_/g, ' ')}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Brochure Download */}
+          {branch.branchBrochureUrl && branch.branchBrochureUrl !== 'NA' && (
+            <div className="pt-4 border-t border-gray-100">
+              <a 
+                href={branch.branchBrochureUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors text-sm font-medium"
+              >
+                <BookOpen className="w-4 h-4" />
+                Download Brochure
+              </a>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
