@@ -456,29 +456,32 @@
 
 
 import React from 'react';
+import Link from 'next/link';
 import CourseHeader from './components/CourseHeader';
 import CourseOverview from './components/CourseOverview';
-import AdmissionProcess from './components/AdmissionProcess';
+// import AdmissionProcess from './components/AdmissionProcess';
 import ExamInfo from './components/ExamInfo';
 import PlacementStats from './components/PlacementStats';
 import FAQSection from './components/FAQSection';
-import BranchesSection from './components/BranchesSection';
+// import BranchesSection from './components/BranchesSection';
 import CourseStats from './components/CourseStats';
 import { CourseData } from './types/course';
 
 // 🔧 FIX 1: Add the missing XML parser import
 // Adjust the path based on where your utils folder is located
-import { parseCourseXmlToJson } from '../../utils/xmlParser'; // Adjust path as needed
+import { parseXmlToJson } from '../../utils/xmlParser'; // Adjust path as needed
+import BranchesSection from './components/BranchesSection';
+import AdmissionProcess from './components/AdmissionProcess';
 
 type Props = {
   params: { courseId: string }
 };
 
 export default async function CoursePage({ params }: Props) {
-  const { courseId } = params;
+  const { courseId } = await params;
   
   // Fetch course data from your API
-  const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/courses/getCourseById?courseId=${courseId}`;
+  const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
   
   const res = await fetch(apiUrl, { cache: 'no-store' });
   
@@ -491,13 +494,12 @@ export default async function CoursePage({ params }: Props) {
             <p>Failed to load course data. Please try again later.</p>
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Course Not Found</h1>
-          <p className="text-gray-600 mb-6">The course you're looking for doesn't exist or is temporarily unavailable.</p>
-          <a 
-            href="/courses" 
+          <Link
+            href="/courses"
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
           >
             Browse All Courses
-          </a>
+          </Link>
         </div>
       </div>
     );
@@ -507,7 +509,7 @@ export default async function CoursePage({ params }: Props) {
   
   try {
     const xmlData = await res.text();
-    courseData = parseCourseXmlToJson(xmlData);
+    courseData = parseXmlToJson(xmlData);
   } catch (error) {
     console.error('Error parsing course data:', error);
     return (
@@ -519,12 +521,12 @@ export default async function CoursePage({ params }: Props) {
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Unable to Load Course Data</h1>
           <p className="text-gray-600 mb-6">Please contact support if this issue persists.</p>
-          <a 
-            href="/courses" 
+          <Link
+            href="/courses"
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
           >
             Browse All Courses
-          </a>
+          </Link>
         </div>
       </div>
     );
@@ -564,7 +566,7 @@ export default async function CoursePage({ params }: Props) {
   };
 
   const backgroundStyle = getBackgroundStyle(courseData.courseName);
-
+  console.log(courseData.courseName)
   return (
     // 🔧 FIX 2: Remove the <head> section - metadata is handled by generateMetadata
     <div className="min-h-screen bg-gray-50">
@@ -591,12 +593,13 @@ export default async function CoursePage({ params }: Props) {
             
             {/* Placement Statistics */}
             <PlacementStats data={courseData} />
+
+              {/* Branches/Specializations */}
+            <BranchesSection data={courseData} />
             
             {/* FAQ Section */}
             <FAQSection data={courseData} />
-            
-            {/* Branches/Specializations */}
-            <BranchesSection data={courseData} />
+          
           </div>
           
           {/* Sidebar */}
@@ -606,6 +609,8 @@ export default async function CoursePage({ params }: Props) {
             </div>
           </div>
         </div>
+
+
         
         {/* Footer Actions */}
         <div className="mt-12 bg-white rounded-xl p-8 shadow-lg border border-gray-100">
@@ -617,13 +622,13 @@ export default async function CoursePage({ params }: Props) {
               Explore colleges offering {courseData.courseName} programs and take the first step towards your career in this field.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
+              <button className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
                 Find Colleges
               </button>
-              <button className="bg-gray-100 hover:bg-gray-200 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-colors">
+              <button className="bg-gray-100 cursor-pointer hover:bg-gray-200 text-gray-900 font-semibold py-3 px-8 rounded-lg transition-colors">
                 Download Brochure
               </button>
-              <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
+              <button className="bg-green-600 cursor-pointer hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
                 Get Counseling
               </button>
             </div>
@@ -646,10 +651,10 @@ export async function generateStaticParams() {
 
 // Generate metadata dynamically (Next.js 13+ App Router)
 export async function generateMetadata({ params }: Props) {
-  const { courseId } = params;
+  const { courseId } = await params;
   
   try {
-    const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/courses/getCourseById?courseId=${courseId}`;
+    const apiUrl =`${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
     const res = await fetch(apiUrl, { cache: 'no-store' });
     
     if (!res.ok) {
@@ -660,7 +665,7 @@ export async function generateMetadata({ params }: Props) {
     }
     
     const xmlData = await res.text();
-    const courseData: CourseData = parseCourseXmlToJson(xmlData);
+    const courseData: CourseData = parseXmlToJson(xmlData);
     
     return {
       title: `${courseData.courseName} Course Details | ${courseData.streamLevel}`,
@@ -672,7 +677,7 @@ export async function generateMetadata({ params }: Props) {
         type: 'website',
       },
     };
-  } catch (error) {
+  } catch (e) {
     return {
       title: 'Course Information',
       description: 'Course details and information'

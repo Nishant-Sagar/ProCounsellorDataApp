@@ -1,24 +1,42 @@
+"use client"
 import React, { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import { 
   Search, 
-  Filter, 
   BookOpen, 
   GraduationCap, 
-  Users, 
   Clock, 
   Award, 
   TrendingUp,
   ChevronRight,
   Star,
   Building,
-  DollarSign,
   Grid,
   List,
   X
 } from 'lucide-react';
 
+// Course interface for the listing page
+interface Course {
+  courseId: string;
+  courseName: string;
+  courseType: string;
+  category: string;
+  streamLevel: string;
+  duration: string;
+  description: string;
+  totalBranches: number;
+  averageFeesRange: string;
+  topColleges: string[];
+  popularityScore: number;
+  placementRate: string;
+  averageSalary: string;
+  examRequired: string[];
+  imageUrl: string;
+}
+
 // Mock data for Indian courses - replace with your API data
-const mockCoursesData = [
+const mockCoursesData: Course[] = [
   {
     courseId: "ENGINEERING",
     courseName: "Engineering",
@@ -37,7 +55,7 @@ const mockCoursesData = [
     imageUrl: "/api/placeholder/400/200"
   },
   {
-    courseId: "MEDICINE",
+    courseId: "MBBS",
     courseName: "Medicine (MBBS)",
     courseType: "UG",
     category: "Science", 
@@ -54,7 +72,7 @@ const mockCoursesData = [
     imageUrl: "/api/placeholder/400/200"
   },
   {
-    courseId: "MBA",
+    courseId: "MANAGEMENT",
     courseName: "Master of Business Administration",
     courseType: "PG",
     category: "Commerce",
@@ -247,6 +265,16 @@ const SearchAndFilter = ({
   viewMode,
   setViewMode,
   totalResults
+}: {
+  searchTerm: string;
+  setSearchTerm: (term: string) => void;
+  selectedCategory: string;
+  setSelectedCategory: (category: string) => void;
+  selectedLevel: string;
+  setSelectedLevel: (level: string) => void;
+  viewMode: string;
+  setViewMode: (mode: string) => void;
+  totalResults: number;
 }) => (
   <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 mb-8">
     <div className="flex flex-col lg:flex-row gap-4">
@@ -258,7 +286,7 @@ const SearchAndFilter = ({
           placeholder="Search courses, specializations, colleges..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-lg"
+          className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-300 text-gray-700 focus:border-transparent text-lg"
         />
         {searchTerm && (
           <button
@@ -274,7 +302,7 @@ const SearchAndFilter = ({
       <select
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value)}
-        className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent min-w-[140px]"
+        className="px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-purple-500 focus:border-transparent min-w-[140px]"
       >
         <option value="">All Categories</option>
         <option value="Science">Science</option>
@@ -286,7 +314,7 @@ const SearchAndFilter = ({
       <select
         value={selectedLevel}
         onChange={(e) => setSelectedLevel(e.target.value)}
-        className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent min-w-[120px]"
+        className="px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-purple-500 focus:border-transparent min-w-[120px]"
       >
         <option value="">All Levels</option>
         <option value="UG">Undergraduate</option>
@@ -318,7 +346,7 @@ const SearchAndFilter = ({
 );
 
 // Course Card Component (Grid View)
-const CourseCard = ({ course, onCourseClick }) => (
+const CourseCard = ({ course, onCourseClick }: { course: Course; onCourseClick: (course: Course) => void }) => (
   <div 
     onClick={() => onCourseClick(course)}
     className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer group"
@@ -384,7 +412,7 @@ const CourseCard = ({ course, onCourseClick }) => (
       <div className="mb-4">
         <div className="text-xs text-gray-500 mb-2">Top Colleges</div>
         <div className="flex flex-wrap gap-1">
-          {course.topColleges.slice(0, 2).map((college, index) => (
+          {course.topColleges.slice(0, 2).map((college: string, index: number) => (
             <span key={index} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
               {college}
             </span>
@@ -418,7 +446,7 @@ const CourseCard = ({ course, onCourseClick }) => (
 );
 
 // Course List Item Component (List View)
-const CourseListItem = ({ course, onCourseClick }) => (
+const CourseListItem = ({ course, onCourseClick }: { course: Course; onCourseClick: (course: Course) => void }) => (
   <div 
     onClick={() => onCourseClick(course)}
     className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 cursor-pointer group"
@@ -474,7 +502,7 @@ const CourseListItem = ({ course, onCourseClick }) => (
           ))}
           <span className="text-sm text-gray-600 ml-1">{course.popularityScore}/10</span>
         </div>
-        <button className="text-purple-600 hover:text-purple-700 font-medium text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+        <button className="text-purple-600 cursor-pointer hover:text-purple-700 font-medium text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
           View Details
           <ChevronRight className="w-4 h-4" />
         </button>
@@ -485,6 +513,7 @@ const CourseListItem = ({ course, onCourseClick }) => (
 
 // Main Component
 export default function CoursesListingPage() {
+  const router = useRouter();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('');
@@ -505,11 +534,9 @@ export default function CoursesListingPage() {
     });
   }, [searchTerm, selectedCategory, selectedLevel]);
 
-  const handleCourseClick = (course) => {
+  const handleCourseClick = (course: Course) => {
     // Navigate to course details page
-    console.log('Navigate to course:', course.courseId);
-    // Replace with your navigation logic, e.g.:
-    // router.push(`/courses/${course.courseId}`);
+    router.push(`/courses/${course.courseId}`);
   };
 
   return (
