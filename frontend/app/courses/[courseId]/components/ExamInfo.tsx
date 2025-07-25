@@ -1,4 +1,4 @@
-import { GraduationCap, Calendar, FileText, Target, AlertCircle } from 'lucide-react';
+import { GraduationCap, Calendar, FileText, AlertCircle } from 'lucide-react';
 import { CourseData } from '../types/course';
 
 type ExamInfoProps = {
@@ -6,32 +6,69 @@ type ExamInfoProps = {
 };
 
 export default function ExamInfo({ data }: ExamInfoProps) {
-  // Collect all unique exams
+  // ✅ Ensure branches is always an array
+  const branches = Array.isArray(data.branches) ? data.branches : [];
+
+  // ✅ Create sets/maps to collect unique exams + related branches
   const allExams = new Set<string>();
   const examBranchMap: { [key: string]: string[] } = {};
 
-  data.branches?.forEach(branch => {
-    branch.examId?.forEach(exam => {
-      if (exam !== 'NA') {
-        allExams.add(exam);
-        if (!examBranchMap[exam]) {
-          examBranchMap[exam] = [];
+  branches.forEach(branch => {
+    if (Array.isArray(branch.examId)) {
+      branch.examId.forEach(exam => {
+        if (exam !== 'NA') {
+          allExams.add(exam);
+          if (!examBranchMap[exam]) {
+            examBranchMap[exam] = [];
+          }
+          examBranchMap[exam].push(branch.branchName);
         }
-        examBranchMap[exam].push(branch.branchName);
+      });
+    } else if (typeof branch.examId === 'string' && branch.examId !== 'NA') {
+      const exam = branch.examId;
+      allExams.add(exam);
+      if (!examBranchMap[exam]) {
+        examBranchMap[exam] = [];
       }
-    });
+      examBranchMap[exam].push(branch.branchName);
+    }
   });
 
   const examList = Array.from(allExams);
 
-  // Exam details mapping (you can expand this based on your requirements)
-  const examDetails: { [key: string]: { fullName: string; type: string; frequency: string } } = {
-    'CUET_PG': { fullName: 'Common University Entrance Test - Postgraduate', type: 'National', frequency: 'Annual' },
-    'INI_CET': { fullName: 'Institute of National Importance Combined Entrance Test', type: 'National', frequency: 'Annual' },
-    'NEET_PG': { fullName: 'National Eligibility cum Entrance Test - Postgraduate', type: 'National', frequency: 'Annual' },
-    'TISSNET': { fullName: 'Tata Institute of Social Sciences National Entrance Test', type: 'Institute Specific', frequency: 'Annual' },
-    'JIPMER_PG': { fullName: 'JIPMER Postgraduate Entrance Examination', type: 'Institute Specific', frequency: 'Annual' },
-    'AILET_PG': { fullName: 'All India Law Entrance Test - Postgraduate', type: 'National', frequency: 'Annual' }
+  const examDetails: {
+    [key: string]: { fullName: string; type: string; frequency: string };
+  } = {
+    'CUET_PG': {
+      fullName: 'Common University Entrance Test - Postgraduate',
+      type: 'National',
+      frequency: 'Annual',
+    },
+    'INI_CET': {
+      fullName: 'Institute of National Importance Combined Entrance Test',
+      type: 'National',
+      frequency: 'Annual',
+    },
+    'NEET_PG': {
+      fullName: 'National Eligibility cum Entrance Test - Postgraduate',
+      type: 'National',
+      frequency: 'Annual',
+    },
+    'TISSNET': {
+      fullName: 'Tata Institute of Social Sciences National Entrance Test',
+      type: 'Institute Specific',
+      frequency: 'Annual',
+    },
+    'JIPMER_PG': {
+      fullName: 'JIPMER Postgraduate Entrance Examination',
+      type: 'Institute Specific',
+      frequency: 'Annual',
+    },
+    'AILET_PG': {
+      fullName: 'All India Law Entrance Test - Postgraduate',
+      type: 'National',
+      frequency: 'Annual',
+    },
   };
 
   if (examList.length === 0) return null;
@@ -58,8 +95,11 @@ export default function ExamInfo({ data }: ExamInfoProps) {
 
       {/* Exam Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        {examList.map((exam, index) => (
-          <div key={exam} className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+        {examList.map(exam => (
+          <div
+            key={exam}
+            className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+          >
             <div className="flex items-start justify-between mb-4">
               <div className="flex-1">
                 <h3 className="text-lg font-bold text-gray-900 mb-1">
@@ -69,11 +109,13 @@ export default function ExamInfo({ data }: ExamInfoProps) {
                   {examDetails[exam]?.fullName || 'Entrance Examination'}
                 </p>
                 <div className="flex gap-2">
-                  <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                    examDetails[exam]?.type === 'National' 
-                      ? 'bg-green-100 text-green-800' 
-                      : 'bg-blue-100 text-blue-800'
-                  }`}>
+                  <span
+                    className={`px-2 py-1 rounded-full text-xs font-medium ${
+                      examDetails[exam]?.type === 'National'
+                        ? 'bg-green-100 text-green-800'
+                        : 'bg-blue-100 text-blue-800'
+                    }`}
+                  >
                     {examDetails[exam]?.type || 'Exam'}
                   </span>
                   <span className="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs font-medium">
@@ -88,11 +130,16 @@ export default function ExamInfo({ data }: ExamInfoProps) {
 
             {/* Applicable specializations */}
             <div>
-              <h4 className="font-semibold text-gray-900 mb-2 text-sm">Applicable for:</h4>
+              <h4 className="font-semibold text-gray-900 mb-2 text-sm">
+                Applicable for:
+              </h4>
               <div className="flex flex-wrap gap-1">
-                {examBranchMap[exam]?.slice(0, 3).map((branch, idx) => (
-                  <span key={idx} className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
-                    {branch}
+                {examBranchMap[exam]?.slice(0, 3).map((branchName, idx) => (
+                  <span
+                    key={idx}
+                    className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs"
+                  >
+                    {branchName}
                   </span>
                 ))}
                 {examBranchMap[exam]?.length > 3 && (
@@ -106,7 +153,7 @@ export default function ExamInfo({ data }: ExamInfoProps) {
         ))}
       </div>
 
-      {/* Exam Calendar (Generic timeline) */}
+      {/* Exam Calendar */}
       <div>
         <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
           <Calendar className="w-5 h-5 text-green-600" />

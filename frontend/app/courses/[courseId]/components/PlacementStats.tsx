@@ -6,29 +6,37 @@ type PlacementStatsProps = {
 };
 
 export default function PlacementStats({ data }: PlacementStatsProps) {
-  // Calculate placement statistics
+  // ✅ Always work with a safe array
+  const branches = Array.isArray(data.branches) ? data.branches : [];
+
   const allCompanies = new Set<string>();
   const salaryData: number[] = [];
   const highestSalaries: number[] = [];
 
-  data.branches?.forEach(branch => {
-    branch.placementStats?.companies?.forEach(company => allCompanies.add(company));
-    
-    const avgSalary = parseFloat(branch.placementStats?.averageSalary2025?.replace(/[^\d.]/g, '') || '0');
-    const highSalary = parseFloat(branch.placementStats?.highestSalary2025?.replace(/[^\d.]/g, '') || '0');
-    
+  branches.forEach(branch => {
+    if (Array.isArray(branch.placementStats?.companies)) {
+      branch.placementStats.companies.forEach(company => allCompanies.add(company));
+    }
+
+    const avgSalary = parseFloat(
+      branch.placementStats?.averageSalary2025?.replace(/[^\d.]/g, '') || '0'
+    );
+    const highSalary = parseFloat(
+      branch.placementStats?.highestSalary2025?.replace(/[^\d.]/g, '') || '0'
+    );
+
     if (avgSalary > 0) salaryData.push(avgSalary);
     if (highSalary > 0) highestSalaries.push(highSalary);
   });
 
-  const avgSalary = salaryData.length > 0 
-    ? (salaryData.reduce((a, b) => a + b, 0) / salaryData.length).toFixed(1)
-    : '0';
-  
-  const maxSalary = highestSalaries.length > 0 ? Math.max(...highestSalaries) : 0;
-  const minSalary = salaryData.length > 0 ? Math.min(...salaryData) : 0;
+  const avgSalary =
+    salaryData.length > 0
+      ? (salaryData.reduce((a, b) => a + b, 0) / salaryData.length).toFixed(1)
+      : '0';
 
-  // Top recruiters by frequency
+  const maxSalary = highestSalaries.length > 0 ? Math.max(...highestSalaries).toFixed(1) : '0';
+  const minSalary = salaryData.length > 0 ? Math.min(...salaryData).toFixed(1) : '0';
+
   const topRecruiters = Array.from(allCompanies).slice(0, 8);
 
   return (
@@ -87,7 +95,10 @@ export default function PlacementStats({ data }: PlacementStatsProps) {
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {topRecruiters.map((company, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg p-4 text-center border border-gray-200">
+            <div
+              key={index}
+              className="bg-gray-50 rounded-lg p-4 text-center border border-gray-200"
+            >
               <div className="font-semibold text-gray-900 text-sm">{company}</div>
             </div>
           ))}
@@ -108,9 +119,14 @@ export default function PlacementStats({ data }: PlacementStatsProps) {
               </tr>
             </thead>
             <tbody>
-              {data.branches?.map((branch, index) => (
-                <tr key={branch.branchId} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                  <td className="px-4 py-3 font-medium text-gray-900">{branch.branchName}</td>
+              {branches.map((branch, index) => (
+                <tr
+                  key={branch.branchId}
+                  className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+                >
+                  <td className="px-4 py-3 font-medium text-gray-900">
+                    {branch.branchName}
+                  </td>
                   <td className="px-4 py-3 text-green-600 font-semibold">
                     {branch.placementStats?.averageSalary2025}
                   </td>
@@ -119,14 +135,21 @@ export default function PlacementStats({ data }: PlacementStatsProps) {
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex flex-wrap gap-1">
-                      {branch.placementStats?.companies?.slice(0, 2).map((company, idx) => (
-                        <span key={idx} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
-                          {company}
-                        </span>
-                      ))}
-                      {branch.placementStats?.companies?.length > 2 && (
-                        <span className="text-gray-500 text-xs">+{branch.placementStats.companies.length - 2} more</span>
-                      )}
+                      {Array.isArray(branch.placementStats?.companies) &&
+                        branch.placementStats.companies.slice(0, 2).map((company, idx) => (
+                          <span
+                            key={idx}
+                            className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs"
+                          >
+                            {company}
+                          </span>
+                        ))}
+                      {Array.isArray(branch.placementStats?.companies) &&
+                        branch.placementStats.companies.length > 2 && (
+                          <span className="text-gray-500 text-xs">
+                            +{branch.placementStats.companies.length - 2} more
+                          </span>
+                        )}
                     </div>
                   </td>
                 </tr>
