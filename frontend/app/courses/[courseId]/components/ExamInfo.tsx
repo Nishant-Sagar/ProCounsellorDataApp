@@ -6,10 +6,8 @@ type ExamInfoProps = {
 };
 
 export default function ExamInfo({ data }: ExamInfoProps) {
-  // ✅ Ensure branches is always an array
   const branches = Array.isArray(data.branches) ? data.branches : [];
 
-  // ✅ Create sets/maps to collect unique exams + related branches
   const allExams = new Set<string>();
   const examBranchMap: { [key: string]: string[] } = {};
 

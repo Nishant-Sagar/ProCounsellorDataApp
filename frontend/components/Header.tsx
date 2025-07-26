@@ -70,13 +70,13 @@ export default function Header() {
 
           {/* Simple Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href='/colleges' 
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 relative group"
             >
               Colleges
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-200 group-hover:w-full"></span>
-            </Link>
+            </Link> */}
             <Link 
               href="/courses" 
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 relative group"

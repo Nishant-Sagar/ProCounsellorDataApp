@@ -385,23 +385,14 @@
 
 
 import Link from 'next/link';
-import { XMLParser } from 'fast-xml-parser';
 import { 
   BookOpen, 
-  Users, 
-  Award, 
-  Clock, 
-  Calendar, 
+  Award,  
   Target, 
-  Globe,
   TrendingUp,
-  Star,
   ChevronRight,
   Sparkles,
   MessageCircle,
-  Smartphone,
-  Zap,
-  Shield
 } from 'lucide-react';
 import AppLink from '@/components/AppLink';
 
@@ -528,7 +519,7 @@ export default async function ExamsPage() {
             <Sparkles className="w-4 h-4 animate-spin" />
             Discover Entrance Exams
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-orange-600 via-red-500 to-pink-600 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-orange-600 via-red-500 to-pink-600 bg-clip-text animate-pulse">
             Explore Entrance Exams
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">

@@ -8,7 +8,6 @@ import {
   Target, 
   Award,
   ExternalLink,
-  Users
 } from 'lucide-react';
 
 interface ExamOverviewProps {

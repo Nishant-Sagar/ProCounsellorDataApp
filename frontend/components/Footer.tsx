@@ -57,7 +57,8 @@ export default function Footer() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
+          {/* Company Info */}  endIcon?:any,
+    startIcon?:any,
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
@@ -123,7 +124,7 @@ export default function Footer() {
                 <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span className="text-gray-300 text-sm">info@collegelisting.com</span>
+                <span className="text-gray-300 text-sm">support@procounsel.co.in</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
@@ -135,7 +136,7 @@ export default function Footer() {
                 <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
                   <MapPin className="w-4 h-4" />
                 </div>
-                <span className="text-gray-300 text-sm">New Delhi, India</span>
+                <span className="text-gray-300 text-sm">Pune, India</span>
               </div>
             </div>
           </div>
@@ -145,7 +146,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 College Listing. All rights reserved.
+              © 2025 ProCounsel. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-gray-400 hover:text-purple-400 text-sm transition-colors">
