@@ -24,7 +24,7 @@
 // } from 'lucide-react';
 
 // // Mock data structure - replace with your actual course data
-// const mockCourseData = {
+// const courseData = {
 //   "courseId": "ENGINEERING",
 //   "courseName": "Engineering",
 //   "courseType": "PG",
@@ -130,7 +130,7 @@
 // };
 
 // // Header Component
-// const CourseHeader = ({ data = mockCourseData }) => (
+// const CourseHeader = ({ data = courseData }) => (
 //   <div className="relative bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 text-white rounded-2xl overflow-hidden mb-8 shadow-2xl">
 //     <div className="absolute inset-0 bg-black/20"></div>
 //     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
@@ -182,7 +182,7 @@
 // );
 
 // // Course Overview Component
-// const CourseOverview = ({ data = mockCourseData }) => (
+// const CourseOverview = ({ data = courseData }) => (
 //   <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
 //     <div className="lg:col-span-2 space-y-8">
 //       {/* Admission Process */}
@@ -359,7 +359,7 @@
 // };
 
 // // Branches Section Component
-// const BranchesSection = ({ data = mockCourseData }) => {
+// const BranchesSection = ({ data = courseData }) => {
 //   const [searchTerm, setSearchTerm] = useState('');
 //   const [sortBy, setSortBy] = useState('name');
   
@@ -437,7 +437,7 @@
 // // Main Page Component
 // export default function CoursePage({ params = { courseId: 'ENGINEERING' } }) {
 //   // Replace this with your actual data fetching logic
-//   const courseData = mockCourseData;
+//   const courseData = courseData;
 
 //   return (
 //     <div className="min-h-screen bg-gray-50">
@@ -466,10 +466,6 @@ import FAQSection from './components/FAQSection';
 // import BranchesSection from './components/BranchesSection';
 import CourseStats from './components/CourseStats';
 import { CourseData } from './types/course';
-
-// 🔧 FIX 1: Add the missing XML parser import
-// Adjust the path based on where your utils folder is located
-import { parseXmlToJson } from '../../utils/xmlParser'; // Adjust path as needed
 import BranchesSection from './components/BranchesSection';
 import AdmissionProcess from './components/AdmissionProcess';
 
@@ -479,11 +475,14 @@ type Props = {
 
 export default async function CoursePage({ params }: Props) {
   const { courseId } = await params;
-  
-  // Fetch course data from your API
   const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
   
-  const res = await fetch(apiUrl, { cache: 'no-store' });
+  const res = await fetch(apiUrl,{
+      headers: {
+      Accept: 'application/json',
+    },
+    cache:'no-cache'
+  });
   
   if (!res.ok) {
     return (
@@ -508,8 +507,7 @@ export default async function CoursePage({ params }: Props) {
   let courseData: CourseData;
   
   try {
-    const xmlData = await res.text();
-    courseData = parseXmlToJson(xmlData);
+    courseData = await res.json();
   } catch (error) {
     console.error('Error parsing course data:', error);
     return (
@@ -655,7 +653,11 @@ export async function generateMetadata({ params }: Props) {
   
   try {
     const apiUrl =`${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
-    const res = await fetch(apiUrl, { cache: 'no-store' });
+    const res = await fetch(apiUrl, { 
+      headers:{
+        Accept:'application/json'
+      },
+      cache: 'no-store' });
     
     if (!res.ok) {
       return {
@@ -664,8 +666,7 @@ export async function generateMetadata({ params }: Props) {
       };
     }
     
-    const xmlData = await res.text();
-    const courseData: CourseData = parseXmlToJson(xmlData);
+    const courseData = await res.json();
     
     return {
       title: `${courseData.courseName} Course Details | ${courseData.streamLevel}`,
