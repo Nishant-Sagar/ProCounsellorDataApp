@@ -194,19 +194,28 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                   </div>
 
                   {/* Entrance Exams */}
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                      <BookOpen className="w-4 h-4 text-blue-600" />
-                      Entrance Exams
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {course.examId?.map((exam, examIndex) => (
+                <div>
+                <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                    <BookOpen className="w-4 h-4 text-blue-600" />
+                    Entrance Exams
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                    {/* Convert examId to array format consistently */}
+                    {(Array.isArray(course.examId) ? course.examId : course.examId ? [course.examId] : [])
+                    .map((exam, examIndex) => (
                         <span key={examIndex} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
-                          {exam.replace(/_/g, ' ')}
+                        {exam.toString().replace(/_/g, ' ')}
                         </span>
-                      ))}
-                    </div>
-                  </div>
+                    ))}
+                    
+                    {/* Show fallback if no exams */}
+                    {(!course.examId || (Array.isArray(course.examId) && course.examId.length === 0)) && (
+                    <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium">
+                        No entrance exams specified
+                    </span>
+                    )}
+                </div>
+                </div>
 
                   {/* Branches */}
                   <div>
@@ -231,7 +240,7 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                                     {branch.seat} Seats
                                   </span>
                                   <span className="flex items-center gap-1">
-                                    <DollarSign className="w-4 h-4" />
+                                    <span className="w-4 h-4 text-sm font-bold">₹</span>
                                     {branch.fees}
                                   </span>
                                 </div>
