@@ -1,7 +1,4 @@
 import {
-  TrendingUp,
-  Users,
-  Clock,
   Award,
   BookOpen,
   Briefcase,
@@ -17,7 +14,6 @@ type CourseStatsProps = {
 };
 
 export default function CourseStats({ data }: CourseStatsProps) {
-  // ✅ Defensive: branches always an array
   const branches = Array.isArray(data.branches) ? data.branches : [];
 
   const totalCompanies = new Set<string>();

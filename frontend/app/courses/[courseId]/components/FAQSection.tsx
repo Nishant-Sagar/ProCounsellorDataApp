@@ -11,17 +11,13 @@ type FAQSectionProps = {
 export default function FAQSection({ data }: FAQSectionProps) {
   const [openFAQ, setOpenFAQ] = useState<string | null>(null);
 
-  // Debug logging
   console.log('FAQSection data:', data);
   console.log('FAQs:', data.faqs);
-
-  // Handle different FAQ data structures
   let faqs: FAQ[] = [];
   
   if (Array.isArray(data.faqs)) {
     faqs = data.faqs;
   } else if (data.faqs && typeof data.faqs === 'object') {
-    // If faqs is an object, try to extract array from it
     const faqsObj = data.faqs as Record<string, unknown>;
     if (faqsObj.faq) {
       faqs = Array.isArray(faqsObj.faq) ? faqsObj.faq : [faqsObj.faq];
@@ -37,7 +33,6 @@ export default function FAQSection({ data }: FAQSectionProps) {
 
   if (faqs.length === 0) {
     console.log('No FAQs found, showing fallback with mock data');
-    // Show fallback with some mock FAQs for testing
     const mockFaqs = [
       {
         faqId: 'mock-1',

@@ -24,7 +24,7 @@
 // } from 'lucide-react';
 
 // // Mock data structure - replace with your actual course data
-// const mockCourseData = {
+// const courseData = {
 //   "courseId": "ENGINEERING",
 //   "courseName": "Engineering",
 //   "courseType": "PG",
@@ -130,7 +130,7 @@
 // };
 
 // // Header Component
-// const CourseHeader = ({ data = mockCourseData }) => (
+// const CourseHeader = ({ data = courseData }) => (
 //   <div className="relative bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 text-white rounded-2xl overflow-hidden mb-8 shadow-2xl">
 //     <div className="absolute inset-0 bg-black/20"></div>
 //     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
@@ -182,7 +182,7 @@
 // );
 
 // // Course Overview Component
-// const CourseOverview = ({ data = mockCourseData }) => (
+// const CourseOverview = ({ data = courseData }) => (
 //   <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
 //     <div className="lg:col-span-2 space-y-8">
 //       {/* Admission Process */}
@@ -359,7 +359,7 @@
 // };
 
 // // Branches Section Component
-// const BranchesSection = ({ data = mockCourseData }) => {
+// const BranchesSection = ({ data = courseData }) => {
 //   const [searchTerm, setSearchTerm] = useState('');
 //   const [sortBy, setSortBy] = useState('name');
   
@@ -437,7 +437,7 @@
 // // Main Page Component
 // export default function CoursePage({ params = { courseId: 'ENGINEERING' } }) {
 //   // Replace this with your actual data fetching logic
-//   const courseData = mockCourseData;
+//   const courseData = courseData;
 
 //   return (
 //     <div className="min-h-screen bg-gray-50">
@@ -459,32 +459,32 @@ import React from 'react';
 import Link from 'next/link';
 import CourseHeader from './components/CourseHeader';
 import CourseOverview from './components/CourseOverview';
-// import AdmissionProcess from './components/AdmissionProcess';
 import ExamInfo from './components/ExamInfo';
 import PlacementStats from './components/PlacementStats';
 import FAQSection from './components/FAQSection';
-// import BranchesSection from './components/BranchesSection';
 import CourseStats from './components/CourseStats';
-import { CourseData } from './types/course';
-
-// 🔧 FIX 1: Add the missing XML parser import
-// Adjust the path based on where your utils folder is located
-import { parseXmlToJson } from '../../utils/xmlParser'; // Adjust path as needed
 import BranchesSection from './components/BranchesSection';
 import AdmissionProcess from './components/AdmissionProcess';
+import { CourseData } from './types/course';
+import { Metadata } from 'next';
 
-type Props = {
-  params: { courseId: string }
-};
+interface PageProps {
+  params: Promise<{ courseId: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+}
 
-export default async function CoursePage({ params }: Props) {
+export default async function CoursePage({ params }: PageProps) {
   const { courseId } = await params;
-  
-  // Fetch course data from your API
+
   const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
-  
-  const res = await fetch(apiUrl, { cache: 'no-store' });
-  
+
+  const res = await fetch(apiUrl, {
+    headers: {
+      Accept: 'application/json',
+    },
+    cache: 'no-cache',
+  });
+
   if (!res.ok) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -506,10 +506,9 @@ export default async function CoursePage({ params }: Props) {
   }
 
   let courseData: CourseData;
-  
+
   try {
-    const xmlData = await res.text();
-    courseData = parseXmlToJson(xmlData);
+    courseData = await res.json();
   } catch (error) {
     console.error('Error parsing course data:', error);
     return (
@@ -532,77 +531,66 @@ export default async function CoursePage({ params }: Props) {
     );
   }
 
-  // Set dynamic background and theme based on course type
   const getBackgroundStyle = (courseName: string) => {
     const courseType = courseName.toLowerCase();
-    
+
     if (courseType.includes('health') || courseType.includes('medical')) {
       return {
         gradient: 'from-green-50/50 to-emerald-50/50',
-        radial: 'bg-[radial-gradient(circle_at_30%_40%,rgba(34,197,94,0.05),transparent_50%)]'
+        radial:
+          'bg-[radial-gradient(circle_at_30%_40%,rgba(34,197,94,0.05),transparent_50%)]',
       };
     } else if (courseType.includes('engineering') || courseType.includes('technology')) {
       return {
         gradient: 'from-blue-50/50 to-indigo-50/50',
-        radial: 'bg-[radial-gradient(circle_at_30%_40%,rgba(59,130,246,0.05),transparent_50%)]'
+        radial:
+          'bg-[radial-gradient(circle_at_30%_40%,rgba(59,130,246,0.05),transparent_50%)]',
       };
     } else if (courseType.includes('law') || courseType.includes('legal')) {
       return {
         gradient: 'from-amber-50/50 to-orange-50/50',
-        radial: 'bg-[radial-gradient(circle_at_30%_40%,rgba(245,158,11,0.05),transparent_50%)]'
+        radial:
+          'bg-[radial-gradient(circle_at_30%_40%,rgba(245,158,11,0.05),transparent_50%)]',
       };
     } else if (courseType.includes('management') || courseType.includes('business')) {
       return {
         gradient: 'from-purple-50/50 to-violet-50/50',
-        radial: 'bg-[radial-gradient(circle_at_30%_40%,rgba(147,51,234,0.05),transparent_50%)]'
+        radial:
+          'bg-[radial-gradient(circle_at_30%_40%,rgba(147,51,234,0.05),transparent_50%)]',
       };
     }
-    
-    // Default theme
+
     return {
       gradient: 'from-gray-50/50 to-slate-50/50',
-      radial: 'bg-[radial-gradient(circle_at_30%_40%,rgba(100,116,139,0.05),transparent_50%)]'
+      radial:
+        'bg-[radial-gradient(circle_at_30%_40%,rgba(100,116,139,0.05),transparent_50%)]',
     };
   };
 
   const backgroundStyle = getBackgroundStyle(courseData.courseName);
-  console.log(courseData.courseName)
-  return (
-    // 🔧 FIX 2: Remove the <head> section - metadata is handled by generateMetadata
-    <div className="min-h-screen bg-gray-50">
-      {/* Dynamic Background Pattern */}
-      <div className={`absolute inset-0 bg-gradient-to-br ${backgroundStyle.gradient} pointer-events-none`}></div>
-      <div className={`absolute inset-0 ${backgroundStyle.radial} pointer-events-none`}></div>
-      
-      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Course Header */}
-        <CourseHeader data={courseData} />
-        
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          {/* Main Content Column */}
-          <div className="lg:col-span-3 space-y-8">
-            {/* Course Overview */}
-            <CourseOverview data={courseData} />
-            
-            {/* Admission Process */}
-            <AdmissionProcess data={courseData} />
-            
-            {/* Entrance Exam Information */}
-            <ExamInfo data={courseData} />
-            
-            {/* Placement Statistics */}
-            <PlacementStats data={courseData} />
 
-              {/* Branches/Specializations */}
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div
+        className={`absolute inset-0 bg-gradient-to-br ${backgroundStyle.gradient} pointer-events-none`}
+      ></div>
+      <div
+        className={`absolute inset-0 ${backgroundStyle.radial} pointer-events-none`}
+      ></div>
+
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <CourseHeader data={courseData} />
+
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="lg:col-span-3 space-y-8">
+            <CourseOverview data={courseData} />
+            <AdmissionProcess data={courseData} />
+            <ExamInfo data={courseData} />
+            <PlacementStats data={courseData} />
             <BranchesSection data={courseData} />
-            
-            {/* FAQ Section */}
             <FAQSection data={courseData} />
-          
           </div>
-          
-          {/* Sidebar */}
+
           <div className="lg:col-span-1">
             <div className="sticky top-8">
               <CourseStats data={courseData} />
@@ -610,9 +598,6 @@ export default async function CoursePage({ params }: Props) {
           </div>
         </div>
 
-
-        
-        {/* Footer Actions */}
         <div className="mt-12 bg-white rounded-xl p-8 shadow-lg border border-gray-100">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -639,7 +624,6 @@ export default async function CoursePage({ params }: Props) {
   );
 }
 
-// Generate static params for dynamic routes (optional, for better performance)
 export async function generateStaticParams() {
   return [
     { courseId: 'HEALTH_SCIENCE' },
@@ -649,27 +633,34 @@ export async function generateStaticParams() {
   ];
 }
 
-// Generate metadata dynamically (Next.js 13+ App Router)
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { courseId } = await params;
-  
+
   try {
-    const apiUrl =`${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
-    const res = await fetch(apiUrl, { cache: 'no-store' });
-    
+    const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
+    const res = await fetch(apiUrl, {
+      headers: {
+        Accept: 'application/json',
+      },
+      cache: 'no-store',
+    });
+
     if (!res.ok) {
       return {
         title: 'Course Not Found',
-        description: 'The requested course could not be found.'
+        description: 'The requested course could not be found.',
       };
     }
-    
-    const xmlData = await res.text();
-    const courseData: CourseData = parseXmlToJson(xmlData);
-    
+
+    const courseData = await res.json();
+
     return {
       title: `${courseData.courseName} Course Details | ${courseData.streamLevel}`,
-      description: `Explore ${courseData.courseName} course with ${courseData.branches?.length || 0} specializations. Learn about admission process, placement statistics, entrance exams, and career opportunities.`,
+      description: `Explore ${courseData.courseName} course with ${
+        courseData.branches?.length || 0
+      } specializations. Learn about admission process, placement statistics, entrance exams, and career opportunities.`,
       keywords: `${courseData.courseName}, ${courseData.courseType}, ${courseData.streamLevel}, admission, placement, career`,
       openGraph: {
         title: `${courseData.courseName} Course Details`,
@@ -678,9 +669,10 @@ export async function generateMetadata({ params }: Props) {
       },
     };
   } catch (e) {
+    console.log(e);
     return {
       title: 'Course Information',
-      description: 'Course details and information'
+      description: 'Course details and information',
     };
   }
 }

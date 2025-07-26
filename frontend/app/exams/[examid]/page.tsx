@@ -5,22 +5,28 @@ import ExamPattern from './components/ExamPattern';
 import ExamFees from './components/ExamFees';
 // import ExamDates from './components/ExamDates';
 // import ExamSyllabus from './components/ExamSyllabus';
-// import ExamFAQs from './components/ExamFAQs';
 
-interface ExamDetailsProps {
-  params: {
-    examId: string;
-  };
+type Props ={
+  params: Promise<{
+    examid: string;
+  }>;
 }
 
-export default async function ExamDetailsPage({ params }: ExamDetailsProps) {
-  const { examId } = params;
+export default async function ExamDetailsPage({ params }: Props) {
+  const { examid } = await params
+  const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/exams/getExamById?examId=${examid}`
+  console.log(examid)
 
   try {
-    // Replace with your actual API endpoint
-    const res = await fetch(`https://your-api-endpoint.com/api/exams/${examId}`);
+    const res = await fetch(apiUrl, {
+      headers:{
+        Accept:"application/json"
+      },
+      cache:'no-cache'
+    });
     
     if (!res.ok) {
+      console.log(res.status)
       throw new Error('Exam not found');
     }
 
@@ -28,7 +34,6 @@ export default async function ExamDetailsPage({ params }: ExamDetailsProps) {
 
     return (
       <div className="min-h-screen bg-gray-50">
-        {/* Background Gradients */}
         <div className="absolute inset-0 bg-gradient-to-br from-orange-50/50 to-red-50/50 pointer-events-none"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(234,88,12,0.05),transparent_50%)] pointer-events-none"></div>
         
@@ -38,14 +43,15 @@ export default async function ExamDetailsPage({ params }: ExamDetailsProps) {
             <ExamEligibility exam={exam} />
             <ExamPattern exam={exam} />
             <ExamFees exam={exam} />
-            <ExamDates exam={exam} />
+            {/* <ExamDates exam={exam} />
             <ExamSyllabus exam={exam} />
-            <ExamFAQs exam={exam} />
+            <ExamFAQs exam={exam} /> */}
           </div>
         </main>
       </div>
     );
   } catch (error) {
+    console.log(error)
     return notFound();
   }
 }

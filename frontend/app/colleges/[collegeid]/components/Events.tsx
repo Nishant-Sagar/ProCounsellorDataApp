@@ -224,7 +224,8 @@ export default function Events({ college }: EventsProps) {
   const [expandedEvent, setExpandedEvent] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false); // Added state for show/hide functionality
 
-  const events = college.Events || [];
+ const events = Array.isArray(college.Events) ? college.Events : [];
+
 
   if (!events || events.length === 0) {
     return (
