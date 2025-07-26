@@ -16,6 +16,7 @@ import {
   List,
   X,
 } from "lucide-react";
+import AppLink from "@/components/AppLink";
 interface Course {
   courseId: string;
   courseName: string;
@@ -385,7 +386,9 @@ export default function CoursesListingPage() {
   return (
     <div className="min-h-screen bg-gray-50 relative">
       <main className="relative z-10 max-w-7xl mx-auto px-4 py-8">
+           <AppLink/>
         <PageHeader />
+     
 
         <SearchAndFilter
           searchTerm={searchTerm}
