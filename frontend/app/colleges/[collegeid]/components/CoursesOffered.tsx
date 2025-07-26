@@ -7,14 +7,15 @@ import {
   ChevronUp, 
   Users, 
   Trophy, 
-  DollarSign,
   Building,
   BookOpen,
   Target,
   Award,
   TrendingUp,
-  User
+  User,
+  IndianRupee
 } from 'lucide-react';
+import { CollegeData } from '../../types/college';
 
 type Placement = {
   averageSalary2025: string;
@@ -43,9 +44,7 @@ type Course = {
 };
 
 type CoursesOfferedProps = {
-  college: {
-    coursesOffered?: Course[];
-  };
+  college:CollegeData
 };
 
 export default function CoursesOffered({ college }: CoursesOfferedProps) {
@@ -79,44 +78,47 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
 
   const toggleCourse = (index: number) => {
     setExpandedCourse(expandedCourse === index ? null : index);
-    setExpandedBranch(null); // Reset branch expansion when course changes
+    setExpandedBranch(null);
   };
 
   const toggleBranch = (branchId: string) => {
     setExpandedBranch(expandedBranch === branchId ? null : branchId);
   };
 
-  const getCourseIcon = (courseId: string) => {
-    switch (courseId.toLowerCase()) {
-      case 'engineering':
-      case 'mtech':
-        return <Building className="w-6 h-6 text-blue-600" />;
-      case 'management':
-        return <TrendingUp className="w-6 h-6 text-purple-600" />;
-      case 'design':
-        return <Target className="w-6 h-6 text-pink-600" />;
-      case 'msc':
-        return <BookOpen className="w-6 h-6 text-green-600" />;
-      default:
-        return <GraduationCap className="w-6 h-6 text-gray-600" />;
-    }
-  };
+  const getCourseIcon = (courseId: string | undefined) => {
+  const id = courseId?.toLowerCase() || '';
+  switch (id) {
+    case 'engineering':
+    case 'mtech':
+      return <Building className="w-6 h-6 text-blue-600" />;
+    case 'management':
+      return <TrendingUp className="w-6 h-6 text-purple-600" />;
+    case 'design':
+      return <Target className="w-6 h-6 text-pink-600" />;
+    case 'msc':
+      return <BookOpen className="w-6 h-6 text-green-600" />;
+    default:
+      return <GraduationCap className="w-6 h-6 text-gray-600" />;
+  }
+};
 
-  const getCourseColor = (courseId: string) => {
-    switch (courseId.toLowerCase()) {
-      case 'engineering':
-      case 'mtech':
-        return 'from-blue-50 to-indigo-50 border-blue-100 hover:border-blue-200';
-      case 'management':
-        return 'from-purple-50 to-violet-50 border-purple-100 hover:border-purple-200';
-      case 'design':
-        return 'from-pink-50 to-rose-50 border-pink-100 hover:border-pink-200';
-      case 'msc':
-        return 'from-green-50 to-emerald-50 border-green-100 hover:border-green-200';
-      default:
-        return 'from-gray-50 to-slate-50 border-gray-100 hover:border-gray-200';
-    }
-  };
+const getCourseColor = (courseId: string | undefined) => {
+  const id = courseId?.toLowerCase() || '';
+  switch (id) {
+    case 'engineering':
+    case 'mtech':
+      return 'from-blue-50 to-indigo-50 border-blue-100 hover:border-blue-200';
+    case 'management':
+      return 'from-purple-50 to-violet-50 border-purple-100 hover:border-purple-200';
+    case 'design':
+      return 'from-pink-50 to-rose-50 border-pink-100 hover:border-pink-200';
+    case 'msc':
+      return 'from-green-50 to-emerald-50 border-green-100 hover:border-green-200';
+    default:
+      return 'from-gray-50 to-slate-50 border-gray-100 hover:border-gray-200';
+  }
+};
+
 
   return (
     <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
@@ -200,11 +202,20 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                       Entrance Exams
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {course.examId?.map((exam, examIndex) => (
-                        <span key={examIndex} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
-                          {exam.replace(/_/g, ' ')}
-                        </span>
-                      ))}
+                      {(
+                        Array.isArray(course.examId)
+                          ? course.examId
+                          : course.examId
+                            ? [course.examId]
+                            : []
+                    ).map((exam, examIndex) => (
+                      <span
+                        key={examIndex}
+                        className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium"
+                      >
+                        {exam.replace(/_/g, ' ')}
+                      </span>
+                    ))}
                     </div>
                   </div>
 
@@ -215,7 +226,13 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                       Available Branches ({course.branches?.length || 0})
                     </h4>
                     <div className="space-y-3">
-                      {course.branches?.map((branch) => (
+                      {(
+                          Array.isArray(course.branches)
+                            ? course.branches
+                            : course.branches
+                              ? [course.branches]
+                              : []
+                        )?.map((branch) => (
                         <div key={branch.branchId} className="bg-white rounded-lg border border-gray-200 overflow-hidden">
                           {/* Branch Header */}
                           <div 
@@ -231,7 +248,7 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                                     {branch.seat} Seats
                                   </span>
                                   <span className="flex items-center gap-1">
-                                    <DollarSign className="w-4 h-4" />
+                                    <IndianRupee className="w-4 h-4" />
                                     {branch.fees}
                                   </span>
                                 </div>
@@ -278,14 +295,29 @@ export default function CoursesOffered({ college }: CoursesOfferedProps) {
                                 <div className="bg-white rounded-lg p-3">
                                   <h6 className="font-medium text-gray-900 mb-2">Top Recruiters</h6>
                                   <div className="flex flex-wrap gap-1">
-                                    {branch.placement?.companiesVisited2025?.slice(0, 4).map((company, compIndex) => (
+                                    {(Array.isArray(branch.placement?.companiesVisited2025)
+                                      ? branch.placement.companiesVisited2025
+                                      : branch.placement?.companiesVisited2025
+                                        ? [branch.placement.companiesVisited2025]
+                                        : []
+                                    ).slice(0, 4).map((company, compIndex) => (
                                       <span key={compIndex} className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">
                                         {company}
                                       </span>
                                     ))}
-                                    {branch.placement?.companiesVisited2025?.length > 4 && (
+                                    {(Array.isArray(branch.placement?.companiesVisited2025)
+                                      ? branch.placement.companiesVisited2025.length
+                                      : branch.placement?.companiesVisited2025
+                                        ? 1
+                                        : 0
+                                    ) > 4 && (
                                       <span className="bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs">
-                                        +{branch.placement.companiesVisited2025.length - 4} more
+                                        +{(Array.isArray(branch.placement?.companiesVisited2025)
+                                            ? branch.placement.companiesVisited2025.length
+                                            : branch.placement?.companiesVisited2025
+                                              ? 1
+                                              : 0
+                                        ) - 4} more
                                       </span>
                                     )}
                                   </div>

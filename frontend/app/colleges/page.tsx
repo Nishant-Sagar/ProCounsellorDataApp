@@ -54,6 +54,7 @@ import { XMLParser } from 'fast-xml-parser';
 import { pascalCase } from '../utils/pascalCase';
 import { Button } from '@/components/Button';
 import { Search, Filter, MapPin, Users, Award, ChevronRight, Sparkles, MessageCircle, Smartphone, Star, TrendingUp, Calendar, BookOpen } from 'lucide-react';
+import ParticlesBackground from './[collegeid]/components/ParticlesBackground';
 
 interface College {
   collegeId: string;
@@ -71,52 +72,59 @@ export default async function CollegesPage() {
   const colleges: College[] = json.ArrayList.item;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Background Gradients */}
+    <>
+    <div className="min-h-screen bg-gray-50 over">
+    <div className="fixed inset-0 z-0">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-indigo-50/50 pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(59,130,246,0.05),transparent_50%)] pointer-events-none"></div>
-      
-      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Hero Section */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <Sparkles className="w-4 h-4" />
-            Discover Your Dream College
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            Explore Top Colleges
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Find the perfect college for your future. Browse through our comprehensive list of top-rated institutions across India.
-          </p>
-        </div>
+    </div>
 
-        {/* Stats Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
-            <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Users className="w-6 h-6 text-blue-600" />
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+       
+            <div className="relative overflow-hidden mb-12">
+            <ParticlesBackground />
+
+            <div className="relative z-10 text-center mb-12">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Sparkles className="w-4 h-4" />
+                Discover Your Dream College
+              </div>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                Explore Top Colleges
+              </h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Find the perfect college for your future. Browse through our comprehensive list of top-rated institutions across India.
+              </p>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">{colleges.length}+</h3>
-            <p className="text-gray-600">Colleges Listed</p>
-          </div>
-          
-          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
-            <div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <MapPin className="w-6 h-6 text-green-600" />
+
+            {/* Stats Section */}
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
+                <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-6 h-6 text-blue-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{colleges.length}+</h3>
+                <p className="text-gray-600">Colleges Listed</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
+                <div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{new Set(colleges.map(c => c.collegesLocationState)).size}+</h3>
+                <p className="text-gray-600">States Covered</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
+                <div className="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-6 h-6 text-purple-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">100%</h3>
+                <p className="text-gray-600">Verified Information</p>
+              </div>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">{new Set(colleges.map(c => c.collegesLocationState)).size}+</h3>
-            <p className="text-gray-600">States Covered</p>
           </div>
-          
-          <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 text-center">
-            <div className="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Award className="w-6 h-6 text-purple-600" />
-            </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">100%</h3>
-            <p className="text-gray-600">Verified Information</p>
-          </div>
-        </div>
+
 
         {/* Enhanced Colleges Grid */}
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -325,5 +333,6 @@ export default async function CollegesPage() {
         </div>
       </main>
     </div>
+    </>
   );
 }
