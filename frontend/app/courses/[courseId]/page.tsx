@@ -469,12 +469,12 @@ import { CourseData } from './types/course';
 import { Metadata } from 'next';
 
 interface PageProps {
-  params: { courseId: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
+  params: Promise<{ courseId: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 export default async function CoursePage({ params }: PageProps) {
-  const { courseId } = params;
+  const { courseId } = await params;
 
   const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;
 
@@ -636,7 +636,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { courseId } = params;
+  const { courseId } = await params;
 
   try {
     const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/courses/getCourseById?courseId=${courseId}`;

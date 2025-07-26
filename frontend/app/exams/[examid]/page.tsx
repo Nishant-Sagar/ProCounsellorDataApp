@@ -7,13 +7,13 @@ import ExamFees from './components/ExamFees';
 // import ExamSyllabus from './components/ExamSyllabus';
 
 type Props ={
-  params: {
+  params: Promise<{
     examid: string;
-  };
+  }>;
 }
 
 export default async function ExamDetailsPage({ params }: Props) {
-  const { examid } = params
+  const { examid } = await params
   const apiUrl = `${process.env.NEXT_PUBLIC_BASE_URL}/api/exams/getExamById?examId=${examid}`
   console.log(examid)
 

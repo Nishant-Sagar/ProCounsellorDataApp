@@ -56,7 +56,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Clean Logo */}
-          <div className="flex items-center space-x-3">
+          <Link href='/' className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg flex items-center justify-center shadow-sm">
               <GraduationCap className="w-6 h-6 text-white" />
             </div>
@@ -66,7 +66,7 @@ export default function Header() {
               </h1>
               {/* <p className="text-sm text-gray-600 -mt-1 font-medium">LISTING</p> */}
             </div>
-          </div>
+          </Link>
 
           {/* Simple Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
