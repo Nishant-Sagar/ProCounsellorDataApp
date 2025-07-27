@@ -4,8 +4,6 @@ export interface ButtonProps{
     variants:"primary"|"secondary",
     size:"sm"|"md"|"lg",
     text:string,
-    endIcon?:any,
-    startIcon?:any,
     link:string
 }
 
@@ -24,7 +22,7 @@ const SizeStyle ={
 
 export const Button=(props: ButtonProps)=>{
     return(<div>
-        <Link href={props.link}className={`${VariantStyle[props.variants]} ${DefaultStyle} ${SizeStyle[props.size]}`}>{props.startIcon} {props.text} {props.endIcon}</Link>
+        <Link href={props.link}className={`${VariantStyle[props.variants]} ${DefaultStyle} ${SizeStyle[props.size]}`}>{props.text}</Link>
     </div>)
 }
 {/* <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">

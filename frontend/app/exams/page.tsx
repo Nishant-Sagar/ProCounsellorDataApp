@@ -385,24 +385,16 @@
 
 
 import Link from 'next/link';
-import { XMLParser } from 'fast-xml-parser';
 import { 
   BookOpen, 
-  Users, 
-  Award, 
-  Clock, 
-  Calendar, 
+  Award,  
   Target, 
-  Globe,
   TrendingUp,
-  Star,
   ChevronRight,
   Sparkles,
   MessageCircle,
-  Smartphone,
-  Zap,
-  Shield
 } from 'lucide-react';
+import AppLink from '@/components/AppLink';
 
 interface Exam {
   examId: string;
@@ -431,19 +423,16 @@ export default async function ExamsPage() {
   
   try {
     // Handle XML response like your colleges page
-    const res = await fetch('https://procounsellor-backend-1000407154647.asia-south1.run.app/api/exams/all');
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/exams/all`, {
+      headers:{
+        Accept:'application/json'
+      }
+    });
     
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);
     }
-    
-    // Parse XML instead of JSON
-    const xml = await res.text();
-    const parser = new XMLParser();
-    const json = parser.parse(xml);
-    
-    // Adjust this based on your XML structure
-    exams = json.List?.item || json.ArrayList?.item || [];
+    exams = await res.json()
     
   } catch (error) {
     console.error('Error fetching exams:', error);
@@ -467,6 +456,7 @@ export default async function ExamsPage() {
         subjectsTested: ["Physics", "Chemistry", "Mathematics"],
         maxMarks: "300",
         duration: "3 hours",
+
         examFrequency: "Twice a year",
         coursesLinked: ["B.Tech"]
       },
@@ -529,7 +519,7 @@ export default async function ExamsPage() {
             <Sparkles className="w-4 h-4 animate-spin" />
             Discover Entrance Exams
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-orange-600 via-red-500 to-pink-600 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-orange-600 via-red-500 to-pink-600 bg-clip-text animate-pulse">
             Explore Entrance Exams
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -563,6 +553,8 @@ export default async function ExamsPage() {
             <p className="text-gray-600">Updated Info</p>
           </div>
         </div>
+
+        <AppLink/>
 
         {/* Enhanced Exams Grid */}
         {exams && exams.length > 0 ? (
@@ -743,6 +735,7 @@ const ExamCard = ({ exam, index }: { exam: Exam; index: number }) => {
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300 relative" />
               </div>
             </Link>
+
           </div>
         </div>
   

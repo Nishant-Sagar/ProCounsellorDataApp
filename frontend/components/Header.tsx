@@ -31,10 +31,9 @@
 // }
 
 'use client';
-
-import { GraduationCap } from "lucide-react"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import HeaderLogo from "./HeaderLogo";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -56,27 +55,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Clean Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg flex items-center justify-center shadow-sm">
-              <GraduationCap className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                ProCounsel
-              </h1>
-              {/* <p className="text-sm text-gray-600 -mt-1 font-medium">LISTING</p> */}
-            </div>
-          </div>
+          <HeaderLogo/>
 
           {/* Simple Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href='/colleges' 
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 relative group"
             >
               Colleges
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-600 transition-all duration-200 group-hover:w-full"></span>
-            </Link>
+            </Link> */}
             <Link 
               href="/courses" 
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors duration-200 relative group"

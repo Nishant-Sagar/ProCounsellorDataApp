@@ -40,7 +40,12 @@ const StatsSection = ({ college }: { college: CollegeData }) => (
           <BookOpen className="w-6 h-6 text-purple-600" />
         </div>
         <div>
-          <div className="text-lg font-bold text-gray-900">{college.coursesOffered?.[0]?.branches?.[0]?.fees || 'N/A'}</div>
+          <div className="text-lg font-bold text-gray-900">
+            {Array.isArray(college.coursesOffered) 
+              ? college.coursesOffered[0]?.branches?.[0]?.fees || 'N/A'
+              : college.coursesOffered?.branches?.[0]?.fees || 'N/A'
+            }
+          </div>
           <div className="text-gray-600">Approx. Annual Fee</div>
         </div>
       </div>

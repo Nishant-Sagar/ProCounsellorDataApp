@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Newspaper, ChevronDown, ChevronUp, ExternalLink, Play, Calendar, Eye } from 'lucide-react';
 import ImageWithFallback from './ImageWithFallback';
+import { CollegeData } from '../../types/college';
 
 type NewsItem = {
   newsId: string;
@@ -13,9 +14,7 @@ type NewsItem = {
 };
 
 type NewsProps = {
-  college: {
-    News?: NewsItem[];
-  };
+  college: CollegeData
 };
 
 export default function News({ college }: NewsProps) {
