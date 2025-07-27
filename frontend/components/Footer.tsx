@@ -44,8 +44,9 @@
 //       </footer>
 // }
 
-import { GraduationCap, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 import Link from "next/link"
+import HeaderLogo from "./HeaderLogo"
 
 export default function Footer() {
   return (
@@ -59,17 +60,7 @@ export default function Footer() {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */} 
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
-                <GraduationCap className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                  ProCounsel
-                </h3>
-                {/* <p className="text-sm text-gray-400 -mt-1 font-medium">LISTING</p> */}
-              </div>
-            </div>
+            <HeaderLogo/>
             <p className="text-gray-300 text-sm leading-relaxed">
               Discover the best colleges and courses in India. Your gateway to quality education and bright career prospects.
             </p>
